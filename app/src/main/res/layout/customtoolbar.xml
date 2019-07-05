@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/creamWhite"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetEnd="0dp"
+        android:contentInsetRight="0dp"
+        android:elevation="@dimen/_3ssp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/ivLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/back_icon" />
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvUserImage"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_circle_blue"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:textSize="@dimen/_20ssp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivLeftImage"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone"
+                />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvLeftText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_12ssp"
+                android:visibility="gone" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16ssp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivHeaderImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:src="@mipmap/logo"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivRightSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/ivRight"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_10sdp"
+                android:src="@mipmap/call_icon"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/back_icon" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvRighttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/skyblue"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/back_icon" />
+
+            <ImageView
+                android:id="@+id/ivEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/tvRighttext"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_10sdp"
+                android:src="@mipmap/edit_yellow_right"
+                android:visibility="gone" />
+        <!--    <ImageView
+                android:id="@+id/ivLive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_toStartOf="@id/tvRighttext"
+                android:contentDescription="@string/app_name"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:src="@mipmap/video_ico"
+                android:visibility="go ne" />-->
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvGoLive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:text="Go live"
+                android:visibility="gone"
+                 />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+</layout>

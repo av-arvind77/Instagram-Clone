@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/MenuTheme"
+
+    >
+
+
+    <item
+
+        android:id="@+id/action_ShareProfile"
+        android:enabled="true"
+        android:icon="@mipmap/share_icon"
+        android:iconTint="@color/black"
+        android:title="@string/shareprofile"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/action_TurnOnPostNotification"
+        android:enabled="true"
+        android:icon="@mipmap/notification_icon"
+        android:iconTint="@color/red"
+        android:theme="@style/AppMenuTheme"
+        android:title="@string/turnonpostnotification"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/action_TurnONStoryNotification"
+        android:enabled="true"
+        android:icon="@mipmap/timeline_icon"
+        android:iconTint="@color/black"
+        android:title="@string/turnonstorynotification"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/action_BlockAnotherUser"
+        android:enabled="true"
+        android:icon="@mipmap/remove_ico"
+        android:iconTint="@color/red"
+
+        android:title="@string/new_Block_red"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/action_ReportAnotherUSer"
+        android:enabled="true"
+        android:icon="@mipmap/flag_line"
+        android:iconTint="@color/red"
+        android:title="@string/new_report_user_red"
+        app:showAsAction="ifRoom">
+
+    </item>
+</menu>

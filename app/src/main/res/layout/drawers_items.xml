@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/ll_Draweritem" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/tvDrawerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_10sdp"
+        android:drawableStart="@mipmap/privacy_policy_icon"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_10sdp"
+        android:text="Profile"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:id="@+id/tvView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="@color/colorView"/>
+</LinearLayout>

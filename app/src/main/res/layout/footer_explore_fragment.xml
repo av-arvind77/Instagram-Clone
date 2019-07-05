@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:padding="@dimen/_5sdp"
+                android:text="Trending Profile"
+                android:maxLines="5"
+                android:visibility="visible"/>
+            <LinearLayout
+                android:id="@+id/framelayout"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_stories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

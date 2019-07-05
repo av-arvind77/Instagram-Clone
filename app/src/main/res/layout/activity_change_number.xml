@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+
+        android:id="@+id/lllayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.ChangeNumberActivity">
+
+        <include
+            android:id="@+id/toolbarChangeNubmer"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:layout_marginRight="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tvCountryCode"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:text="+91"
+                        android:gravity="center_vertical"
+                        android:textSize="@dimen/_14ssp"
+                        android:padding="@dimen/_10sdp"
+                        android:background="@drawable/bg_spinner"
+                        android:layout_weight="0.5"/>
+
+                    <Spinner
+                        android:id="@+id/sp_country_code"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:dropDownVerticalOffset="@dimen/_35sdp"
+                        android:spinnerMode="dropdown"
+                        android:textSize="@dimen/_14ssp" />
+
+                    <com.yellowseed.customView.EditTextArial
+                        android:id="@+id/et_MobileNumber"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/bg_rounded_transparent"
+                        android:hint="@string/mobilenumber"
+                        android:imeOptions="actionDone"
+                        android:inputType="number"
+                        android:maxLength="15"
+                        android:maxLines="1"
+                        android:padding="@dimen/_10sdp"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tv_MobileError"
+                    style="@style/marginleftright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_8sdp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/submit_change_number"
+                    style="@style/marginleftright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/bg_yellow"
+                    android:text="@string/submit" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</layout>

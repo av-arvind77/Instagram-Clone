@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.DirectUserpendingActivity">
+
+
+        <include
+            android:id="@+id/layoutDirectPending"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/viewLineColor" />
+
+        <com.yellowseed.customView.EditTextArial
+            android:id="@+id/etDirectPendingSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_rounded_transparent"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableStart="@mipmap/search_gray"
+            android:hint="@string/search"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/blackgrey"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvDirectPendingg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+
+</layout>

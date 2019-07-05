@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llRowSender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_50sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:button="@drawable/checkbox_sendto" />
+
+
+        <ImageView
+            android:id="@+id/iv_userReciever"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="bottom"
+            android:src="@mipmap/profile_icon"
+            android:textSize="@dimen/_20ssp"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:id="@+id/llSender"
+            android:layout_width="@dimen/_160sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@mipmap/grey_img"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tv_ChatSender"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:paddingStart="@dimen/_7sdp"
+                android:text="@string/_14_pending_request"
+                android:textColor="@color/black"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="normal" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+
+                android:id="@+id/tv_ChatSenderTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/_9_07_pm"
+                android:onClick="onClick"
+                android:textColor="@color/blackblackgrey"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlRow"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/checkBoxChatsFraEdit"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:visibility="gone"
+                android:button="@drawable/checkbox_sendto" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/transparent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+
+                <me.himanshusoni.chatmessageview.ChatMessageView
+                    android:id="@+id/llView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_70sdp"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_2sdp"
+                    app:cmv_backgroundColor="@color/yellow_dark"
+                    app:cmv_backgroundColorPressed="@color/yellow"
+                    app:cmv_arrowGravity="end"
+                    app:cmv_arrowPosition="right"
+                    app:cmv_cornerRadius="5dp"
+                    app:cmv_showArrow="true"
+                    android:background="@drawable/bg_sender"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/llChatReciever"
+                        android:layout_width="wrap_content"
+                        android:minWidth="@dimen/_100sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:src="@mipmap/forward"/>
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_8ssp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"
+                            android:text="Forwarded(Originally forwarded 2 weeks ago)"/>
+                        </LinearLayout>
+                        <include layout="@layout/view_reply"
+                            android:visibility="gone"
+                            android:id="@+id/reply"/>
+                        <include layout="@layout/view_text"
+                            android:id="@+id/text"/>
+                        <include layout="@layout/view_audio"
+                            android:visibility="gone"
+                            android:id="@+id/audio"/>
+                        <include layout="@layout/view_video"
+                            android:visibility="gone"
+                            android:id="@+id/video"/>
+                        <include layout="@layout/view_image"
+                            android:visibility="visible"
+                            android:id="@+id/image"/>
+                        <include layout="@layout/view_post"
+                            android:visibility="visible"
+                            android:id="@+id/post"/>
+                        <include layout="@layout/view_contact"
+                            android:visibility="gone"
+                            android:id="@+id/contact"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:minHeight="@dimen/_30sdp"
+                        android:gravity="center"
+                        android:layout_alignRight="@id/llChatReciever"
+                        android:layout_below="@id/llChatReciever"
+                        android:layout_gravity="end|bottom">
+
+                        <ImageView
+                            android:id="@+id/ivStared"
+                            android:layout_width="wrap_content"
+                            android:visibility="visible"
+                            android:padding="@dimen/_5sdp"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/smal_star"/>
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tv_ChatReciverTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:onClick="onClick"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/_2sdp"
+                            android:text="9:07 PM"
+                            android:textColor="@color/blackblackgrey"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:visibility="visible"
+                            android:src="@mipmap/read_ico" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvReadStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:onClick="onClick"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:text="@string/r"
+                            android:visibility="gone"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </me.himanshusoni.chatmessageview.ChatMessageView>
+
+
+                <ImageView
+                    android:id="@+id/iv_userReciever"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_gravity="bottom"
+                    android:src="@mipmap/userprofile_icon" />
+                <com.yellowseed.customView.CustomRobotoBoldTextView
+                    android:id="@+id/tvUserImage"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/circle_gray"
+                    android:contentDescription="@string/app_name"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:textSize="@dimen/_20ssp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>-->

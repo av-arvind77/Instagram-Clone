@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:id="@+id/llFollowingAnother"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_SearchFollowingUserPic"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_gravity="center"
+                android:src="@mipmap/profile_icon2" />
+                <com.yellowseed.customView.CustomRobotoBoldTextView
+                    android:id="@+id/tvUserImage"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_circle_blue"
+                    android:contentDescription="@string/app_name"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="@dimen/_20ssp"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvUserName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/jhon_thomas"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_SearchFollowing"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_yellow_soft_corner"
+            android:text="@string/following"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+
+            />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.DirectUserAddActivity">
+
+        <include
+            android:id="@+id/toolbarDirectAdd"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/viewLineColor" />
+        <LinearLayout
+            android:id="@+id/llMain2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <com.yellowseed.customView.EditTextArial
+            android:id="@+id/et_DirectSearchAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_rounded_transparent"
+            android:drawablePadding="@dimen/_3sdp"
+            android:drawableStart="@mipmap/search_gray"
+            android:hint="@string/search"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:padding="@dimen/_6sdp"
+            android:textColorHint="@color/grey_hin_color"
+            android:textColor="@color/blackgrey"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_DirectAdd"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:nestedScrollingEnabled="false"
+            android:onClick="onClick"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingStart="@dimen/_10sdp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

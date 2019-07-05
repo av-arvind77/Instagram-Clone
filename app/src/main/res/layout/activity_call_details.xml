@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.CallDetailsActivity">
+
+        <include
+            android:id="@+id/toolbarCallDetail"
+            layout="@layout/customtoolbar" />
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvCallHistory"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView
+            android:id="@+id/tvNoData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No Data Found"
+            android:visibility="gone"
+            android:textSize="@dimen/_20ssp"
+            android:gravity="center"/>
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/callDetailsTab"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:tabIndicatorColor="@color/black" />
+
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/callListContainer"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivVoters"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+            android:src="@mipmap/profile_icon" />
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvUserImage"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/bg_circle_blue"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:text="g"
+                android:textSize="@dimen/_18ssp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvVotersName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:padding="@dimen/_4sdp"
+                android:text="Jhon Thomas"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_13sdp"
+
+                >
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvVoted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Voted  "
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="normal" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvYesNO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Yes"
+                    android:textColor="#7FFF00"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/tvDocumentDayTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/yesterday"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="normal" />
+    <LinearLayout
+        android:id="@+id/llDocumentPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp">
+    <ImageView
+        android:id="@+id/ivdocumentPdf"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:src="@mipmap/pdf_icon" />
+
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/tvdocumentPdf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_weight="1"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/life_documents_pdf"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llDocumentWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp">
+        <ImageView
+            android:id="@+id/ivdocumentWord"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+            android:src="@mipmap/word_icon" />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvdocumentWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/life_document_doc"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal" />
+    </LinearLayout>
+</LinearLayout>
+</layout>

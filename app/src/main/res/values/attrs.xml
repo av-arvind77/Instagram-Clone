@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShadowView">
+        <attr name="android:foreground"/>
+        <attr name="shadowMargin" format="dimension"/>
+        <attr name="shadowMarginTop" format="dimension"/>
+        <attr name="shadowMarginLeft" format="dimension"/>
+        <attr name="shadowMarginRight" format="dimension"/>
+        <attr name="shadowMarginBottom" format="dimension"/>
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="cornerRadiusTL" format="dimension"/>
+        <attr name="cornerRadiusTR" format="dimension"/>
+        <attr name="cornerRadiusBL" format="dimension"/>
+        <attr name="cornerRadiusBR" format="dimension"/>
+        <attr name="foregroundColor" format="color"/>
+        <attr name="shadowColor" format="color"/>
+        <attr name="shadowDx" format="float"/>
+        <attr name="shadowDy" format="float"/>
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="backgroundColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RecordView">
+        <attr name="slide_to_cancel_text" format="string" />
+        <attr name="slide_to_cancel_arrow" format="reference" />
+        <attr name="slide_to_cancel_margin_right" format="dimension" />
+        <attr name="slide_to_cancel_bounds" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="RecordButton">
+
+        <attr name="mic_icon" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="DragLinearLayout">
+        <attr name="scrollSensitiveHeight" format="dimension" />
+        <attr name="placeholderView" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ShadowView_Layout">
+        <attr name="layout_gravity">
+            <flag name="top"
+                value="0x30"/>
+            <flag name="bottom"
+                value="0x50"/>
+            <flag name="left"
+                value="0x03"/>
+            <flag name="right"
+                value="0x05"/>
+            <flag name="center_vertical"
+                value="0x10"/>
+            <flag name="fill_vertical"
+                value="0x70"/>
+            <flag name="center_horizontal"
+                value="0x01"/>
+            <flag name="fill_horizontal"
+                value="0x07"/>
+            <flag name="center"
+                value="0x11"/>
+            <flag name="fill"
+                value="0x77"/>
+            <flag name="clip_vertical"
+                value="0x80"/>
+            <flag name="clip_horizontal"
+                value="0x08"/>
+            <flag name="start"
+                value="0x00800003"/>
+            <flag name="end"
+                value="0x00800005"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="IndexFastScrollRecyclerView">
+        <attr name="setIndexTextSize" format="integer" />
+        <attr name="setIndexbarWidth" format="float" />
+        <attr name="setIndexbarMargin" format="float" />
+        <attr name="setPreviewPadding" format="integer" />
+        <attr name="setPreviewTextSize" format="integer" />
+        <attr name="setPreviewColor" format="color" />
+        <attr name="setPreviewTextColor" format="color" />
+        <attr name="setPreviewTransparentValue" format="float" />
+        <attr name="setIndexBarCornerRadius" format="integer" />
+        <attr name="setIndexBarTransparentValue" format="float" />
+        <attr name="setIndexBarColor" format="string" />
+        <attr name="setIndexBarTextColor" format="string" />
+        <attr name="setIndexBarHighlightTextColor" format="string" />
+        <attr name="setIndexBarColorRes" format="color" />
+        <attr name="setIndexBarTextColorRes" format="color" />
+        <attr name="setIndexBarHighlightTextColorRes" format="color" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="MyTextView">
+        <attr name="fontName" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PinEntryView">
+        <!-- The number of digits in the pin -->
+        <attr name="numDigits" format="integer" />
+        <!-- Digit dimensions, default 50dp x 50dp -->
+        <attr name="digitWidth" format="dimension" />
+        <attr name="digitHeight" format="dimension" />
+        <!-- Spacing between the pin boxes, default 20dp -->
+        <attr name="digitSpacing" format="dimension" />
+        <!-- Digit background, colour or drawable -->
+        <attr name="digitBackground" format="reference|color" />
+        <!-- Font size to use for the mask text, default 15sp -->
+        <attr name="digitTextSize" format="dimension" />
+        <!-- Colour of the mask text, defaults to theme textColorPrimary -->
+        <attr name="digitTextColor" format="color" />
+        <!-- Digit elevation (API 21+ only), default 0dp -->
+        <attr name="digitElevation" format="dimension" />
+        <!-- The character to use to mask the input -->
+        <attr name="mask" format="string" />
+        <!-- Accent color, defaults to theme colorAccent -->
+        <attr name="pinAccentColor" format="color" />
+        <!-- Accent width, default 3dp -->
+        <attr name="accentWidth" format="dimension" />
+        <!-- Accent type, default 'character' -->
+        <attr name="accentType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="all" value="1" />
+            <enum name="character" value="2" />
+        </attr>
+        <!-- Input type -->
+        <attr name="pinInputType" format="enum">
+            <enum name="text" value="1" />
+            <enum name="number" value="2" />
+        </attr>
+        <!-- Only draw accent when View has focus -->
+        <attr name="accentRequiresFocus" format="boolean" />
+    </declare-styleable>
+</resources>

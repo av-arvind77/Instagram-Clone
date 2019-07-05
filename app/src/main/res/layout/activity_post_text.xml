@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llPostText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:mContext=".activity.PostActivity">
+
+            <include
+                android:id="@+id/toolbarPostText"
+                layout="@layout/customtoolbar" />
+
+            <View
+                android:id="@+id/viewLine"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/viewLineColor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:background="@drawable/bg_rounded_box_top_corner"
+                    android:gravity="top"
+                    android:hint="@string/writesomethinghere"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:lines="3"
+                    android:maxLines="15"
+                    android:overScrollMode="always"
+                    android:nestedScrollingEnabled="false"
+                    android:padding="@dimen/_10sdp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:maxLength="250"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_10sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@mipmap/img"/>
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:src="@mipmap/img"/>
+
+                
+            </LinearLayout>
+
+            <View
+                android:id="@+id/viewLine2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@color/viewLineColor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvCheckInPostText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:drawableStart="@mipmap/location_icon"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/checkin"
+                    android:textSize="@dimen/_14ssp" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvCheckInPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="end"
+                    android:padding="@dimen/_4sdp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvTagPeoplePostText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:drawableStart="@mipmap/user_tag"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/tagpeople"
+                    android:textSize="@dimen/_14ssp" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="end"
+                    android:padding="@dimen/_4sdp"
+                    android:text="@string/_0_people" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnPostText"
+                style="@style/marginleftright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:background="@drawable/bg_yellow"
+                android:text="@string/post"
+                android:textSize="@dimen/_15sdp" />
+        </LinearLayout>
+    </ScrollView>
+</layout>

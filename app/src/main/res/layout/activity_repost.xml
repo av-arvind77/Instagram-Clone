@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:mContext=".activity.SocialPostActivity">
+
+        <include
+            android:id="@+id/toolbarPostSocial"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/lllayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_5sdp">
+
+                <com.apradanas.simplelinkabletext.LinkableEditText
+                    android:id="@+id/etWriteSomething"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/bg_rounded_transparent"
+                    android:gravity="start"
+                    android:hint="@string/writesomethinghere"
+                    android:inputType="textMultiLine"
+                    android:overScrollMode="always"
+                    android:padding="@dimen/_10sdp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:textSize="@dimen/_12ssp" />
+
+                <View
+                    android:id="@+id/viewLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/viewLineColor" />
+
+
+                <LinearLayout
+                    android:id="@+id/llImages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rvImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_gravity="left"
+                        android:visibility="visible"
+                        app:reverseLayout="false" />
+
+                    <View
+                        android:id="@+id/viewLine2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@color/viewLineColor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llCheckIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp">
+
+                    <ImageView
+                        android:id="@+id/ivCheckIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/location_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvCheckIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:text="@string/checkin"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="end"
+                        android:padding="@dimen/_4sdp"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp">
+
+
+                    <ImageView
+                        android:id="@+id/ivTag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/user_tag" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvTagPeoplePost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="@string/tagpeople"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvPeople"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="end"
+                        android:padding="@dimen/_4sdp"
+                        android:text="@string/_0_people"
+                        android:textSize="@dimen/_12ssp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ivComment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:src="@mipmap/chat_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvAllowComments"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/allow_comments"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <ImageView
+                        android:id="@+id/ivSwitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_marginEnd="@dimen/_4sdp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@mipmap/yellow_switch_img" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnPostSocial"
+                    style="@style/marginleftright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_50sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/bg_yellow"
+                    android:text="@string/post" />
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</layout>

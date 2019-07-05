@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/frameAvtar"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:paddingStart="@dimen/_6sdp"
+        android:paddingEnd="@dimen/_6sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingBottom="@dimen/_2sdp">
+
+    <com.yellowseed.customShadow.ShadowView
+        android:id="@+id/shadowView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cornerRadius="@dimen/_5sdp"
+        app:shadowColor="@color/seeallblue"
+        app:shadowRadius="@dimen/_5sdp"
+        app:shadowMargin="@dimen/_4sdp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/ivAvtarImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/user_icon"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name" />
+
+    </com.yellowseed.customShadow.ShadowView>
+
+    </FrameLayout>
+
+</layout>

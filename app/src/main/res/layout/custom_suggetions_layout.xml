@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_10sdp">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivSuggestions"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/user_placeholder" />
+
+
+        <com.yellowseed.customView.CustomRobotoBoldTextView
+            android:id="@+id/tvUserImage"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:background="@drawable/bg_circle_blue"
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_20ssp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvSuggestionsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:padding="@dimen/_2sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal" />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvSuggestionsFollowers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:padding="@dimen/_2sdp"
+            android:textColor="@color/blackgrey"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnFollowSuggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:background="@drawable/bg_rounded_black_button"
+        android:onClick="onClick"
+        android:text="@string/follow"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp" />
+
+
+
+</LinearLayout>
+
+</layout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:id="@+id/llPopUp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp">
+
+    <LinearLayout
+        android:id="@+id/llAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rounded_transparent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivAvatarEditReadyImage"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_170sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:src="@mipmap/vector_img_popup" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@color/viewLineColor" />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/btnavatarContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/continuee"
+            android:textAllCaps="false"
+            android:textColor="@color/textblack"
+            android:textSize="@dimen/_16ssp" />
+    </LinearLayout>
+
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/btnavatarCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/bg_rounded_transparent"
+
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/blueissh"
+        android:textSize="@dimen/_16ssp" />
+
+</LinearLayout>
+</layout>

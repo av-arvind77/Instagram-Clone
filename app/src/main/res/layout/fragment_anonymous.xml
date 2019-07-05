@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".fragments.FragmentHomeBottomView.AnonymousFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvSelect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_40sdp"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/selectcommunication"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_5sdp">
+
+                        <ImageView
+                            android:id="@+id/iv_anonymous_chat"
+                            android:layout_width="@dimen/_80sdp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/anonymous_chat_btn" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvChat"
+                            android:layout_width="@dimen/_80sdp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/anonymouschat"
+                            android:textAlignment="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textColor="@color/blackgrey"
+                            android:textSize="@dimen/_11ssp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_10sdp">
+
+
+                        <ImageView
+                            android:id="@+id/iv_anonymous_audio"
+                            android:layout_width="@dimen/_80sdp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/anonymous_call_btn" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvAudio"
+                            android:layout_width="@dimen/_80sdp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/anonymousaudiocall"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textAlignment="center"
+                            android:textColor="@color/blackgrey"
+                            android:textSize="@dimen/_11ssp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_5sdp">
+
+
+                        <ImageView
+                            android:id="@+id/iv_anonymous_video"
+                            android:layout_width="@dimen/_80sdp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/anonymous_video_btn" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvVideo"
+                            android:layout_width="@dimen/_80sdp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/anonymousvideocall"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textAlignment="center"
+                            android:textColor="@color/blackgrey"
+                            android:textSize="@dimen/_11ssp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_AnonymousConnectClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_50sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:background="@drawable/bg_yellow_light"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="@string/connect"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

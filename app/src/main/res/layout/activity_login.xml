@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:id="@+id/rlMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logotext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:src="@mipmap/logo" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logotext"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:visibility="visible"
+                android:scaleType="fitXY"
+                android:src="@mipmap/bg_new" />
+
+            <FrameLayout
+                android:id="@+id/fl_row"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_below="@+id/logotext"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:layout_centerVertical="true">
+
+                <com.yellowseed.customShadow.ShadowView
+                    android:id="@+id/shadowView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    app:shadowMargin="@dimen/_15sdp"
+                    app:shadowRadius="@dimen/_5sdp"
+                    app:cornerRadius="@dimen/_5sdp"
+                    app:shadowColor="@color/seeallblue"
+                    tools:style="@style/CardView">
+
+                    <LinearLayout
+                        android:id="@+id/llLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:orientation="vertical">
+
+                        <com.yellowseed.customView.EditTextArial
+                            android:id="@+id/etLoginemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_rounded_transparent"
+                            android:hint="@string/mobilenumorusername"
+                            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:maxLength="32"
+                            android:maxLines="1"
+                            android:padding="@dimen/_8sdp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/_13ssp" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvLoginemailerror"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="2"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/_10ssp"
+                            android:visibility="gone" />
+
+                        <com.yellowseed.customView.EditTextArial
+                            android:id="@+id/etLoginpassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/bg_rounded_transparent"
+                            android:hint="@string/password"
+                            android:imeOptions="actionDone"
+                            android:inputType="textPassword"
+                            android:maxLength="16"
+                            android:maxLines="1"
+                            android:padding="@dimen/_8sdp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/_13ssp" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvLoginpassworderror"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="2"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/_10ssp"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/cbRemember"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rememberme"
+                                android:button="@drawable/check_box"
+                                android:padding="@dimen/_5sdp"
+                                android:textSize="@dimen/_10sdp"
+                                android:textColor="@color/grey" />
+
+                            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                                android:id="@+id/tvForgotPass"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center|end"
+                                android:textSize="@dimen/_10sdp"
+                                android:text="@string/forgetpass"
+                                android:textColor="@color/grey" />
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/btnLogin"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@drawable/bg_yellow"
+                            android:padding="@dimen/_1sdp"
+                            android:text="@string/login"
+                            android:textAllCaps="true"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            android:padding="@dimen/_4sdp"
+                            android:text="@string/or"
+                            android:textColor="@color/grey" />
+
+                        <LinearLayout
+                            android:id="@+id/llFacebook"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_35sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:background="@drawable/bg_blue"
+                            android:orientation="vertical">
+
+                            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                                android:id="@+id/tvLoginFacebook"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:drawableStart="@mipmap/fb_icon"
+                                android:gravity="center"
+                                android:padding="@dimen/_8sdp"
+                                android:text="@string/loginwithfb"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_13sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llGoogle"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_33sdp"
+                            android:visibility="gone"
+                            android:background="@drawable/bg_red_light"
+                            android:orientation="vertical">
+
+                            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                                android:id="@+id/tvLoginGoogle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:drawableStart="@mipmap/g_icon"
+                                android:gravity="center"
+
+                                android:padding="@dimen/_8sdp"
+                                android:text="@string/loginwithgoogle"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_13sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llSignup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.yellowseed.customView.CustomRobotoRegularTextView2
+
+                                android:id="@+id/tvDonthaveaccount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity=""
+                                android:text="@string/donthaveaccount"
+                                android:textSize="@dimen/_10ssp" />
+
+
+                            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                                android:id="@+id/tvSignup"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:text="@string/signup"
+                                android:textColor="@color/skyblue"
+                                android:textSize="@dimen/_10ssp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </com.yellowseed.customShadow.ShadowView>
+            </FrameLayout>
+        </RelativeLayout>
+    </ScrollView>
+</layout>

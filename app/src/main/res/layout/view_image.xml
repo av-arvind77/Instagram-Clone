@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:scaleType="centerCrop"
+        android:layout_height="200dp"
+        android:src="@mipmap/image_4"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:gravity="bottom"
+        android:visibility="visible"
+        android:layout_below="@+id/imageView"
+        android:padding="@dimen/_1sdp"
+        android:text="see this"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="normal" />
+
+</LinearLayout>
+</layout>

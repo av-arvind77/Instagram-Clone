@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+           android:id="@+id/llMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_4sdp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_2sdp"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:paddingBottom="@dimen/_3sdp">
+
+
+                        <ImageView
+                            android:id="@+id/ivShare1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:src="@mipmap/fb_icon_callout" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView
+                            android:id="@+id/tvShareFb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+
+                            android:gravity="center"
+                            android:paddingStart="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_4sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:text="@string/shareonfacebook"
+                            android:textColor="@color/black"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                    <View
+                        android:id="@+id/viewLine1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/viewLineColor" />
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:paddingBottom="@dimen/_3sdp">
+
+
+                        <ImageView
+                            android:id="@+id/ivEdit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:src="@mipmap/edit_ico" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView
+                            android:id="@+id/tvEdit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+
+                            android:gravity="center"
+                            android:paddingStart="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_4sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:text="@string/edit"
+                            android:textColor="@color/black"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                    <View
+                        android:id="@+id/viewLine2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/viewLineColor" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:paddingBottom="@dimen/_3sdp">
+
+
+                        <ImageView
+                            android:id="@+id/ivDelete"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:src="@mipmap/delete_icon" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView
+                            android:id="@+id/tvDelete"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+
+                            android:gravity="center"
+                            android:paddingStart="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_4sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:text="@string/delete"
+                            android:textColor="@color/red"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/ivArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="0.5dp"
+                android:visibility="gone"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@mipmap/tools" />
+
+
+        </LinearLayout>
+
+    </layout>

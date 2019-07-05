@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:id="@+id/rlMainStories"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/peter_parker_image"
+    tools:mContext="com.yellowseed.activity.ShowStoriesActivity">
+    
+    <RelativeLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back_icon_white"
+            android:layout_centerVertical="true"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:orientation="vertical">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peter Parker"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today 10:35 AM"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llHeader"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:progress="40"
+            android:progressTint="@color/white" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:progress="100"
+            android:progressTint="@color/grey" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llEditView"
+        android:layout_width="match_parent"
+        android:background="#11ffffff"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.yellowseed.customView.EditTextArial
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Send Message"
+            android:textColorHint="@color/lightgrey"
+            android:textSize="@dimen/_12ssp"
+            android:padding="@dimen/_10sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_story_edit_text"
+            android:layout_weight="4"
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+
+        <ImageView
+            android:id="@+id/ivSendStoryMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:src="@mipmap/send_whit" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:id="@+id/llStoryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:background="@drawable/story_layout_background">
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you like my story?"
+                android:gravity="center_horizontal"
+                android:layout_margin="@dimen/_20sdp"
+                android:textColor="@color/whitelight"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/story_button_gradiant">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:background="@android:color/transparent"
+                    android:textStyle="normal"
+                    android:textColor="@color/white"
+                    android:text="Yes 70%"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:background="@android:color/transparent"
+                    android:text="No 30%"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+</layout>

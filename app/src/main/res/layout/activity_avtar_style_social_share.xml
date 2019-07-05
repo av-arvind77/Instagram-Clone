@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.AvtarStyleSocialShareActivity">
+
+        <include
+            android:id="@+id/toolbarAvtarSocial"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/backgroun"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivAvtarImage"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_250sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:src="@mipmap/vector_img_large" />
+
+            <LinearLayout
+                style="@style/marginleftright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/bg_blue"
+                android:orientation="vertical">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/btnShareOnFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:drawableStart="@mipmap/fb_icon"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/shareonfacebook"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14ssp" />
+
+            </LinearLayout>
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvCancelAvtarSocial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/skip"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

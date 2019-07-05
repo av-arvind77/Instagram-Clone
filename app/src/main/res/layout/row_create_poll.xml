@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <com.yellowseed.customView.EditTextArial
+                android:id="@+id/etOptions"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_rounded_transparent"
+                android:hint=""
+                android:maxLength="50"
+                android:maxLines="1"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/blackgrey"
+                android:textColorHint="@color/grey"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvAddOptions"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@mipmap/yellow_add"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingStart="@dimen/_8sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_24ssp" />
+
+
+        </LinearLayout>
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView
+            android:id="@+id/tvOptionError"
+            style="@style/marginleftright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:maxLines="2"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_8ssp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</layout>

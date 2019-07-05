@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/llGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/viewLine1"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:background="@android:color/transparent"/>
+
+        <LinearLayout
+            android:id="@+id/llGroupMember"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCancelRepost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="@dimen/_6sdp"
+                android:focusableInTouchMode="true"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/clear" />
+
+            <com.yellowseed.customView.EditTextArial
+                android:id="@+id/etRepostSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:background="@drawable/bg_rounded_box_top_corner"
+                android:drawableStart="@mipmap/search_gray"
+                android:hint="@string/search"
+                android:visibility="gone"
+                android:padding="@dimen/_6sdp" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvRepostHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_weight="1" />
+
+            <View
+                android:id="@+id/viewLine"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/viewLineColor" />
+
+            <LinearLayout
+                android:id="@+id/llMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_margin="@dimen/_6sdp"
+                android:orientation="horizontal">
+                <com.yellowseed.customView.CustomRobotoBoldTextView
+                    android:id="@+id/tvDone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DONE"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:padding="@dimen/dp_10"
+                    android:textSize="@dimen/_16sdp"
+                    />
+
+
+                <com.yellowseed.customView.EditTextArial
+                    android:id="@+id/etCaption"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:visibility="gone"
+                    android:background="@drawable/bg_home_edittext"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
+                    android:padding="@dimen/_10sdp" />
+
+                <ImageView
+                    android:id="@+id/ivSendRepost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/_6sdp"
+                    android:visibility="gone"
+
+                    android:src="@mipmap/send" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

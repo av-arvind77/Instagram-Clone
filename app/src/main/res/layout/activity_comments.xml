@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llCommentMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.CommentsActivity">
+
+        <include
+            android:id="@+id/toolbarComments"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/viewLineColor" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_CommentsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <LinearLayout
+            android:id="@+id/llCommentView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_write_comment"
+            android:padding="@dimen/_6sdp"
+            android:orientation="horizontal">
+
+            <com.yellowseed.customView.EditTextArial
+                android:id="@+id/comment_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_weight="2"
+                android:background="@drawable/bg_home_edittext"
+                android:hint="@string/write_here_your_comment"
+                android:lines="1"
+
+                android:maxLines="15"
+                android:padding="@dimen/_6sdp"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/ivMike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/mike_icon"/>
+
+            <Button
+                android:id="@+id/comment_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:background="@drawable/bg_yellow_soft_corner"
+                android:text="@string/comment"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

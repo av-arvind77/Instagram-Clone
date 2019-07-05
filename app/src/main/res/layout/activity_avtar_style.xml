@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:id="@+id/llAvtarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:mContext=".activity.AvtarStyleActivity">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigation_avtarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottomnavigation_avtarstyle">
+
+    </android.support.design.widget.BottomNavigationView>
+</LinearLayout></layout>

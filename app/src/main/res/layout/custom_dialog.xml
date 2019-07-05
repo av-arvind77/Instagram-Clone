@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        tools:ignore="UselessParent">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/cpDialog"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+
+            app:indicatorName="BallTrianglePathIndicator"
+            app:indicatorColor="@color/white"
+            />
+
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView
+            android:id="@+id/tv_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progress_bar"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llSearchFollowers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.SearchFollowersActivity">
+
+
+        <include
+            android:id="@+id/layoutsearchfollowers"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/viewLineColor" />
+
+
+        <com.yellowseed.customView.EditTextArial
+            android:id="@+id/et_Searchfollowers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/bg_curved_chattextet"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableStart="@mipmap/search_gray"
+            android:hint="@string/searchfollowers"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/blackgrey"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal" />
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/llHomeFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!-- TODO: Update blank fragment layout -->
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_Searchfollowers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </FrameLayout>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+</layout>

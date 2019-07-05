@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:mContext=".activity.DirectScreenActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbarDirect"
+                layout="@layout/customtoolbar" />
+
+            <View
+                android:id="@+id/viewLine"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/viewLineColor" />
+
+            <com.yellowseed.customView.EditTextArial
+                android:id="@+id/et_DirectSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/bg_rounded_transparent"
+                android:drawablePadding="@dimen/_5sdp"
+                android:drawableStart="@mipmap/search_gray"
+                android:hint="@string/search"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:textColorHint="@color/grey_hin_color"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tv_PendingRequest"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:text="@string/_14_pending_request1"
+                            android:textColor="@color/blueissh"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="normal" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvDirectNewGroup"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:onClick="onClick"
+
+                            android:text="@string/share_new_group"
+                            android:textColor="@color/blueissh"
+                            android:textSize="@dimen/_11ssp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_Direct"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:nestedScrollingEnabled="false"
+                        android:onClick="onClick"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingStart="@dimen/_10sdp" />
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

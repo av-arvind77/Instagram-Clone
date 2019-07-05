@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/rlMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext="com.yellowseed.activity.MediaClickViewActivity">
+
+        <RelativeLayout
+            android:id="@+id/rlToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/back_icon" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                   android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Thomas"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                   android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Today,10:35 AM"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+               android:id="@+id/tvAllMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_media"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/_12ssp" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_above="@+id/llRecy"
+            android:layout_below="@+id/rlToolbar">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@mipmap/peter_parker_image"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llRecy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_above="@+id/llBottom">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/llBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llDelete"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivDelete"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@mipmap/delete_red" />
+
+                    <TextView
+                        android:id="@+id/tvDelete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_2sdp"
+                        android:text="Delete"
+                        android:textColor="@color/red" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llStar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivStared"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:src="@mipmap/star_black" />
+
+                    <TextView
+                        android:id="@+id/tvStar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_2sdp"
+                        android:text="Star" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llReply"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivBackward"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:src="@mipmap/forward_icon" />
+
+                    <TextView
+                        android:id="@+id/tvReply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_2sdp"
+                        android:text="Reply" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llCopy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivCopy"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:src="@mipmap/copy_icon" />
+
+                    <TextView
+                        android:id="@+id/tvCopy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_2sdp"
+                        android:text="Copy" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llForward"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivForward"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@mipmap/backward_icon" />
+
+                    <TextView
+                        android:id="@+id/tvForward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_2sdp"
+                        android:text="Forward" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llShare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivShare"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@mipmap/sharesicon" />
+
+
+                    <TextView
+                        android:id="@+id/tvShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_2sdp"
+                        android:text="Share" />
+                </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

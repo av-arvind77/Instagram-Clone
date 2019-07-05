@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:mContext=".activity.StoryRunningActivity">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            tools:src="@mipmap/peter_parker_image" />
+
+        <LinearLayout
+            android:id="@+id/llStoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/llHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/back_icon_white" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+                    android:orientation="vertical">
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/peter_parker"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14ssp" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Today 10:35 AM"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_10sdp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <jp.shts.android.storiesprogressview.StoriesProgressView
+                android:id="@+id/stories"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llEditView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#11ffffff"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.yellowseed.customView.EditTextArial
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="4"
+                android:background="@drawable/bg_story_edit_text"
+                android:hint="Send Message"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/lightgrey"
+                android:textSize="@dimen/_12ssp" />
+
+            <ImageView
+                android:id="@+id/ivSendStoryMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:src="@mipmap/send_whit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/llEditView"
+            android:layout_below="@id/llStoryName"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/reverse"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:id="@+id/skip"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/llStoryView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20sdp"
+                android:background="@drawable/story_layout_background"
+                android:orientation="vertical">
+
+                <com.yellowseed.customView.CustomRobotoBoldTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_20sdp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/do_you_like_my_story"
+                    android:textColor="@color/whitelight"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/story_button_gradiant">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="Yes 70%"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textStyle="normal" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="No 30%"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

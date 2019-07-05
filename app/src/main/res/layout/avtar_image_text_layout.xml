@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="@dimen/_65sdp"
+        app:cardUseCompatPadding="false"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llHolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivAvtarImageText"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@mipmap/user_icon" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvAvtarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dp_2"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:layout_gravity="center"
+                android:text="helloasdsadsdsad"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</layout>

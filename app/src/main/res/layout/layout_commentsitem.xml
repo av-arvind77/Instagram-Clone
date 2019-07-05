@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <FrameLayout
+                android:id="@+id/frameImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivCommentorProfilePic"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:paddingStart="@dimen/_2sdp"
+                    android:paddingEnd="@dimen/_2sdp"
+                    android:src="@mipmap/profile_img2" />
+
+                <com.yellowseed.customView.CustomRobotoBoldTextView
+                    android:id="@+id/tvUserImage"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/bg_circle_blue"
+                    android:contentDescription="@string/app_name"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/_2sdp"
+                    android:paddingEnd="@dimen/_2sdp"
+                    android:text="g"
+                    android:textSize="@dimen/_16ssp"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/frameImage"
+                android:orientation="vertical">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tv_CommentorName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABCD"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tv_CommentorComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:text="@string/dummy_text"
+                    android:textSize="@dimen/_10ssp" />
+
+                <LinearLayout
+                    android:id="@+id/llLikeComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tv_CommentorCommentTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1h"
+                        android:textColor="@color/grey"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvReplyComments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:text="@string/reply_underline"
+                        android:textColor="@color/grey"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <LinearLayout
+                        android:id="@+id/llLike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_20sdp"
+
+                        android:orientation="horizontal">
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvLikeComments"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvLikeMsg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:text="@string/like_underline"
+                            android:textColor="@color/grey"
+
+                            android:textSize="@dimen/_10ssp" />
+                    </LinearLayout>
+                    <!--     <com.yellowseed.customView.CustomRobotoRegularTextView2
+                             android:id="@+id/tvLike"
+                             android:layout_width="wrap_content"
+                             android:textColor="@color/grey"
+                             android:layout_height="wrap_content"
+                             android:layout_marginStart="@dimen/_20sdp"
+                             android:textSize="@dimen/_10ssp"
+                             android:text="@string/like_underline" />-->
+
+
+                    <LinearLayout
+                        android:id="@+id/llDislike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:orientation="horizontal">
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvDislikeComments"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvDislike"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:text="@string/dislike_underLine"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_10ssp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvInlineCommentsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</layout>

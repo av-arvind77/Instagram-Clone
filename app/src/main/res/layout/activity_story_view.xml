@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:mContext=".activity.StoryViewActivity">
+
+        <include
+            android:id="@+id/storyViewToolBar"
+            layout="@layout/customtoolbar" />
+
+        <LinearLayout
+            android:id="@+id/llPollDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/viewLineColor" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/llYes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp">
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvCountType1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="01"
+                        android:textColor="@color/blueissh"
+                        android:textSize="@dimen/_20ssp" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvPollType1"
+                        android:text="Votes for Yes"
+                        android:textSize="@dimen/_14ssp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/viewLineColor" />
+
+                <LinearLayout
+                    android:id="@+id/llNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp">
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvCountType2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="00"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_20ssp" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvPollType2"
+                        android:text="Votes for No"
+                        android:textSize="@dimen/_14ssp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/viewLineColor" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llVoters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvNumberVoter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:text="Voters"
+                android:textColor="@color/black" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvVoters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/viewLineColor" />
+        </LinearLayout>
+
+
+        <com.yellowseed.customView.CustomRobotoBoldTextView
+            android:id="@+id/tvNumberViwers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="2 Viewers"
+            android:textColor="@color/black" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvViewers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</layout>

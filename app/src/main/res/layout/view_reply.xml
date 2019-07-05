@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llReply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@color/gray_dark"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <View
+                android:layout_width="@dimen/_2sdp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView
+                android:id="@+id/tvRepyMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_5sdp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

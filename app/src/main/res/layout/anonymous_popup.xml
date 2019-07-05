@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.daasuu.bl.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        app:bl_arrowDirection="top"
+        app:bl_arrowHeight="10dp"
+        app:bl_arrowPosition="170dp"
+        app:bl_arrowWidth="8dp"
+        app:bl_cornersRadius="@dimen/_5sdp"
+        app:bl_strokeWidth="0.5dp">
+
+        <LinearLayout
+            android:id="@+id/llMain"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_3sdp">
+
+
+                    <ImageView
+                        android:id="@+id/ivEnable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:src="@mipmap/avater_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvEnable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_4sdp"
+                        android:text="@string/enable_avatar"
+                        android:textColor="@color/black"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/viewLineColor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_3sdp">
+
+
+                    <ImageView
+                        android:id="@+id/ivReveal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:src="@mipmap/card_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvReveal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="center_vertical"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_4sdp"
+                        android:text="@string/reveal_your_identity"
+                        android:textColor="@color/black"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/viewSendtoChat"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/viewLineColor" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_3sdp">
+                <ImageView
+                    android:id="@+id/ivLogOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:src="@mipmap/logout_icon" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView
+                    android:id="@+id/tvLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:text="@string/logout"
+                    android:textColor="@color/black"
+                    android:visibility="visible" />
+                </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </com.daasuu.bl.BubbleLayout>
+
+</layout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:orientation="vertical">
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        app:clickToClose="true">
+        <LinearLayout
+            android:id="@+id/llHide"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="start"
+            android:gravity="center">
+        <LinearLayout
+            android:id="@+id/ll_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/greyunmute"
+            android:padding="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_30sdp"
+                />
+            <TextView
+                android:id="@+id/tvHide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hide"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8ssp" />
+
+        </LinearLayout>
+        </LinearLayout>
+    </com.daimajia.swipe.SwipeLayout>
+    </LinearLayout>
+</layout>

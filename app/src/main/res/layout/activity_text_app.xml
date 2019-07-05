@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.WelcomeActivity">
+
+        <include
+            android:id="@+id/toolbarText"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/toolbarText"
+            android:background="@color/viewLineColor">
+
+        </View>
+
+        <RelativeLayout
+            android:layout_below="@+id/view"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+
+            <com.yellowseed.customShadow.ShadowView
+                android:id="@+id/shadowView"
+                app:cornerRadius="@dimen/_5sdp"
+                app:shadowColor="@color/seeallblue"
+                app:shadowMargin="@dimen/_15sdp"
+                app:shadowRadius="@dimen/_5sdp"
+                android:elevation="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_14sdp"
+                android:layout_marginRight="@dimen/_14sdp"
+                tools:style="@style/CardView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:orientation="vertical">
+
+                    <com.yellowseed.customView.CustomRobotoBoldTextView
+                        android:id="@+id/tv_welcomeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:text="@string/welcometotext"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15ssp" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tv_username"
+                        style="@style/marginleftright"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:gravity="center"
+                        android:textColor="@color/lightblack"
+
+                        />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:gravity="center"
+                        android:text="@string/findpeopletofollow"
+                        android:textColor="@color/lightblack" />
+
+
+                    <Button
+                        android:id="@+id/btnContinueTextApp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:background="@drawable/bg_yellow"
+                        android:text="@string/continuu" />
+                </LinearLayout>
+
+            </com.yellowseed.customShadow.ShadowView>
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llMain"
+        tools:mContext=".fragments.FragmentHomeBottomView.NotificationFragment">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout_NotificationItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:tabIndicatorColor="@color/black"
+            app:tabPaddingEnd="10dp"
+            android:background="@color/black"
+            app:tabPaddingStart="10dp"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/lightgrey">
+        </android.support.design.widget.TabLayout>
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager_NotificationItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_anchorGravity="bottom|center"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+</layout>

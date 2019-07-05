@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <view
+        android:id="@+id/image"
+        class="com.yellowseed.imageUtils.CropImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#55000000" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+
+        <Button
+            android:id="@+id/discard"
+            style="@style/CropButton"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:text="@string/cancel"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageButton
+            android:id="@+id/rotateLeft"
+            style="@style/CropButton"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/discard"
+            android:contentDescription="@string/cancel"
+            android:src="@drawable/ic_rotate_left"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageButton
+            android:id="@+id/rotateRight"
+            style="@style/CropButton"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/rotateLeft"
+            android:contentDescription="@string/save"
+            android:src="@drawable/ic_rotate_right"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/save"
+            style="@style/CropButton"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/rotateRight"
+            android:text="@string/save"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="RtlHardcoded" />
+
+    </RelativeLayout>
+</RelativeLayout>

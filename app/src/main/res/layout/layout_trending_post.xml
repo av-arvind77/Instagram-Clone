@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/clLayoutUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llListGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_1sdp"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp"
+            android:visibility="visible">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0.5dp"
+                android:layout_marginRight="0.5dp"
+                android:layout_marginTop="0.5dp">
+
+                <ImageView
+                    android:id="@+id/ivGrirdPostImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/post_img" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView
+                    android:id="@+id/tvGridPostTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:maxLines="5"
+                    android:padding="@dimen/_2sdp"
+                    android:text="Testing"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.LastSeenActivity">
+
+        <include
+            android:id="@+id/toolbar_last_seen"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/viewLineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvShow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:text="@string/show_last_seen"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <Switch
+                android:id="@+id/show_last_seen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:checked="true"
+                android:background="@drawable/bg_switch"
+                android:thumb="@null" />
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/last_seen_spinner"
+            android:background="@drawable/bg_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:dropDownVerticalOffset="@dimen/_35sdp"
+            android:padding="@dimen/_3sdp"
+            android:spinnerMode="dropdown"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+</layout>

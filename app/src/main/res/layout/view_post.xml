@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/llContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_7sdp">
+            <ImageView
+                android:id="@+id/ivContactUserPic"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/user_placeholder" />
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvUserImage"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/bg_circle_blue"
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/_20ssp"
+                android:visibility="gone" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvTagUserName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/username"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvText"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:gravity="bottom"
+            android:visibility="visible"
+            android:layout_below="@+id/imageView"
+            android:padding="@dimen/_1sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+</layout>

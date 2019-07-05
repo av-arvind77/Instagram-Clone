@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:wowza="http://schemas.android.com/tools">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background"
+        android:keepScreenOn="true"
+        >
+
+        <!-- The camera preview display -->
+        <com.wowza.gocoder.sdk.api.devices.WZCameraView
+            android:id="@+id/camera_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            wowza:scaleMode="fill"
+            wowza:defaultCamera="front"
+            wowza:frameSizePreset="frameSize1280x720"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_60"
+                android:orientation="horizontal"
+                >
+
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvLiveStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/dp_10"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/dp_2"
+                    android:paddingEnd="@dimen/dp_10"
+                    android:paddingStart="@dimen/dp_10"
+                    android:paddingTop="@dimen/dp_2"
+                    android:background="@color/red_orange_color_picker"
+                    android:text="Live"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_14"
+                     />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvViewed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tvLiveStatus"
+                    android:layout_alignBottom="@+id/tvLiveStatus"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/dp_10"
+                    android:layout_toEndOf="@+id/tvLiveStatus"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/dp_2"
+                    android:paddingEnd="@dimen/dp_5"
+                    android:paddingStart="@dimen/dp_5"
+                    android:paddingTop="@dimen/dp_2"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_14"
+                    android:visibility="visible"
+                     />
+
+                <ImageView
+                    android:id="@+id/ivCamera"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_toStartOf="@+id/ivClose"
+                    android:src="@drawable/camera_rotate"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:layout_marginEnd="@dimen/dp_10"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_14"
+                     />
+
+
+                <ImageView
+                    android:id="@+id/ivClose"
+                    android:layout_width="@dimen/dp_35"
+                    android:layout_height="@dimen/dp_35"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/dp_10"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/close_icon_white" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+
+                <LinearLayout
+                    android:id="@+id/llEditView"
+                    android:layout_width="match_parent"
+                    android:background="#11ffffff"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.yellowseed.customView.EditTextArial
+                        android:id="@+id/etChatMessage"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Send Message"
+                        android:textColorHint="@color/lightgrey"
+                        android:textSize="@dimen/_12ssp"
+                        android:padding="@dimen/_10sdp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/bg_story_edit_text"
+                        android:layout_weight="4"
+                        android:inputType="text"
+                        android:imeOptions="actionDone"/>
+
+                    <ImageView
+                        android:id="@+id/ivSendStoryMessage"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:src="@mipmap/send_whit" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </FrameLayout>
+
+
+</layout>

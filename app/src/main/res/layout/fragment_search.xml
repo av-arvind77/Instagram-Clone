@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:mContext=".fragments.FragmentHomeBottomView.ExploreFragment">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/storycolor">
+
+                <com.yellowseed.customView.CustomRobotoBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:background="@color/storycolor"
+                    android:text="Trending Stories"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvHeaderRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/storycolor"
+                android:nestedScrollingEnabled="false"
+                android:padding="@dimen/_2sdp" />
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="Trending Posts"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvHomeRecycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false" />
+
+            </LinearLayout>
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvSeeMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:text="@string/view_more"
+                android:textColor="@color/blueissh"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="Trending Profiles"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvBotttomRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:nestedScrollingEnabled="false" />
+
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvViewMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="@string/view_more"
+                android:textColor="@color/blueissh"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>

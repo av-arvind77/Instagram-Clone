@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llReport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.ReportProblemActivity">
+
+        <include
+            android:id="@+id/toolbar_report_problem"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+        <EditText
+            android:id="@+id/et_ReportProblem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_home_edittext"
+            android:gravity="start"
+            android:hint="@string/write_your_feedback"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:minLines="10"
+            android:padding="@dimen/_10sdp" />
+
+        <Button
+            android:id="@+id/submit_problem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_45sdp"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:background="@drawable/bg_rounded_yellow_button"
+            android:text="@string/submit"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</layout>

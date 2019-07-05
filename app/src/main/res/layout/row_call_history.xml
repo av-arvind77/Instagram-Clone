@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_61sdp"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_1sdp">
+
+
+        <com.daimajia.swipe.SwipeLayout
+            android:id="@+id/swipe"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            app:clickToClose="true">
+
+            <LinearLayout
+                android:id="@+id/llSwipe"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/red"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp">
+
+
+                <LinearLayout
+                    android:id="@+id/llDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivDelete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/delete_icon_swip" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/delete"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_8ssp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/llParent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/_3sdp">
+
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+
+                        <ImageView
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:id="@+id/ivUserProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/profile_icon" />
+                            <ImageView
+                                android:id="@+id/ivTick"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone"
+                                android:layout_gravity="bottom|end"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:src="@mipmap/read_ico"/>
+
+                        </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                                        android:id="@+id/tvCallerName"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="dsfadfds"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/_14ssp"
+                                        android:textStyle="bold" />
+
+                                     <com.yellowseed.customView.CustomRobotoRegularTextView2
+                                         android:id="@+id/tvTime"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"
+                                         android:layout_marginStart="@dimen/_10sdp"
+                                         android:text="dsfadfds"
+                                         android:textColor="@color/grey"
+                                         android:textSize="@dimen/_12ssp" />
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:gravity="center_vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:id="@+id/ivOutgoing"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:src="@mipmap/arrow_up" />
+
+                                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                                        android:id="@+id/tvCallType"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/_5sdp"
+                                        android:text="fdsfdsf"
+                                        android:textColor="@color/grey_hin_color"
+                                        android:textSize="@dimen/_12ssp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+
+
+
+                            <ImageView
+                                android:id="@+id/ivCallType"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:src="@mipmap/info_icon" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </com.daimajia.swipe.SwipeLayout>
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginStart="@dimen/_60sdp"
+            android:background="@color/lightgrey" />
+
+    </LinearLayout>
+
+
+</layout>

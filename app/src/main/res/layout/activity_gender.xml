@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.WelcomeActivity">
+
+        <include
+            android:id="@+id/toolbarGender"
+            layout="@layout/customtoolbar"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/viewLineColor"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@mipmap/backgroun">
+
+
+            <com.yellowseed.customShadow.ShadowView
+                android:id="@+id/shadowView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cornerRadius="@dimen/_5sdp"
+                app:shadowColor="@color/seeallblue"
+                app:shadowRadius="@dimen/_5sdp"
+                android:elevation="@dimen/_10sdp"
+                app:shadowMargin="@dimen/_15sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_14sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <com.yellowseed.customView.CustomRobotoBoldTextView
+                        android:id="@+id/tv_welcomeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/selectyourgender"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15ssp" />
+
+
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:padding="@dimen/_20sdp"
+                       android:layout_gravity="center"
+                       android:layout_marginTop="@dimen/_10sdp"
+                       android:orientation="horizontal">
+
+                       <ImageView
+                           android:id="@+id/ivMale"
+                           android:layout_width="0dp"
+                           android:layout_weight="1"
+                           android:layout_marginEnd="@dimen/_10sdp"
+                           android:layout_height="wrap_content"
+                           android:src="@mipmap/user_icon"/>
+                       <ImageView
+                           android:id="@+id/ivFemale"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:layout_marginStart="@dimen/_10sdp"
+                           android:src="@mipmap/female_icon"/>
+
+                   </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:background="@color/grey"
+                        style="@style/marginleftright"/>
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:gravity="center"
+                        android:textColor="@color/lightblack"
+                        android:text="@string/createyourownunique" />
+
+                    <Button
+                        android:id="@+id/btnContinueGender"
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/continuu"
+                        android:layout_gravity="center"
+                        android:enabled="false"
+                        android:background="@drawable/bg_yellow_light"
+                        android:layout_marginTop="@dimen/_15sdp"/>
+
+                </LinearLayout>
+
+            </com.yellowseed.customShadow.ShadowView>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.WelcomeActivity">
+
+        <include
+            android:id="@+id/toolbarGender"
+            layout="@layout/customtoolbar"/>
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor"/>
+
+
+
+        <FrameLayout
+            android:id="@+id/frConntecting"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_40sdp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivConnecting"
+                android:layout_width="220dp"
+                android:layout_gravity="center"
+                android:layout_height="220dp"
+                android:src="@drawable/connect"
+                />
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvconnecting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/blueissh"
+                android:text="Connecting..."/>
+        </FrameLayout>
+
+
+        <com.yellowseed.customView.CustomRobotoBoldTextView
+            android:id="@+id/tvconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="You will be connected to an anonymous user within few seconds."/>
+
+
+
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:id="@+id/llMain"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp"
+    android:layout_marginStart="@dimen/_30sdp"
+android:layout_marginEnd="@dimen/_30sdp"
+    android:orientation="vertical">
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/tvDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_16ssp"
+        android:text="Delete message?" />
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/tvDeleteForMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete for me"
+        android:textSize="@dimen/_14ssp"
+        android:gravity="end"
+        android:layout_marginStart="@dimen/_20sdp" />
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/tvDeleteEveryone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Delete for Everyone"
+    android:gravity="end"
+        android:textSize="@dimen/_14ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginStart="@dimen/_20sdp"/>
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/tvCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="@color/green"
+        android:gravity="end"
+        android:textSize="@dimen/_14ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+</LinearLayout>
+</layout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llExploreSs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/viewExploreSearchTab"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:visibility="gone"/>
+
+        <com.yellowseed.customView.CustomRobotoBoldTextView
+            android:id="@+id/tvSugestedRecent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/suggested"
+            android:textColor="@color/textblack"
+            android:textSize="@dimen/_12ssp"
+            android:visibility="visible" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/llExploreSearchUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp">
+
+
+            <ImageView
+                android:id="@+id/ivExploreSearchUser"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_gravity="center"
+                android:src="@mipmap/profile_icon2" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/_10sdp">
+
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvExploreSearchName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jhon Thomas"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="normal" />
+
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvExploreSearchFollowers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="2 Mutual Folowers"
+                    android:textColor="@color/blackgrey"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="normal"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

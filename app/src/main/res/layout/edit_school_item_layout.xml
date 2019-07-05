@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:orientation="horizontal">
+
+    <com.yellowseed.customView.EditTextArial
+        android:id="@+id/etSchool"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bg_rounded_transparent"
+        android:imeOptions="flagNavigateNext"
+        android:maxLength="256"
+        android:maxLines="1"
+        android:text=""
+        android:ellipsize="end"
+        android:padding="@dimen/_10sdp"
+        android:singleLine="true"
+        android:textSize="@dimen/_13ssp" />
+
+    <com.yellowseed.customView.CustomRobotoRegularTextView2
+        android:id="@+id/tv_add_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingStart="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22ssp"
+        android:text="+" />
+
+</LinearLayout>
+</layout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".fragments.BlockedProfilesFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_add_new_blocked_profile"
+                android:text="@string/add_new"
+                android:textColor="@color/blueissh"
+                android:layout_gravity="end"
+                android:padding="@dimen/_5sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/blocked_profiles_container"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</layout>

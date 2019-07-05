@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/mainLayout"
+        tools:mContext=".activity.ChatsScreenFrgActivity">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentInsetLeft="0dp"
+            android:contentInsetStart="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            android:contentInsetRight="0dp"
+            android:elevation="@dimen/_12sdp"
+            android:contentInsetEnd="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetEnd="0dp"
+            android:background="@color/creamWhite">
+
+            <LinearLayout
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="@dimen/_3sdp">
+
+                <ImageView
+                    android:id="@+id/ivLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:visibility="visible"
+                    app:srcCompat="@mipmap/back_icon" />
+                <ImageView
+                    android:id="@+id/ivLeftImage"
+                    android:src="@mipmap/header_img"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/llSeen"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/ivLeft"
+                    android:orientation="vertical">
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:text="vjd"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_16ssp"
+                        android:visibility="gone" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView2
+                        android:id="@+id/tvLastSeen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_centerInParent="false"
+                        android:layout_toRightOf="@+id/ivLeft"
+                        android:textColor="@color/grey"
+                        android:textSize="@dimen/_10ssp"
+                        android:text="sfhb"
+                        android:gravity="center"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+
+                <ImageView
+                    android:id="@+id/ivHeaderImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/icon_call"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivRightSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/call_icon"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone"
+                    android:layout_gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_8sdp"
+                    />
+                <ImageView
+                    android:id="@+id/ivRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="gone"
+                    app:srcCompat="@mipmap/back_icon" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvRighttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/_10sdp"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/skyblue"
+                    android:visibility="gone"
+                    android:textStyle="bold"
+                    app:srcCompat="@mipmap/back_icon" />
+
+                <ImageView
+                    android:id="@+id/ivEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/note_icon"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone"
+                    android:layout_gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toStartOf="@id/tvRighttext" />
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+        <FrameLayout
+            android:id="@+id/flContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:elevation="@dimen/dp_10"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/ivBackground"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:background="@color/creamWhite"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvChatListFrg"
+                android:layout_width="match_parent"
+                android:background="@color/transparent"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/_4sdp"
+
+                android:orientation="horizontal">
+
+            <include
+                android:id="@+id/llAttachmentlayout"
+           layout="@layout/layoutattachementsicons"/>
+            </LinearLayout>
+
+        </FrameLayout>
+       
+        <View
+            android:id="@+id/viewLineBottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/viewLineColor" />
+
+        <include
+            android:id="@+id/layoutCustomChatMenuFrg"
+            layout="@layout/custom_chat_bottom_bar" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvGif"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="@dimen/_180sdp"/>
+
+        <include
+            android:visibility="gone"
+            android:id="@+id/layoutChatClickItem"
+            layout="@layout/layout_chatclick_item" />
+
+    </LinearLayout>
+</layout>

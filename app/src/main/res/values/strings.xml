@@ -1,0 +1,845 @@
+<resources>
+    <string name="app_name">Text</string>
+
+    <string name="facebook_app_id">2103139036597610</string> <!--ankit.saini@mobiloitte.com pwd:Mobiloitte1@#$-->
+    <!--google+ ketanmobiloitte@gmail.com pwd:Mobiloitte1-->
+    <string name="fb_login_protocol_scheme">fb173045950074909</string>
+    <string name="mobilenumorusername"><font size="12" />Mobile number or Username</string>
+    <string name="password">Password</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="forgetpass"><u>Forgot Password?</u></string>
+    <string name="forotpass">Forgot Password</string>
+    <string name="login">login</string>
+    <string name="username">User Name</string>
+    <string name="welcometotext">Welcome to text,</string>
+    <string name="loginwithfb">Login with Facebook</string>
+    <string name="loginwithgoogle">Login with Google+</string>
+    <string name="donthaveaccount">Don\'t have an account?</string>
+    <string name="signup"><u>Sign up</u></string>
+    <string name="sigup">Sign up</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="or">OR</string>
+    <string name="preparing_card">Preparing Card</string>
+    <string name="no_storage_card">No Storage Card</string>
+    <string name="not_enough_space">Not Enough Space</string>
+    <string name="saving_image">Save Image</string>
+    <string name="changenumber">Change Number</string>
+    <string name="changepassword">Change Password</string>
+    <string name="oldpassword">Old Password</string>
+    <string name="newpassowrd">New Password</string>
+    <string name="confirmpass">Confirm New Password</string>
+    <string name="emailerromsg">Please enter correct email id or mobile number</string>
+    <string name="passerrormsg">*The password you entered is incorrect.Please try again</string>
+    <string name="submit">SUBMIT</string>
+    <string name="forgetpasswordresetmsg">Don\'t worry about your password. Please enter your registered mobile number. We will send you new password. </string>
+    <string name="mobilenumber">Mobile number</string>
+    <string name="nouserfound">*No user found.</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="selectgender">Select Gender</string>
+    <string name="confirmpas">Confirm Password</string>
+    <string name="bytapping">By tapping <font color="@color/black">\"<u>Create Account</u>\"</font> you are agreeing to the <font color="@color/black"><u>Terms &amp; Condition.</u></font></string>
+    <string name="createaccount">Create Account</string>
+    <string name="alreadyhaveaccount">Already have an account? </string>
+    <string name="loginsmall"><u>Login</u></string>
+    <string name="mobilenumbererror">*please enter valid mobile number</string>
+    <string name="otp">OTP</string>
+    <string name="resendotp"><u>Resend OTP</u></string>
+    <string name="findpeopletofollow">Find people to follow, chat with people  in your contact list and chat with  anonymous user.</string>
+    <string name="continuu">CONTINUE</string>
+    <string name="selectyourgender">Select Your Gender</string>
+    <string name="createyourownunique">Create your own unique avatar to express your feelings through various gestures.</string>
+    <string name="avtarstyle">Avatar Style</string>
+    <string name="checkin">Check In</string>
+    <string name="tagpeople">Tag People</string>
+
+    <string name="shareonfacebook">Share on Facebook</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelunderline"><u>Cancel</u></string>
+    <string name="save">Save</string>
+    <string name="home">Home</string>
+    <string name="story">Story</string>
+    <string name="post">Post</string>
+    <string name="update_post">Update post</string>
+    <string name="golive">Go live</string>
+    <string name="tagfollowing">Tag Following</string>
+    <string name="skip"><u>Skip</u></string>
+
+
+    <string name="writesomethinghere">Write something here…</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</string>
+    <string name="weneverreally">We never really grow up,we only learn how to act in public.</string>
+    <string name="dummylongtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</string>
+    <string name="stories">Stories</string>
+    <string name="watchall">Watch All</string>
+    <string name="repost">Repost</string>
+    <string name="directshare">Direct Share</string>
+    <string name="direct">Direct</string>
+
+    <string name="countrycode">+91</string>
+    <string name="namehint">John Thomas</string>
+    <string name="male">Male</string>
+    <string name="bio">Bio</string>
+    <string name="date">26-02-1990</string>
+    <string name="schoolname">Xabir public school</string>
+    <string name="clg">DDU</string>
+    <string name="gender">Gender</string>
+    <string name="dateofbirth">Date of Birth</string>
+    <string name="school">School</string>
+    <string name="college">College</string>
+    <string name="worked">Worked At</string>
+    <string name="works">Works At</string>
+    <string name="hometown">Home Town</string>
+    <string name="livesin">Lives in</string>
+    <string name="website">Website</string>
+    <string name="phnnumber">Phone Number</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="termsandconditions">Terms &amp; Condition</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="aboutus">About Us</string>
+    <string name="switchaccount">Switch Account</string>
+    <string name="logout">Log Out</string>
+    <string name="otptext">OTP</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="add_location">Add Location</string>
+
+    //Poll Length
+    <string-array name="poll_length">
+        <item>1 Day</item>
+        <item>2 Day</item>
+        <item>1 Week</item>
+        <item>2 Week</item>
+        <item>1 Month</item>
+
+
+    </string-array>
+
+    //Gender array
+    <string-array name="gender_option">
+        <item>Select Gender</item>
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    //Language array
+    <string-array name="language">
+        <item>English</item>
+        <item>हिन्दी</item>
+    </string-array>
+
+    //Permission array
+    <string-array name="permission_to">
+        <item>Everyone</item>
+        <item>My Contacts</item>
+        <item>Nobody</item>
+        <item>Following</item>
+    </string-array>
+
+    //Country array
+    <string-array name="country_code">
+
+        <item>+91 IN</item>
+        <item>93 AF</item>
+        <item>355 AL</item>
+        <item>213 DZ</item>
+        <item>376 AD</item>
+        <item>244 AO</item>
+        <item>672 AQ</item>
+        <item>54 AR</item>
+        <item>374 AM</item>
+        <item>297 AW</item>
+        <item>61 AU</item>
+        <item>43 AT</item>
+        <item>994 AZ</item>
+        <item>973 BH</item>
+        <item>880 BD</item>
+        <item>375 BY</item>
+        <item>32 BE</item>
+        <item>501 BZ</item>
+        <item>229 BJ</item>
+        <item>975 BT</item>
+        <item>591 BO</item>
+        <item>387 BA</item>
+        <item>267 BW</item>
+        <item>55 BR</item>
+        <item>673 BN</item>
+        <item>359 BG</item>
+        <item>226 BF</item>
+        <item>95 MM</item>
+        <item>257 BI</item>
+        <item>855 KH</item>
+        <item>237 CM</item>
+        <item>1 CA</item>
+        <item>238 CV</item>
+        <item>236 CF</item>
+        <item>235 TD</item>
+        <item>56 CL</item>
+        <item>86 CN</item>
+        <item>61 CX</item>
+        <item>61 CC</item>
+        <item>57 CO</item>
+        <item>269 KM</item>
+        <item>242 CG</item>
+        <item>243 CD</item>
+        <item>682 CK</item>
+        <item>506 CR</item>
+        <item>385 HR</item>
+        <item>53 CU</item>
+        <item>357 CY</item>
+        <item>420 CZ</item>
+        <item>45 DK</item>
+        <item>253 DJ</item>
+        <item>670 TL</item>
+        <item>593 EC</item>
+        <item>20 EG</item>
+        <item>503 SV</item>
+        <item>240 GQ</item>
+        <item>291 ER</item>
+        <item>372 EE</item>
+        <item>251 ET</item>
+        <item>500 FK</item>
+        <item>298 FO</item>
+        <item>679 FJ</item>
+        <item>358 FI</item>
+        <item>33 FR</item>
+        <item>689 PF</item>
+        <item>241 GA</item>
+        <item>220 GM</item>
+        <item>995 GE</item>
+        <item>49 DE</item>
+        <item>233 GH</item>
+        <item>350 GI</item>
+        <item>30 GR</item>
+        <item>299 GL</item>
+        <item>502 GT</item>
+        <item>224 GN</item>
+        <item>245 GW</item>
+        <item>592 GY</item>
+        <item>509 HT</item>
+        <item>504 HN</item>
+        <item>852 HK</item>
+        <item>36 HU</item>
+        <item>91 IN</item>
+        <item>62 ID</item>
+        <item>98 IR</item>
+        <item>964 IQ</item>
+        <item>353 IE</item>
+        <item>44 IM</item>
+        <item>972 IL</item>
+        <item>39 IT</item>
+        <item>225 CI</item>
+        <item>81 JP</item>
+        <item>962 JO</item>
+        <item>7 KZ</item>
+        <item>254 KE</item>
+        <item>686 KI</item>
+        <item>965 KW</item>
+        <item>996 KG</item>
+        <item>856 LA</item>
+        <item>371 LV</item>
+        <item>961 LB</item>
+        <item>266 LS</item>
+        <item>231 LR</item>
+        <item>218 LY</item>
+        <item>423 LI</item>
+        <item>370 LT</item>
+        <item>352 LU</item>
+        <item>853 MO</item>
+        <item>389 MK</item>
+        <item>261 MG</item>
+        <item>265 MW</item>
+        <item>60 MY</item>
+        <item>960 MV</item>
+        <item>223 ML</item>
+        <item>356 MT</item>
+        <item>692 MH</item>
+        <item>222 MR</item>
+        <item>230 MU</item>
+        <item>262 YT</item>
+        <item>52 MX</item>
+        <item>691 FM</item>
+        <item>373 MD</item>
+        <item>377 MC</item>
+        <item>976 MN</item>
+        <item>382 ME</item>
+        <item>212 MA</item>
+        <item>258 MZ</item>
+        <item>264 NA</item>
+        <item>674 NR</item>
+        <item>977 NP</item>
+        <item>31 NL</item>
+        <item>599 AN</item>
+        <item>687 NC</item>
+        <item>64 NZ</item>
+        <item>505 NI</item>
+        <item>227 NE</item>
+        <item>234 NG</item>
+        <item>683 NU</item>
+        <item>850 KP</item>
+        <item>47 NO</item>
+        <item>968 OM</item>
+        <item>92 PK</item>
+        <item>680 PW</item>
+        <item>507 PA</item>
+        <item>675 PG</item>
+        <item>595 PY</item>
+        <item>51 PE</item>
+        <item>63 PH</item>
+        <item>870 PN</item>
+        <item>48 PL</item>
+        <item>351 PT</item>
+        <item>1 PR</item>
+        <item>974 QA</item>
+        <item>40 RO</item>
+        <item>7 RU</item>
+        <item>250 RW</item>
+        <item>590 BL</item>
+        <item>685 WS</item>
+        <item>378 SM</item>
+        <item>239 ST</item>
+        <item>966 SA</item>
+        <item>221 SN</item>
+        <item>381 RS</item>
+        <item>248 SC</item>
+        <item>232 SL</item>
+        <item>65 SG</item>
+        <item>421 SK</item>
+        <item>386 SI</item>
+        <item>677 SB</item>
+        <item>252 SO</item>
+        <item>27 ZA</item>
+        <item>82 KR</item>
+        <item>34 ES</item>
+        <item>94 LK</item>
+        <item>290 SH</item>
+        <item>508 PM</item>
+        <item>249 SD</item>
+        <item>597 SR</item>
+        <item>268 SZ</item>
+        <item>46 SE</item>
+        <item>41 CH</item>
+        <item>963 SY</item>
+        <item>886 TW</item>
+        <item>992 TJ</item>
+        <item>255 TZ</item>
+        <item>66 TH</item>
+        <item>228 TG</item>
+        <item>690 TK</item>
+        <item>676 TO</item>
+        <item>216 TN</item>
+        <item>90 TR</item>
+        <item>993 TM</item>
+        <item>688 TV</item>
+        <item>971 AE</item>
+        <item>256 UG</item>
+        <item>44 GB</item>
+        <item>380 UA</item>
+        <item>598 UY</item>
+        <item>1 US</item>
+        <item>998 UZ</item>
+        <item>678 VU</item>
+        <item>39 VA</item>
+        <item>58 VE</item>
+        <item>84 VN</item>
+        <item>681 WF</item>
+        <item>967 YE</item>
+        <item>260 ZM</item>
+        <item>263 ZW</item>
+    </string-array>
+
+
+    <!--Avtar Style Bottom View-->
+
+
+    <string name="skintype">Skin Type</string>
+    <string name="haircolor">Hair Color</string>
+    <string name="hairstyle">Hair Style</string>
+    <string name="beard">Beard</string>
+    <string name="beardcolor">Beard Color</string>
+
+
+    <!-- Home Bottom View -->
+
+    <string name="message">Message</string>
+    <string name="chat">Chat</string>
+    <string name="messages">Messages</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_text_long">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</string>
+    <string name="write_a_caption">Write a caption...</string>
+    <string name="photo_video">Photo/ Video</string>
+    <string name="allow_comments">Allow Comments</string>
+    <string name="at_mobiloitte_technology_pvt_ltd">At mobiloitte technology Pvt.Ltd</string>
+    <string name="_0_people">0 People</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="people_liked">People Who Liked </string>
+    <string name="followingrequest">Following Request</string>
+    <string name="john_thomas">John Thomas</string>
+    <string name="john">john@123</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="lorem_ipsum_dummy">Lorem ipsum dolor sit amet,consectetur adipiscingelit.Aenean euismod bibendum laoreet</string>
+
+    <string name="_290">290</string>
+    <string name="dislike">Dislike</string>
+    <string name="like">Like</string>
+    <string name="reply">Reply</string>
+    <string name="_1h">1h</string>
+
+    <string name="dislike_underLine"><u>Dislike</u></string>
+    <string name="like_underline"><u>Like</u></string>
+    <string name="reply_underline"><u> Reply</u></string>
+
+
+    <string name="search">Search</string>
+    <string name="searchfollowers">Search Followers</string>
+    <string name="searchfollowing">Search Following</string>
+    <string name="_14_pending_request"><u>14 pending Request \n sfddsgdgfbhfjkjhkhjkghkjghkjghs \nn dfsgdsvgf</u></string>
+
+    <string name="report_user"> Report User</string>
+    <string name="block"> Block</string>
+    <string name="new_Block_red"><font fgcolor='#FF0000'> Block</font></string>
+    <string name="new_report_user_red"><font fgcolor='#FF0000'> Report User</font></string>
+    <string name="enable_avatar">Enable Avatar</string>
+    <string name="title_activity_testing">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <!-- Anonymous -->
+
+    <string name="selectcommunication">Select communication mode to connect with an anonymous user</string>
+    <string name="anonymouschat">Anonymous Chat</string>
+    <string name="anonymousaudiocall">Anonymous Audio Call</string>
+    <string name="anonymousvideocall">Anonymous Video Call</string>
+    <string name="connect">Connect</string>
+    <string name="anonymousconnectingtext">You will be connected to an anonymous user within few seconds.</string>
+    <string name="write_here_your_comment">Write here your comment</string>
+    <string name="comment">Comment</string>
+    <string name="comments">Comments</string>
+    <string name="_14_pending_request1"><u>14 Pending Chat Request</u></string>
+    <string name="_9_07pm">9:07pm</string>
+    <string name="share_on_facebook">Share on Facebook</string>
+    <string name="send_to_chat">Send to Chat</string>
+
+
+    <string name="_5_postes">5 Posts</string>
+    <string name="write_your_bio">Write your bio</string>
+    <string name="dontWorry">Don\'t worry about your password.Please enter your registered mobile number.We will send you link to reset it</string>
+    <string name="explore">Explore</string>
+    <string name="notification">Notifications</string>
+    <string name="chats">Chats</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="notifications">Notifications</string>
+
+    <string name="thought1"> One small positive thought in the morning can change the entire outcome of your day!</string>
+    <string name="thought2">Today, wherever you go, carry the intention of peace, love, and harmony in your heart.</string>
+    <string name="thought3">Your smile will give you a positive countenance that will make people feel comfortable around you.</string>
+
+    <!--Error xml string name-->
+    <string name="usernamemobileblanckerror">*Please enter username / mobile number.</string>
+    <string name="validmobilenumbererror">*Please enter valid mobile number.</string>
+    <string name="validusernameerror">*Please enter valid username.</string>
+    <string name="validusernamelangth">*User name must be greater than 3 characters.</string>
+    <string name="usernameerror">*Please enter username.</string>
+    <string name="validusermimimumlength">*Please enter least two character</string>
+    <string name="enterpassworderror">*Please enter password.</string>
+    <string name="validpassworderror">*Password must be 8 characters long.</string>
+    <string name="validpasswordlength">*Please enter at least eight character.</string>
+    <string name="validmobilenoerror">*please enter valid mobile number</string>
+    <string name="validmobilelength">*Please enter at least ten digit mobile number</string>
+    <string name="entermobilenoerror">*Please enter mobile number.</string>
+    <string name="enternameerror">*Please enter name.</string>
+    <string name="validnameerror">*Please enter valid name.</string>
+    <string name="enteremailerror">*Please enter email ID.</string>
+    <string name="entervalidemailerror">*Please enter valid email ID.</string>
+    <string name="selectgendererror">*Please select gender.</string>
+    <string name="reenterpassworderror">*Please re enter Passowrd.</string>
+    <string name="matchingpassworderror">*Confirm password must be same as password.</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="change_password">Change Password</string>
+    <string name="select_language">Select Language</string>
+    <string name="switch_account">Switch Account</string>
+    <string name="add_new_account">Add New Account</string>
+    <string name="profile_setting">Profile Setting</string>
+    <string name="tagging_post">Tagging Post</string>
+    <string name="show_avatar_on_profile">Show Avatar on Profile</string>
+    <string name="private_profile">Private Profile</string>
+    <string name="story_setting">Story Setting</string>
+    <string name="allow_sharing">Allow Sharing</string>
+    <string name="save_to_gallery_camera_roll">Save to Gallery/Camera Roll</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="chat_wallpaper">Chat Wallpaper</string>
+    <string name="automatic_media_download">Automatic Media Download</string>
+    <string name="delete_all_chats">Delete All Chats</string>
+    <string name="report_problem">Report A Problem</string>
+    <string name="blocked">Blocked</string>
+
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="follow">Follow</string>
+    <string name="share_new_group"><u>New Group</u></string>
+    <string name="new_group">New Group</string>
+    <string name="new_broadcast">New Broadcast</string>
+    <string name="delete">Delete</string>
+    <string name="unpin">Unpin</string>
+    <string name="unmute">Unmute</string>
+    <string name="mute">Mute</string>
+    <string name="forwardTo">Forward To</string>
+
+    <string name="broadcast">Broadcast</string>
+    <string name="johnthomas">John Thomas</string>
+
+    <string name="nextunderline"><u>Next</u></string>
+    <string name="contact">Contact</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+
+
+    <string name="broadcastnumbering">0 of 500</string>
+    <string name="chat_setting">Chat Setting</string>
+
+    <string name="take_a_photo">Take from Camera</string>
+    <string name="from_gallery">Choose from Gallery</string>
+    <string name="choose_photo">Choose File</string>
+
+
+    //AcceptRejectText
+
+    <string name="acceptreject">Anurag Anand sent you a message request.</string>
+
+
+    <string name="setting">Setting</string>
+    <string name="tagging">Tagging</string>
+    <string name="everyone">Everyone</string>
+    <string name="following_dialog">Following</string>
+    <string name="choose_from">Choose From</string>
+    <string name="nobody">Nobody</string>
+    <string name="write_your_feedback">Write your feedback...</string>
+    <string name="private_chats">Private Chats</string>
+    <string name="groups">Groups</string>
+    <string name="show_last_seen">Show Last Seen only when you open chat window</string>
+    <string name="unblock">Unblock</string>
+    <string name="add_new"><u>Add New</u></string>
+    <string name="add_contact_to_block">Add Contact To Block</string>
+
+    <string name="gallery">Gallery/Camera Roll</string>
+    <string name="galleryy">Gallery</string>
+    <string name="themes">Themes</string>
+    <string name="solid_color">Solid Color</string>
+    <string name="no_wallpaper">No Wallpaper</string>
+    <string name="default_wallpaper">Default</string>
+
+
+    <string name="sure_to_delete">Are you sure you want to delete all chats?</string>
+    <string name="set">Set</string>
+    <string name="suggestion">Suggestions</string>
+
+
+    <string name="seeall">See All (133)</string>
+    <string name="suggested">Suggested</string>
+    <string name="recent">Recent</string>
+    <string name="save_small">save</string>
+    <string name="designation">Designation</string>
+
+    <string name="anonymoususer">Anonymous User</string>
+    <string name="revealyouridentity">Reveal Your Identity</string>
+    <string name="exitconversation"><font fgcolor="#FC2B2B">Exit Conversation</font></string>
+    <string name="enableavatar">Enable Avatar</string>
+
+    <string name="newgroupu">New Group</string>
+    <string name="editgroup">Edit Group</string>
+    <string name="nextu">Next</string>
+
+
+    <!--Dialog RepUserModelUser-->
+    <string name="understandthereason"><b>Help us to understand the reason</b></string>
+    <string name="itsspam">Its Spam</string>
+    <string name="inappropriate">Inappropriate</string>
+    <string name="itsfalsestory">Its False Story</string>
+    <string name="hatespeech">Hate Speech</string>
+    <string name="_4_participants">4 Participants</string>
+    <string name="add_participants"><u>Add Participants</u></string>
+    <string name="helpusunderstand"><b>Help us to understand the reason.</b></string>
+
+    <string name="my_profile">My Profile</string>
+    <string name="reveal_your_identity">Reveal Your Identity</string>
+    <string name="exit_conversation">Exit Conversation</string>
+    <string name="Repost">Repost</string>
+    <string name="empty_field_validation">*Field can\'t be empty</string>
+    <string name="password_length_validation">*Password should be greater than 7 characters</string>
+    <string name="password_matching_validation">*Password should match</string>
+    <string name="website_error_msg">*Invalid Website Url</string>
+    <string name="mutual_followers">Mutual Followers, <font color="@color/black">Sushant, Rohit+</font></string>
+    <string name="mutual_followers_count">Mutual Followers</string>
+    <string name="_19_more">19 more..</string>
+    <string name="mike_keel">Mike Keel</string>
+
+    <string name="grouptitle">Group Title</string>
+    <string name="remove">Remove</string>
+
+
+    <string name="folllowrequests">Follow Requests</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="video_call">Video Call</string>
+
+
+    <string name="shareprofile">Share Profile</string>
+    <string name="turnonpostnotification">Turn on Post Notification</string>
+    <string name="turnonstorynotification">Turn on Story Notification</string>
+
+    <string name="turnonstorynotificationoff">Turn off Story Notification</string>
+    <string name="turnonpostnotificationoff">Turn off Story Notification</string>
+
+    <string name="reportthisuser">Report this Profile</string>
+    <string name="followers_s">follower</string>
+    <string name="following_S">following</string>
+    <string name="sushantpandey8077">Sushantpandey8077</string>
+    <string name="jhon_thomas">Jhon Thomas</string>
+    <string name="peter">Peter</string>
+    <string name="usernameep">Username</string>
+    <string name="please_enter_valid_email">Please enter valid email.</string>
+    <string name="valid_phone">Please enter valid phone number.</string>
+    <!--    <string name="john_thomas">John Thomas</string>-->
+    <string name="_2_mutual_followers">2 Mutual Followers</string>
+    <string name="group_info">Group Info</string>
+    <string name="colons">:</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="life_documents_pdf">Life document.pdf</string>
+    <string name="life_document_doc">Life document.doc</string>
+    <string name="see_more_info">See more info...</string>
+    <string name="see_less_info">See less</string>
+    <string name="mobiloitte_technology">Mobiloitte Technology</string>
+
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="july_14">July 14</string>
+
+    <string name="fatima_school">Fatima School</string>
+
+    <string name="kite">KITE</string>
+    <string name="worked_at">Worked At</string>
+    <string name="works_at">Works At</string>
+    <string name="home_town">Home Town</string>
+    <string name="deoria">Deoria</string>
+    <string name="lives_in">Lives In</string>
+    <string name="new_delhi">New Delhi</string>
+
+    <string name="john_thom_gmail_com">john.thom@gmail.com</string>
+
+    <string name="www_mobiloitte_com">www.mobiloitte.com</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="_9878200010">9878200010</string>
+    <string name="follow_all">Follow All</string>
+    <string name="jhon_thpmas">Jhon Thpmas</string>
+
+
+    <string name="mygroup">My Group</string>
+
+    <string name="mutenotifications">Mute Notifications</string>
+    <string name="eighthours">8 Hours</string>
+    <string name="oneweek">One Week</string>
+    <string name="onemonth">One Month</string>
+    <string name="oneyear">One Year</string>
+
+    <!--old password validation-->
+
+    <string name="oldpassworderoor">*Please enter old password</string>
+    <string name="newPassworderror">*Please enter new password.</string>
+    <string name="confirmpassworderror">*New password and confirm password should be same.</string>
+
+    <string name="photo">Photo</string>
+
+    <string name="r">R</string>
+    <string name="continuee">Continue</string>
+    <string name="attachments">Attachments</string>
+    <string name="documentss">Documents</string>
+    <string name="camera">Camera</string>
+    <string name="location">Location</string>
+    <string name="contactss">Contact</string>
+    <string name="kumarirai2112">Kumarianjalise2112</string>
+    <string name="enterphoneerror">*Please enter phone number.</string>
+    <string name="entervalidphone">*Please enter valid phone number.</string>
+    <string name="view_more"><u>View More...</u></string>
+    <string name="change_number">Change Number</string>
+    <string name="reportpostt">Report Post</string>
+    <string name="starred_message">Starred Message</string>
+    <string name="media_docs_links">Media,Docs &amp; Links</string>
+    <string name="dostokesang">Dostokesang</string>
+    <string name="mute_notification">Mute Notification</string>
+    <string name="unmute_notification">Unmute Notification</string>
+    <string name="add_participantsss">Add Participants</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="_6_participants">6 Participants</string>
+    <string name="report_spam">Report Spam</string>
+    <string name="clear_chat">Clear Chat</string>
+    <string name="do_you_like_my_story">Do you like my story?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="next">Next</string>
+    <string name="my_contacts">My Contacts</string>
+    <string name="my_contact">My Contact</string>
+    <string name="lorem_ipsum_moremipsum_soremipsum_koremipsum">Lorem ipsum moremipsum soremipsum.</string>
+    <string name="ashok">Ashok</string>
+    <string name="send">Send</string>
+    <string name="_9_07_pm">9:07 PM</string>
+    <string name="story_view">Story View</string>
+
+    <string name="hidrfrommyprofile">Hide from my Profile</string>
+    <string name="removemefrompost">Remove me from Post</string>
+    <string name="peter_parker">Peter Parker</string>
+    <string name="of"> of </string>
+    <string name="_10_35_am">10:35 am</string>
+    <string name="i_am_good">I am good</string>
+    <string name="unfollow">Are you sure you want to Unfollow Mike Keel ?</string>
+    <string name="server_error_msg">Server is not responding. Please try after some time.</string>
+    <string name="internet_alert_msg">Please check your internet connection.</string>
+    <string name="please_enter_otp">*Please enter OTP</string>
+    <string name="enter_valid_otp">*Please enter valid OTP</string>
+    <string name="new_pwd_sent">New password has been sent on your mobile number.</string>
+    <string name="logout_cnfm">Are you sure you want to logout?</string>
+    <string name="delete_story">Are you sure you want to delete?</string>
+    <string name="delete_cnfm">Are you sure you want to delete this post?</string>
+    <string name="delete_msg">Are you sure you want to delete this message?</string>
+
+    <string name="remove_tag">Are you sure you want to remove this tag?</string>
+    <string name="enter_text">Please enter some text.</string>
+    <string name="enter_option">Please enter option.</string>
+
+    <string name="enter_school_name">Please enter school name.</string>
+    <string name="enter_college_name">Please enter college name.</string>
+    <string name="user_id_not_found">user id not found.</string>
+    <string name="work_in_progress">Work in Progress.</string>
+    <string name="grant_contact_permission">Until you grant the permission, we canot display the names</string>
+    <string name="enter_designation">Please enter designation.</string>
+    <string name="enter_work_at">Please enter work at.</string>
+    <string name="enter_question">Please enter question.</string>
+
+    <string name="label_brush">Brush</string>
+    <string name="label_emoji">Emoji</string>
+    <string name="label_sticker">Sticker</string>
+    <string name="label_eraser">Eraser</string>
+    <string name="label_text">Text</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_adjust">Adjust</string>
+    <string name="tagged_users">Tagged Users</string>
+    <string name="editPost">Edit Post</string>
+    <string name="deletePost">Delete Post</string>
+    <string name="ok">Ok</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure you want to exit?</string>
+    <string name="nothing_to_delete">Nothing to delete.</string>
+    <string name="group_member">Group Member</string>
+    <string name="add_members">Add Members</string>
+    <string name="live_not">Not Live</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="delete_tag">Delete Tag</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="logout_p">Logout</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions">Terms and conditions</string>
+    <string name="eight_hrs">8 Hours</string>
+    <string name="one_week">1 Week</string>
+    <string name="one_month">1  Month</string>
+    <string name="one_year">1 Year</string>
+    <string name="mute_notification_d">Mute Notifications</string>
+    <string name="online_status">Online Status</string>
+    <string name="allow_user">(Allow users to see your online status with a green dot. When this is turned off.You wan\'t be able to see online status of other users.)</string>
+    <string name="turned_off_update_last_seen">(If turned on,You won\'t show online even if you use the app.Last seen time will only get updated when you will open chat window.)</string>
+    <string name="ask_a_question">Ask A Question…</string>
+    <string name="poll_length">Poll Length</string>
+    <string name="poll">Poll</string>
+    <string name="pinned_posts"><u>Pinned Posts</u></string>
+    <string name="create_new_contact">Create New Contact</string>
+    <string name="choice_1">Choice 1</string>
+    <string name="wi_fi">Wi-Fi</string>
+    <string name="add_participants_chat"><u>Add Participants</u></string>
+    <string name="all_media">All Media</string>
+    <string name="hello"><u>Hello</u></string>
+    <string name="_6_votes"><u>6 Votes</u></string>
+    <string name="question">\?</string>
+    <string name="private_share">Private Share</string>
+    <string name="logintv"><u>Login</u></string>
+    <string name="private_account">Private Account</string>
+    <string name="only_followers_will_see_this_post">Only troll followers will see this post.</string>
+    <string name="textapp_follower">textapp won\'t tell \n drsantoSingh they were \n remove from your followers.</string>
+    <string name="save_incoming_media">Save incoming media</string>
+    <string name="automatically_save_image_and_videos_that_you_recieve_into_the_gallery_add">Automatically save image and videos that you recieve into the gallery add</string>
+
+</resources>

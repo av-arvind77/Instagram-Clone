@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:elevation="@dimen/dp_10"
+        android:layout_height="wrap_content"
+        android:background="@color/creamWhite">
+
+        <LinearLayout
+            android:id="@+id/llChatBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/llText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/lleditText"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_curved_chattextet"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/llReply"
+                        android:visibility="gone"
+                        android:background="@color/gray_dark"
+                        android:layout_width="match_parent"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <View
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/yellow_dark"/>
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView
+                            android:id="@+id/tvRepyMessage"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            />
+                        <ImageView
+                            android:id="@+id/ivCancelReply"
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_10sdp"
+                            android:layout_margin="@dimen/_2sdp"
+                            android:src="@mipmap/cross_icon"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/llMsg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/ivChatLeftIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|start"
+                            android:padding="@dimen/_4sdp"
+                            android:src="@mipmap/samile_icon" />
+
+                        <com.yellowseed.customView.EditTextArial
+                            android:id="@+id/etChatMessage"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:baselineAligned="false"
+                            android:gravity="bottom"
+                            android:imeOptions="actionNone"
+                            android:inputType="text|textMultiLine|textCapSentences"
+                            android:maxLines="4"
+                            android:padding="@dimen/_5sdp"
+                            android:scrollbars="vertical"
+                            android:textColor="@color/blackgrey"
+                            android:textSize="@dimen/_14ssp"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/ivChatRightIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:padding="@dimen/_4sdp"
+                            android:src="@mipmap/photo_video_ico" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <ImageView
+                    android:id="@+id/btnSecondRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="onClick"
+
+                    android:paddingStart="@dimen/_10sdp"
+                    android:src="@mipmap/camera_icon" />
+            </LinearLayout>
+
+
+            <com.yellowseed.record_view.RecordView
+                android:id="@+id/record_view"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                app:slide_to_cancel_arrow="@drawable/recv_ic_arrow"
+                app:slide_to_cancel_bounds="10dp"
+                app:slide_to_cancel_margin_right="10dp"
+                android:visibility="gone"
+                app:slide_to_cancel_text="Slide To Cancel" />
+
+            <com.yellowseed.record_view.RecordButton
+                android:id="@+id/tvSendButton"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_6sdp"
+                app:mic_icon="@mipmap/sendicon" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llRequestAccept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvAcceptText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/acceptreject"
+                android:textColor="@color/textblack"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal"
+                android:visibility="visible" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnChatsRequestAccept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@drawable/bg_yellow_soft_corner"
+
+                    android:paddingEnd="@dimen/_25sdp"
+                    android:paddingStart="@dimen/_25sdp"
+
+                    android:text="@string/accept"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    android:textAllCaps="false"
+
+                    />
+
+                <Button
+                    android:id="@+id/btnChatsRequestReject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="@dimen/_40sdp"
+                    android:background="@drawable/bg_curved_chattextet"
+                    android:paddingEnd="@dimen/_25sdp"
+                    android:paddingStart="@dimen/_25sdp"
+                    android:text="@string/reject"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    android:textAllCaps="false"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

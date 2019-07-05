@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:id="@+id/llAddContact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.AddContactToBlockActivity">
+
+        <include
+            android:id="@+id/toolbar_add_to_block"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/viewLineColor" />
+
+        <com.yellowseed.customView.EditTextArial
+            android:id="@+id/svAddToBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_home_edittext"
+            android:drawablePadding="@dimen/_2sdp"
+            android:drawableStart="@mipmap/search_gray"
+            android:hint="@string/search"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLength="30"
+            android:padding="@dimen/_5sdp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/add_to_block_list_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</layout>

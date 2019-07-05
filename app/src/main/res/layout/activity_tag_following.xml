@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/theme_black"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbarTagFollowing"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <com.yellowseed.customView.EditTextArial
+            android:id="@+id/etSearchTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_rounded_transparent"
+            android:drawablePadding="@dimen/_2sdp"
+            android:drawableStart="@mipmap/search_gray"
+            android:hint="@string/search"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:padding="@dimen/_5sdp"
+            android:textColorHint="@color/grey_hin_color"
+            android:textColor="@color/blackgrey"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvTagFollowing"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:nestedScrollingEnabled="false"
+            android:onClick="onClick"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingStart="@dimen/_10sdp" />
+
+    </LinearLayout>
+</layout>

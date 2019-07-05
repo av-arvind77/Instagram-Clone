@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".fragments.ChatsFragment">
+
+
+        <include
+            android:id="@+id/toolbarEditProfile"
+            layout="@layout/customtoolbar" />
+
+        <com.yellowseed.customView.EditTextArial
+                android:id="@+id/etSearchChatFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/bg_rounded_transparent"
+                android:drawablePadding="@dimen/_2sdp"
+            android:drawableStart="@mipmap/search_gray"
+                android:hint="@string/search"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/lightwhite"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvNewBroadCast"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/new_broadcast"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blueissh"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="normal" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvnewGroupChat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/new_group"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blueissh"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="normal" />
+            </LinearLayout>-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvChatFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp" />
+
+            <Button
+                android:id="@+id/btnDelDoneChats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/delete_icon_swip"
+                android:drawablePadding="@dimen/_7sdp"
+                android:text="@string/delete"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                android:background="@drawable/bg_red_soft_corner"
+                android:paddingStart="@dimen/_30sdp"
+                android:paddingEnd="@dimen/_30sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+</layout>

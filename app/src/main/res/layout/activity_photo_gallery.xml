@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:id="@+id/llMain"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".PhotoGalleryActivity">
+
+        <include
+            android:id="@+id/mediaToolbar"
+            layout="@layout/customtoolbar" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout_MediaItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:tabIndicatorColor="@color/black"
+            app:tabPaddingEnd="10dp"
+            app:tabPaddingStart="10dp"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            app:tabTextColor="@color/lightgrey" />
+
+
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <android.support.v4.view.ViewPager
+
+            android:id="@+id/pager_MediaItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_anchorGravity="bottom|center"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        </android.support.v4.view.ViewPager>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</layout>

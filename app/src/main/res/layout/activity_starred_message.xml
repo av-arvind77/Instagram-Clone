@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+        android:id="@+id/llMain" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.StarredMessageActivity">
+
+        <include
+            layout="@layout/customtoolbar"
+            android:id="@+id/toolbarStarredMessage" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_50sdp"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="bottom"
+                android:src="@mipmap/profile_icon3" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/bg_chatsender"
+                android:orientation="vertical"
+                android:padding="@dimen/_3sdp">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvStarredMessage1"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:onClick="onClick"
+                    android:paddingEnd="@dimen/_2sdp"
+                    android:paddingStart="@dimen/_2sdp"
+                    android:text="@string/lorem_ipsum_dummy"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="normal" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+
+                    android:id="@+id/tvStarredTime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/_9_07pm"
+                    android:layout_gravity="end"
+                    android:drawableStart="@mipmap/smal_star"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:onClick="onClick"
+                    android:paddingStart="@dimen/_2sdp"
+                    android:paddingEnd="@dimen/_5sdp"
+                    android:textColor="@color/blueissh"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_50sdp"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="bottom"
+                android:src="@mipmap/profile_icon3" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/bg_chatsender"
+                android:orientation="vertical"
+                android:padding="@dimen/_3sdp">
+
+                <ImageView
+                    android:id="@+id/ivStarredImage2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/image_7" />
+                <!--<com.yellowseed.customView.CustomRobotoRegularTextView2-->
+                <!--android:id="@+id/tvStarredMessage2"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="onClick"-->
+                <!--android:paddingEnd="@dimen/_2sdp"-->
+                <!--android:paddingStart="@dimen/_2sdp"-->
+                <!--android:text="@string/_14_pending_request"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/_14ssp"-->
+                <!--android:textStyle="normal" />-->
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvStarredTime2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/_9_07pm"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:drawableStart="@mipmap/smal_star"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:onClick="onClick"
+                    android:paddingStart="@dimen/_2sdp"
+                    android:paddingEnd="@dimen/_5sdp"
+                    android:textColor="@color/blueissh"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</layout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/bg_live_users"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+          >
+
+            <ImageView
+                android:id="@+id/ivContactUserPic"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/profile_icon" />
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvUserImage"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_circle_blue"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:text=""
+                android:textSize="@dimen/_20ssp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvTagUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingStart="@dimen/_5sdp"
+            android:text="@string/johnthomas"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</layout>

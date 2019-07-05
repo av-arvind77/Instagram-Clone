@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/llrowExploreTrending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/iv_UserStories"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:src="@mipmap/profile_icon" />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tv_UserStoriesName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+</layout>

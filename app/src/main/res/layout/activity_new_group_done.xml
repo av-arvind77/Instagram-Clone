@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.NewGroupDoneActivity">
+
+        <include
+            android:id="@+id/toolbarNewGroupDone"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivGroupPic"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:src="@drawable/user_placeholder" />
+
+            <com.yellowseed.customView.EditTextArial
+                android:id="@+id/etGroupName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:background="@null"
+                android:maxLines="3"
+                android:maxLength="60"
+                android:inputType="textMultiLine"
+                android:hint="@string/grouptitle"
+                android:textColorHint="@color/lightgrey" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/viewLineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvAddParticipants"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/add_participants"
+                android:textAllCaps="false"
+                android:textColor="@color/blueissh"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvParticipantsCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/_4_participants"
+                android:textAlignment="textEnd"
+                android:textAllCaps="false"
+
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:id="@+id/rvNewGroupDone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</layout>

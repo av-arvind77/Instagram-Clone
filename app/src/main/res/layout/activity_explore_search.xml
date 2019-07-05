@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:id="@+id/llMain"
+
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.ExploreSearchActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/expSchBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:src="@mipmap/back_icon" />
+
+            <com.yellowseed.customView.EditTextArial
+                android:id="@+id/etBroadcastSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_25sdp"
+                android:drawablePadding="@dimen/_5sdp"
+                android:drawableStart="@mipmap/search_gray"
+                android:background="@drawable/bg_rounded_transparent"
+                android:hint="@string/search"
+                android:layout_weight="1"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/blackgrey"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayoutExploreSearchItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:tabIndicatorColor="@color/black"
+            app:tabPaddingEnd="10dp"
+            app:tabPaddingStart="10dp"
+
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            app:tabTextColor="@color/lightgrey" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/viewLineColor" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pagerExploreSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_anchorGravity="bottom|center"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+</layout>

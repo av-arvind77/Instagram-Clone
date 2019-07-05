@@ -1,0 +1,26 @@
+package com.yellowseed.model;
+
+/**
+ * Created by ankit_mobiloitte on 11/6/18.
+ */
+
+public class ContactModel {
+    private String name;
+    private String number;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+}

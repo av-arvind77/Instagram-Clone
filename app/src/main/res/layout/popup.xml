@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.daasuu.bl.BubbleLayout
+        android:id="@+id/blMain"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="@dimen/_8sdp"
+        app:bl_arrowDirection="top"
+        app:bl_arrowHeight="10dp"
+        app:bl_arrowPosition="16dp"
+        app:bl_arrowWidth="8dp"
+        app:bl_cornersRadius="@dimen/_5sdp"
+        app:bl_strokeWidth="0.5dp">
+        <LinearLayout
+            android:id="@+id/llMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivListItem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:src="@mipmap/list_icon" />
+
+            <ImageView
+                android:id="@+id/ivGridItem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:src="@mipmap/grid" />
+
+            <ImageView
+                android:id="@+id/ivTaggedItem"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/group_tag_icon" />
+
+            <ImageView
+                android:id="@+id/ivSavedItem"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/save_icon_sel" />
+
+            <ImageView
+                android:id="@+id/ivPinned"
+                android:layout_width="40dp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:src="@mipmap/pin_icon_sml" />
+
+        </LinearLayout>
+    </com.daasuu.bl.BubbleLayout>
+
+</layout>

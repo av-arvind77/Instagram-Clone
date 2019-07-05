@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.PollActivity">
+
+        <include
+            android:id="@+id/pollToolBar"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/ivPostProfilePic"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="top"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/user_placeholder" />
+
+            <LinearLayout
+                android:id="@+id/post_header"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView
+                    android:id="@+id/tvPostUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Peter"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView
+                    android:id="@+id/tv_PostTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Today at 03:00 PM"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivPostMenuItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|top"
+                android:paddingStart="@dimen/_10sdp"
+                android:src="@mipmap/three_dot" />
+        </LinearLayout>
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvPollQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:text="Who will win world cup?"
+            android:textSize="@dimen/_12sdp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvPollData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp" />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvPollEndsIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:text="This poll ends in 23hours 39 minutes."
+            android:textSize="@dimen/_10sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/llheart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:padding="@dimen/_4sdp">
+
+                <ImageView
+                    android:id="@+id/ivHeart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_4sdp"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:src="@mipmap/heart_icon" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView
+                    android:id="@+id/tvPostLike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="11"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llComment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp">
+
+                <ImageView
+                    android:id="@+id/ivPostComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@mipmap/comment_icon" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView
+                    android:id="@+id/tvPostComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llShare"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp">
+
+                <ImageView
+                    android:id="@+id/ivPostShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/share_post_icon" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView
+                    android:id="@+id/tvPostShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end">
+
+                <ImageView
+                    android:id="@+id/ivPostDownloads"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@mipmap/save_icon" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

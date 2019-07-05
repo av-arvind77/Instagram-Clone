@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_ShareOnFacebook"
+        android:title="@string/share_on_facebook"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        android:icon="@mipmap/report"
+        >
+    </item>
+    <item
+        android:id="@+id/action_SendToChat"
+        android:title="@string/send_to_chat"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:iconTint="@color/red"
+        android:icon="@mipmap/chat_icon">
+    </item>
+
+
+    <item
+        android:id="@+id/action_Report"
+        android:title="Report"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:iconTint="@color/red"
+        android:icon="@mipmap/report_icon">
+    </item>
+</menu>

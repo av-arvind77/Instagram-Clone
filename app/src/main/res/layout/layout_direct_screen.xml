@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/llDirectUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/iv_DirectUserPic"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+            android:src="@mipmap/profile_img2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_5sdp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tv_DirectUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jhon Thomas"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="normal" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tv_DirectUserTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:text="2hAgo"
+                    android:textColor="@color/blackgrey"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tv_DirectUserMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="I am good"
+                android:textColor="@color/black_edit"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/viewLine"/>
+
+
+        </LinearLayout>
+
+
+        <!--<CheckBox-->
+        <!--android:id="@+id/chechBoxDirect"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:button="@drawable/checkbox_sendto" />-->
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

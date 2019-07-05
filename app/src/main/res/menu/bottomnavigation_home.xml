@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_Home"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@mipmap/home_icon">
+    </item>
+
+    <item
+        android:id="@+id/action_Search"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@mipmap/search_ico">
+    </item>
+
+    <item
+        android:id="@+id/action_Message"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@mipmap/notification_unselect">
+    </item>
+    <item
+        android:id="@+id/action_Chat"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@mipmap/comment_icon_buttom">
+    </item>
+    <item
+        android:id="@+id/action_DoubleMessage"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@mipmap/help_icon"
+  >
+    </item>
+</menu>

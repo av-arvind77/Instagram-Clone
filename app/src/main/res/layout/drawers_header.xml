@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_78sdp"
+                        android:layout_height="@dimen/_78sdp"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/pic_pipin">
+
+                        <ImageView
+                            android:id="@+id/ivUserImageH1"
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/circle"
+                            android:src="@mipmap/header_img"
+                      />
+
+                        <com.yellowseed.customView.CustomRobotoBoldTextView
+                         android:id="@+id/tvUserImageDrawer"
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="@dimen/_70sdp"
+                            android:gravity="center"
+                            android:text=""
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bg_circle_blue"
+                            android:textSize="@dimen/_24ssp"
+                             />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_78sdp"
+                        android:layout_height="@dimen/_78sdp"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/pic_pipin">
+
+                        <ImageView
+                            android:id="@+id/ivUserImageH"
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/avatar_placeholder" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvUserNameH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:text="John Thomas"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvUserEmailH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:text="john@123"
+                android:paddingBottom="@dimen/_5sdp"
+                android:textColor="@color/blackgrey"
+                android:textSize="@dimen/_12sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:id="@+id/llFollowersH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingRight="@dimen/_10sdp">
+
+                        <com.yellowseed.customView.CustomRobotoBoldTextView
+                            android:id="@+id/tv_NumberFollowers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="210"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_14sdp"
+                            android:textStyle="bold" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvFollowers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/followers"
+                            android:textColor="@color/blackgrey"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llFollowingH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingRight="@dimen/_10sdp">
+
+                        <com.yellowseed.customView.CustomRobotoBoldTextView
+                            android:id="@+id/tv_NumberFollowing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="200"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_14sdp"
+                            android:textStyle="bold" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView2
+                            android:id="@+id/tvFollowing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/following"
+                            android:textColor="@color/blackgrey"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/viewDrawerTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/viewLineColor" />
+
+                <LinearLayout
+                    android:id="@+id/llProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_10">
+
+                    <ImageView
+                        android:id="@+id/ivProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/userprofile_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/profile"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llSettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_10">
+
+                    <ImageView
+                        android:id="@+id/ivSettings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/setting_menu_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvSettings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/settings"
+                        android:textColor="@color/black" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llTerms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_10">
+
+                    <ImageView
+                        android:id="@+id/ivTerms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/terms_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvTerms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/terms_and_conditions"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llPrivacyPolicy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_10">
+
+                    <ImageView
+                        android:id="@+id/ivPrivacyPolicy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/privacy_policy_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvPrivacy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/privacy_policy"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llAboutUs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_10">
+
+                    <ImageView
+                        android:id="@+id/ivAbout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/info_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvAbout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/about_us"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llSwitchAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_10">
+
+                    <ImageView
+                        android:id="@+id/ivSwitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/switch_account" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvSwitchAccount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/switch_account"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_10">
+
+                    <ImageView
+                        android:id="@+id/ivLogout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/logout_icon1" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvLogout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/logout_p"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/viewDrawerBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/viewLineColor" />
+
+                <LinearLayout
+                    android:id="@+id/llSwitchNightMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_10">
+
+                    <ImageView
+                        android:id="@+id/ivNightMode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/night_mode" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvNightMode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_weight="1"
+                        android:text="@string/night_mode"
+                        android:textColor="@color/black" />
+
+
+                    <CheckBox
+                        android:id="@+id/cbNight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox_nightmode" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</layout>

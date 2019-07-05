@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+         android:id="@+id/tvhelpUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:textAlignment="center"
+            android:textSize="@dimen/_16ssp"
+            android:text="Helps us to understand the reason." />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+           android:id="@+id/tvSpam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_14ssp"
+            android:text="@string/itsspam" />
+
+        <View
+            android:id="@+id/viewLineSpam"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey_hin_color" />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvInappropriate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_14ssp"
+
+            android:text="@string/inappropriate" />
+
+        <View
+            android:id="@+id/viwLine2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey_hin_color" />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+          android:id="@+id/tvFalseStory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_14ssp"
+
+            android:text="@string/itsfalsestory" />
+
+        <View
+            android:id="@+id/viewLineFalse"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey_hin_color" />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+          android:id="@+id/tvHate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_14ssp"
+
+            android:text="@string/hatespeech" />
+        <View
+            android:id="@+id/viewHate"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey_hin_color" />
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+           android:id="@+id/tvCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_14ssp"
+
+            android:text="@string/cancel" />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_EnableAvatarAnon"
+        android:enabled="true"
+        android:icon="@mipmap/avater_icon"
+        android:iconTint="@color/black"
+        android:title="@string/enable_avatar"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/action_RevealIdentity"
+        android:enabled="true"
+        android:icon="@mipmap/card_icon"
+        android:iconTint="@color/black"
+        android:title="@string/reveal_your_identity"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/action_ExitConversation"
+        android:enabled="true"
+        android:icon="@mipmap/logout_icon"
+        android:iconTint="@color/black"
+        android:title="@string/exit_conversation"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

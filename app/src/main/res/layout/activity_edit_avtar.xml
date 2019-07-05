@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llEditAvtar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.EditAvtarActivity">
+
+        <include
+            android:id="@+id/toolbarEditAvtar"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewEdit"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/backgroun"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/headerView"
+                    android:layout_alignParentStart="true"
+                    android:adjustViewBounds="true"
+                    android:background="@color/white"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@mipmap/vector_img" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llAvtarImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@color/avatarbackcolor"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvAvtarImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/viewAvtarImage"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/viewLineColor" />
+            <LinearLayout
+                android:id="@+id/llAvtartext"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvAvtarImageText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

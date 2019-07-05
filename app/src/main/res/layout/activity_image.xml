@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    app:ignore="NamespaceTypo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:id="@+id/llFramePic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/view_pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:visibility="visible" />
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="bottom"
+                    app1:tabIndicatorColor="@android:color/transparent"
+                    app:tabBackground="@drawable/tab_selector_dot"
+                    app:tabGravity="center"
+                    app:tabIndicatorHeight="0dp" />
+            </FrameLayout>
+
+            <com.yellowseed.imageUtils.ProportionalImageView
+                android:id="@+id/ivPostImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+
+        </LinearLayout>
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView
+            android:id="@+id/tvViews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:text="10.0 K Views"
+            android:layout_above="@+id/llLike"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:textSize="@dimen/_10ssp" />
+
+
+        <LinearLayout
+            android:id="@+id/llLike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llheart"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_4sdp">
+
+                    <ImageView
+                        android:id="@+id/ivHeart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/_4sdp"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:paddingBottom="@dimen/_4sdp"
+                        android:src="@mipmap/heart_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvPostLike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="11"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12ssp" />
+                </LinearLayout>
+                <!--       <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/black"
+
+               android:orientation="vertical">
+               <com.yellowseed.customView.CustomRobotoRegularTextView
+                   android:id="@+id/tvViews"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:textColor="@color/grey"
+                   android:layout_marginStart="@dimen/_20sdp"
+                   android:text="10.0K Views"
+                   android:textSize="@dimen/_12ssp" />
+
+           </LinearLayout>-->
+
+                <LinearLayout
+                    android:id="@+id/llComment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/_4sdp">
+
+                    <ImageView
+                        android:id="@+id/ivPostComment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@mipmap/comment_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvPostComment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12ssp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llShare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/_4sdp">
+
+                    <ImageView
+                        android:id="@+id/ivPostShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/share_post_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvPostShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12ssp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDownload"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/_4sdp">
+
+                    <ImageView
+                        android:id="@+id/ivPostDownloads"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_8sdp"
+                        android:src="@mipmap/save_icon" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

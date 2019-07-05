@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/llStoryHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/flImage"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:background="@mipmap/circle"
+            android:onClick="@+id/llStoryHome">
+
+            <ImageView
+                android:id="@+id/iv_UserStories"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_gravity="center"
+                android:src="@mipmap/profile_icon" />
+
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvUserImage"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_circle_blue"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:textSize="@dimen/_20ssp"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tv_UserStoriesName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="Jenny"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+</layout>

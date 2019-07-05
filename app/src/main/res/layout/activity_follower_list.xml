@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbarCallDetail"
+            layout="@layout/customtoolbar" />
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/followertabs"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_14ssp"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/black" />
+
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/followerListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</layout>

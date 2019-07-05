@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/llPopUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="Info"
+            android:textAllCaps="false"
+            android:textColor="@color/textblack"
+            android:textSize="@dimen/_16ssp" />
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvVoicecall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/voice_call"
+            android:textAllCaps="false"
+            android:textColor="@color/textblack"
+            android:textSize="@dimen/_16ssp" />
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvVideoCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/video_call"
+            android:textAllCaps="false"
+            android:textColor="@color/textblack"
+            android:textSize="@dimen/_16ssp" />
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="Message"
+            android:textAllCaps="false"
+            android:textColor="@color/textblack"
+            android:textSize="@dimen/_16ssp" />
+
+        <com.yellowseed.customView.CustomRobotoRegularTextView2
+            android:id="@+id/tvRemove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="Remove"
+            android:textAllCaps="false"
+            android:textColor="@color/textblack"
+            android:textSize="@dimen/_16ssp" />
+    </LinearLayout>
+</layout>

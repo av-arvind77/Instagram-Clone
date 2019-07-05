@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:name="actionMenuTextColor"
+        android:id="@+id/action_EnableAvatar"
+        android:enabled="true"
+        android:icon="@mipmap/avater_icon"
+        android:iconTint="@color/black"
+        android:title="@string/enable_avatar"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_Block"
+        android:enabled="true"
+        android:icon="@mipmap/remove_ico"
+        android:title="@string/new_Block_red"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_ReportUser"
+        android:enabled="true"
+        android:icon="@mipmap/flag_line"
+        android:title="@string/new_report_user_red"
+        app:showAsAction="ifRoom"/>
+</menu>

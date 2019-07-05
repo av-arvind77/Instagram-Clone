@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.daasuu.bl.BubbleLayout
+        android:id="@+id/blMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="@dimen/_8sdp"
+        app:bl_arrowDirection="top"
+        app:bl_arrowHeight="10dp"
+        app:bl_arrowPosition="@dimen/_80sdp"
+        app:bl_arrowWidth="8dp"
+        app:bl_cornersRadius="@dimen/_5sdp"
+        app:bl_strokeWidth="0.5dp">
+        <LinearLayout
+            android:id="@+id/llClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:orientation="horizontal">
+            <com.yellowseed.customView.CustomRobotoRegularTextView
+                android:id="@+id/tvClearCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear Call Log"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                />
+        </LinearLayout>
+    </com.daasuu.bl.BubbleLayout>
+</layout>

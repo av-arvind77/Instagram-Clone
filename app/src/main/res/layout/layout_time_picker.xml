@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<RelativeLayout
+    android:id="@+id/rlLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33000000">
+
+    <LinearLayout
+        android:id="@+id/container_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f2f7fa"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/container_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:text="cancel"
+                android:textColor="#999999"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@null"
+                android:text="confirm"
+                android:textColor="#303F9F"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="3dp">
+
+            <LinearLayout
+                android:id="@+id/llDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.bruce.pickerview.LoopView
+                    android:id="@+id/picker_days"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:centerTextColor="@color/lightgrey"
+                    app:topBottomTextColor="@color/grey"
+                    android:layout_weight="1"
+                    android:text="days"
+                    app:textSize="25sp"
+                    app:canLoop="false">
+                </com.bruce.pickerview.LoopView>
+
+                <TextView
+                    android:id="@+id/tvDays"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Days" />
+
+                <com.bruce.pickerview.LoopView
+                    android:id="@+id/picker_hour"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hours"
+                    app:centerTextColor="@color/lightgrey"
+                    app:topBottomTextColor="@color/grey"
+                    app:textSize="25sp"
+                    app:canLoop="false"/>
+                <TextView
+                    android:id="@+id/tvHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_10ssp"
+
+                    android:text="Hours"/>
+
+                <com.bruce.pickerview.LoopView
+                    android:id="@+id/picker_minute"
+                    android:layout_width="0dp"
+                    android:text="minutes"
+                    app:centerTextColor="@color/lightgrey"
+                    app:topBottomTextColor="@color/grey"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    app:textSize="25sp"
+                    app:canLoop="false"/>
+                <TextView
+                    android:id="@+id/tvMinutes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+
+                    android:text="minutes"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+</layout>

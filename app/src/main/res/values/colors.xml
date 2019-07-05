@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#ffe940</color>
+    <color name="yellow_dark">#ffc20a</color>
+    <color name="gray_dark">#ecebf1</color>
+    <color name="yellow_draker">#ffe940</color>
+    <color name="skyblue">#395AA1</color>
+    <color name="blue_sky">#3287EA</color>
+    <color name="red">#FF3A2D</color>
+    <color name="grey">#dd6b6b6b</color>
+<color name="greytext">#E0E0E0</color>
+
+    <color name="textblack">#353535</color>
+    <color name="black">#202020</color>
+    <color name="theme_black">#000000</color>
+    <color name="blacklight">#000000</color>
+    <color name="lightblack">#262626</color>
+    <color name="blackdim">#171717</color>
+    <color name="dialogdark">#4D4D4D</color>
+    <color name="lightyellow">#FFE28C</color>
+    <color name="lightskyblue">#0664A6</color>
+    <color name="viewLineColor">#C9C9C9</color>
+    <color name="gray_stroke">#727272</color>
+    <color name="line_grey">#313131</color>
+    <color name="green_stroke">#43a047</color>
+    <color name="green_stroke_less_opaque_dark">#6043a047</color>
+    <color name="green_stroke_less_opaque">#5043a047</color>
+    <color name="blackgrey">#70696b</color>
+    <color name="pink">#da3be6</color>
+    <color name="avtar_grey">#F8F8F8</color>
+    <color name="blueissh">#01619E</color>
+    <color name="colorView">#C9C9C9</color>
+    <color name="darkyellow">#FFFCC41D</color>
+    <color name="yellow_toolbar_text">#ffbf00</color>
+    <color name="lightgrey">#c9c8c8</color>
+    <color name="grey_call">#F0F0F0</color>
+    <color name="darkgrey">#FF9B9595</color>
+    <color name="whitelight">#ece0e0</color>
+    <color name="seeallblue">#4aa4ff</color>
+    <color name="greyunmute">#A2A6B1</color>
+    <color name="creamWhite">#f5fffefe</color>
+    <color name="lightblackhome">#646464</color>
+    <color name="lightwhite">#ecf9f9f9</color>
+    <color name="storycolor">#f9f5f5</color>
+    <color name="button_yellow">#ffbc33</color>
+    <color name="toolbarwhite">#FAF0E6</color>
+    <color name="view_light_grey">#3D3D3D</color>
+    <color name="box_light_grey">#2B2B2B</color>
+    <color name="hint_grey_color">#6A6A6A</color>
+    <color name="hint_editProfile_color">#A2A2A2</color>
+    <color name="grey_avtar_color">#242424</color>
+    <color name="black_edit">#2F2F2F</color>
+    <color name="grey_bg">#414141</color>
+
+    <color name="bottom_bg">#1D1D1D</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="chatSenderbackgrnd">#EBEAF0</color>
+    <color name="avatarbackcolor">#ececec</color>
+    <color name="avatargrey">#292929</color>
+
+    <color name="shadow_view_default_shadow_color">#DCDDE0</color>
+    <color name="shadow_view_foreground_color_dark">#1f000000</color>
+    <color name="search_black">#2b2b2b</color>
+
+    <color name="blackblackgrey">#515051</color>
+
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="tool_bg">#151414</color>
+    <color name="transparentBlack20">#20000000</color>
+    <color name="transparentBlack40">#40000000</color>
+    <color name="grey_hin_color">#b5b5b5</color>
+    <color name="transparent_black">#090a04</color>
+    <color name="transparent_white">#ffffff</color>
+    <color name="dialog_background">#3f3f3f</color>
+    <color name="lightest_grey">#F9F9F9</color>
+    <color name="poll_color">#95C2FF</color>
+    <color name="no_dark">#101010</color>
+    <color name="no_day">#E5E5E5</color>
+    <color name="yes_dark">#1C1C1C</color>
+    <color name="orange">#FF9C2D</color>
+
+</resources>

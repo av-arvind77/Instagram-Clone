@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/rlInlineCommentRoot"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp">
+        <FrameLayout
+            android:id="@+id/flImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivInlineCommentorProfilePic"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@mipmap/profile_img2"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"/>
+            <com.yellowseed.customView.CustomRobotoBoldTextView
+                android:id="@+id/tvUserImage"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/bg_circle_blue"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:text="g"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:textSize="@dimen/_14ssp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+
+            android:layout_toEndOf="@+id/flImage"
+            android:orientation="vertical">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvInlineCommentorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp" />
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvInlineComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:textSize="@dimen/_10ssp"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_5sdp">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvInlineCommentorCommentTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1h"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_10ssp" />
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvReplyComments"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/grey"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:textSize="@dimen/_10ssp"
+                    android:text="@string/reply_underline" />
+
+                <LinearLayout
+                    android:id="@+id/llLike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:orientation="horizontal">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvLikeComments"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/grey"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10ssp"
+                    android:text="0" />
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvLikeMsg"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/grey"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_marginStart="@dimen/_3sdp"
+
+                    android:text="@string/like_underline" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDislike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:orientation="horizontal">
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvDislikeComments"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/grey"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10ssp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:text="0" />
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvDislike"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/grey"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:text="@string/dislike_underLine" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

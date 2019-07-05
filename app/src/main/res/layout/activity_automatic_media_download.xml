@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:mContext=".activity.AutomaticMediaDownloadActivity">
+
+        <include
+            android:id="@+id/toolbar_auto_download"
+            layout="@layout/customtoolbar" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/viewLineColor" />
+        <com.yellowseed.customView.CustomRobotoBoldTextView
+            android:id="@+id/tvMobileData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:text="Mobile Data"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:weightSum="6">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvImages"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="5"
+                android:text="Images"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <Switch
+                android:id="@+id/switch_Images"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_switch"
+                android:checked="true"
+                android:thumb="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:weightSum="6">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvVideo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="5"
+                android:text="Video"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <Switch
+                android:id="@+id/switch_video"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_switch"
+                android:checked="true"
+                android:thumb="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:weightSum="6">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvAudio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="5"
+                android:text="Audio"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <Switch
+                android:id="@+id/switch_audio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_switch"
+                android:checked="true"
+                android:thumb="@null" />
+        </LinearLayout>
+        <View
+            android:id="@+id/viewLine2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/viewLineColor" />
+
+
+
+        <com.yellowseed.customView.CustomRobotoBoldTextView
+            android:id="@+id/tvWifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:text="@string/wi_fi"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:weightSum="6">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvWifiImages"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="5"
+                android:text="Images"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <Switch
+                android:id="@+id/switch_WifiImages"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_switch"
+                android:checked="true"
+                android:thumb="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:weightSum="6">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvWifiVideo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="5"
+                android:text="Video"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <Switch
+                android:id="@+id/switch_wifi_video"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_switch"
+                android:checked="true"
+                android:thumb="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:weightSum="6">
+
+            <com.yellowseed.customView.CustomRobotoRegularTextView2
+                android:id="@+id/tvWifiAudio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="5"
+                android:text="Audio"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <Switch
+                android:id="@+id/switch_wifi_audio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_switch"
+                android:checked="true"
+                android:thumb="@null" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</layout>

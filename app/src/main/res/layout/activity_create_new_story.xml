@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <FrameLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/peter_parker_image"
+        tools:mContext="com.yellowseed.activity.CreateNewStory">
+
+        <FrameLayout
+            android:id="@+id/ll_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/llPoll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/story_layout_background">
+
+                <LinearLayout
+                    android:id="@+id/llStory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_20sdp"
+                    android:orientation="vertical">
+
+                    <com.yellowseed.customView.EditTextArial
+                        android:id="@+id/etStoryQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/do_you_like_my_story"
+                        android:textColorHint="@color/white"
+                        android:padding="@dimen/dp_2"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/bg_transparent_edit_text"
+                        android:maxLines="2"
+                        android:maxLength="40"
+                        android:inputType="textMultiLine"
+                        android:textColor="@color/whitelight"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llYesNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:background="@drawable/story_button_gradiant">
+
+
+                    <LinearLayout
+                        android:id="@+id/llYes"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <com.yellowseed.customView.EditTextArial
+                            android:id="@+id/etOption1"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_transparent_edit_text"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:maxLines="2"
+                            android:layout_gravity="center"
+                            android:maxLength="15"
+                            android:hint="@string/yes"
+                            android:inputType="textMultiLine"
+                            android:padding="@dimen/_10sdp"
+                            android:textStyle="normal"
+                            android:textColorHint="@color/white" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llNo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <com.yellowseed.customView.EditTextArial
+                            android:id="@+id/etOption2"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:maxLines="2"
+                            android:maxLength="15"
+                            android:padding="@dimen/_10sdp"
+                            android:inputType="textMultiLine"
+                            android:hint="@string/no"
+                            android:background="@drawable/bg_transparent_edit_text"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:background="@drawable/story_layout_background">
+                <com.yellowseed.customView.CustomRobotoBoldTextView
+                    android:id="@+id/tvLocation"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/do_you_like_my_story"
+                    android:textColorHint="@color/white"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/bg_transparent_edit_text"
+                    android:layout_margin="@dimen/_20sdp"
+                    android:maxLines="2"
+                    android:drawableLeft="@mipmap/location_icon"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:maxLength="40"
+                    android:textColor="@color/whitelight"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:background="@android:color/transparent"
+                android:orientation="horizontal">
+
+                <com.yellowseed.customView.CustomRobotoRegularTextView2
+                    android:id="@+id/tvNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/next"
+                    android:textColor="@color/black"
+                    android:background="@drawable/bg_story_text_white"
+                    android:textSize="@dimen/_12ssp"
+                    android:drawableRight="@mipmap/right_arrow"/>
+
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</layout>

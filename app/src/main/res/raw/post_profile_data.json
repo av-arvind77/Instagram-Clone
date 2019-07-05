@@ -1,0 +1,301 @@
+{
+  "responseCode": 200,
+  "responseMessage": "Posts fetched successfully.",
+  "posts": [
+    {
+      "post": {
+        "id": "89374925-4687-4a61-b7fa-07fb55ff3f47",
+        "title": "",
+        "description": "mobiloitte",
+        "check_in": "Mobiloitte",
+        "latitude": 28.5221351,
+        "longitude": 77.2796767,
+        "share_type": "public",
+        "status": true,
+        "user_id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "created_at": "2018-12-17T06:26:46.199Z",
+        "updated_at": "2018-12-17T06:26:46.199Z",
+        "post_id": null
+      },
+      "post_images_attributes": [
+        {
+          "id": "62b58330-6aac-4ed0-b440-d97b3226b164",
+          "file": {
+            "url": "http://res.cloudinary.com/di8lsuqdb/image/upload/v1545028006/jrxxaeqa9mgf3jcmut1i.png",
+            "thumb": {
+              "url": "http://res.cloudinary.com/di8lsuqdb/image/upload/c_fit,h_50,w_50/v1545028006/jrxxaeqa9mgf3jcmut1i.png"
+            },
+            "thumb1": {
+              "url": "http://res.cloudinary.com/di8lsuqdb/image/upload/c_fit,h_150,w_150/v1545028006/jrxxaeqa9mgf3jcmut1i.png"
+            }
+          },
+          "width": "555",
+          "height": "558",
+          "file_type": "image",
+          "imageable_id": "89374925-4687-4a61-b7fa-07fb55ff3f47",
+          "imageable_type": "Post",
+          "created_at": "2018-12-17T06:26:46.202Z",
+          "updated_at": "2018-12-17T06:26:46.202Z"
+        }
+      ],
+      "user": {
+        "id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "email": "clean123@mailinator.com",
+        "name": "Vikas",
+        "user_name": "",
+        "image": null
+      },
+      "tag_friends": [
+        {
+          "id": "fca62a4f-f38f-4d93-b49b-5e49804bd5f1",
+          "user_id": "86c32aa1-5d57-434c-8cfd-6968c1fbf904",
+          "name": "dsgdsg",
+          "user_name": ""
+        },
+        {
+          "id": "3486d54b-6857-491f-8139-c868839c6651",
+          "user_id": "a406a11e-fc31-4a9b-b2fc-1456591014f3",
+          "name": "Chita",
+          "user_name": ""
+        },
+        {
+          "id": "8fb11134-479d-416a-a8b4-a272ed9f7042",
+          "user_id": "1d5e4cae-5a20-4d75-8f6f-4f70037ff823",
+          "name": "Hdbdhdbdbd",
+          "user_name": ""
+        }
+      ],
+      "likes_count": 0,
+      "share_count": 0,
+      "current_user_like": false,
+      "isSaved": false,
+      "isPinned": false,
+      "comments": 0,
+      "comment_arr": [
+
+      ],
+      "created_at": "2018-12-17T06:26:46.199Z"
+    },
+    {
+      "post": {
+        "id": "f0c4b6cb-db2e-4cee-acb5-6bf2e984d86b",
+        "title": "",
+        "description": "my first post",
+        "check_in": "",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "share_type": "public",
+        "status": true,
+        "user_id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "created_at": "2018-12-17T06:25:00.083Z",
+        "updated_at": "2018-12-17T06:25:00.083Z",
+        "post_id": null
+      },
+      "post_images_attributes": [
+
+      ],
+      "user": {
+        "id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "email": "clean123@mailinator.com",
+        "name": "Vikas",
+        "user_name": "",
+        "image": null
+      },
+      "likes_count": 0,
+      "share_count": 0,
+      "current_user_like": false,
+      "isSaved": false,
+      "isPinned": false,
+      "comments": 0,
+      "comment_arr": [
+
+      ],
+      "created_at": "2018-12-17T06:25:00.083Z"
+    },
+    {
+      "post": {
+        "id": "a83a042e-5504-4878-8227-eca934fed2c2",
+        "title": "",
+        "description": "",
+        "check_in": "",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "share_type": "public",
+        "status": true,
+        "user_id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "created_at": "2018-12-17T06:24:44.656Z",
+        "updated_at": "2018-12-17T06:24:44.656Z",
+        "post_id": null
+      },
+      "poll_data": {
+        "id": "caa549e6-2586-4210-8352-39b5180be1f4",
+        "poll_title": "who will win world cup",
+        "type1": "india",
+        "type2": "pakistan",
+        "type3": "china",
+        "type4": null,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0,
+        "count4": 0,
+        "total_count": 0,
+        "poll_users": [
+
+        ],
+        "valid_till": "2019-01-16T06:24:44.654Z",
+        "post_id": "a83a042e-5504-4878-8227-eca934fed2c2",
+        "created_at": "2018-12-17T06:24:44.659Z",
+        "updated_at": "2018-12-17T06:24:44.663Z",
+        "poll_array": [
+          "india",
+          "pakistan",
+          "china"
+        ],
+        "time": 1545028282,
+        "valid_until": 1547619884
+      },
+      "post_images_attributes": [
+
+      ],
+      "user": {
+        "id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "email": "clean123@mailinator.com",
+        "name": "Vikas",
+        "user_name": "",
+        "image": null
+      },
+      "likes_count": 0,
+      "share_count": 0,
+      "current_user_like": false,
+      "isSaved": false,
+      "isPinned": false,
+      "comments": 0,
+      "comment_arr": [
+
+      ],
+      "created_at": "2018-12-17T06:24:44.656Z"
+    },
+    {
+      "post": {
+        "id": "787a2aff-4269-4501-afca-e215a1e96cc1",
+        "title": "",
+        "description": "this is testing  post",
+        "check_in": "",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "share_type": "public",
+        "status": true,
+        "user_id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "created_at": "2018-12-17T06:23:15.242Z",
+        "updated_at": "2018-12-17T06:23:15.242Z",
+        "post_id": null
+      },
+      "post_images_attributes": [
+
+      ],
+      "user": {
+        "id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "email": "clean123@mailinator.com",
+        "name": "Vikas",
+        "user_name": "",
+        "image": null
+      },
+      "likes_count": 0,
+      "share_count": 0,
+      "current_user_like": false,
+      "isSaved": false,
+      "isPinned": false,
+      "comments": 0,
+      "comment_arr": [
+
+      ],
+      "created_at": "2018-12-17T06:23:15.242Z"
+    },
+    {
+      "post": {
+        "id": "86746f85-17a3-42eb-aa52-024aeaa69962",
+        "title": "",
+        "description": "testing",
+        "check_in": "",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "share_type": "public",
+        "status": true,
+        "user_id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "created_at": "2018-12-17T06:22:10.054Z",
+        "updated_at": "2018-12-17T06:22:10.054Z",
+        "post_id": null
+      },
+      "post_images_attributes": [
+        {
+          "id": "a964d03e-cbf6-49d3     -b032-eefe063f0bbe",
+          "file": {
+            "url": "http://res.cloudinary.com/di8lsuqdb/image/upload/v1545027730/mb5axo0exlocoolbn8l5.png",
+            "thumb": {
+              "url": "http://res.cloudinary.com/di8lsuqdb/image/upload/c_fit,h_50,w_50/v1545027730/mb5axo0exlocoolbn8l5.png"
+            },
+            "thumb1": {
+              "url": "http://res.cloudinary.com/di8lsuqdb/image/upload/c_fit,h_150,w_150/v1545027730/mb5axo0exlocoolbn8l5.png"
+            }
+          },
+          "width": "555",
+          "height": "558",
+          "file_type": "image",
+          "imageable_id": "86746f85-17a3-42eb-aa52-024aeaa69962",
+          "imageable_type": "Post",
+          "created_at": "2018-12-17T06:22:10.056Z",
+          "updated_at": "2018-12-17T06:22:10.056Z"
+        }
+      ],
+      "user": {
+        "id": "a2751b39-d6f7-4aee-b496-1f8cf9144369",
+        "email": "clean123@mailinator.com",
+        "name": "Vikas",
+        "user_name": "",
+        "image": null
+      },
+      "tag_friends": [
+        {
+          "id": "9f9c64d6-5006-4a2c-a549-a079adb4c795",
+          "user_id": "86c32aa1-5d57-434c-8cfd-6968c1fbf904",
+          "name": "dsgdsg",
+          "user_name": ""
+        },
+        {
+          "id": "8f1e7932-cc00-4aa4-9541-35598a4208d3",
+          "user_id": "a406a11e-fc31-4a9b-b2fc-1456591014f3",
+          "name": "Chita",
+          "user_name": ""
+        },
+        {
+          "id": "9b7d8bbb-668b-4565-9c6e-106f3d519fdc",
+          "user_id": "1d5e4cae-5a20-4d75-8f6f-4f70037ff823",
+          "name": "Hdbdhdbdbd",
+          "user_name": ""
+        },
+        {
+          "id": "8b2c495a-7dad-4a10-a2bb-91fb2887a723",
+          "user_id": "ff7482d7-d8bb-45bf-bafd-24476823df31",
+          "name": "Shashank Tripathi",
+          "user_name": ""
+        }
+      ],
+      "likes_count": 0,
+      "share_count": 0,
+      "current_user_like": false,
+      "isSaved": false,
+      "isPinned": false,
+      "comments": 0,
+      "comment_arr": [
+
+      ],
+      "created_at": "2018-12-17T06:22:10.054Z"
+    }
+  ],
+  "pagination": {
+    "page_no": 1,
+    "per_page": 10,
+    "max_page_size": 1,
+    "total_records": 9
+  }
+}

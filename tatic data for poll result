@@ -1,0 +1,2260 @@
+[33mcommit c9e0e9d6c3e854a2d57d822f1802825692a66f0b[m
+Merge: ba8fb63 c2dbdc9
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Mon Dec 17 19:30:31 2018 +0530
+
+    manage static data for poll result
+
+[33mcommit ba8fb6394faf31445c965b7efac9f3dc7b72d947[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Mon Dec 17 18:48:35 2018 +0530
+
+    taking pull
+
+[33mcommit c2dbdc9d4426790a0bc1c18d6aa0dc541b55106c[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 17 18:40:53 2018 +0530
+
+    Removed api of Chat Screen,Theme change of Anonymous Chat Screen
+
+[33mcommit 6bc84db37cd1e18bbf55e8f3cb16d879497e71af[m
+Merge: 617b09e 3fa834f
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 17 16:59:05 2018 +0530
+
+    Merge branch 'ui' of http://git.mobiloitte.com/root/yellowseed-18043193-android into ui
+
+[33mcommit 617b09e4f3d50b606bcb81ed2eb5af121e7e7839[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 17 16:58:31 2018 +0530
+
+    taking pull
+
+[33mcommit 3fa834f49a5407fdb14c8498f34ebe9df9af2de7[m
+Merge: 905bde2 a89184c
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Mon Dec 17 16:45:18 2018 +0530
+
+    remove api from go live and create poll screen
+
+[33mcommit 905bde2f93799f5a7e3ae74d8c3d5560d28a047b[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Mon Dec 17 16:42:46 2018 +0530
+
+    remove api from go live and create poll screen
+
+[33mcommit a89184ce2655f6683ff99f20ee69353e9189a4fb[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 17 16:23:06 2018 +0530
+
+    Chat Screen managed,Anonymous user Screen managed
+
+[33mcommit c60e63675dc022ec05caf992c4261bcddefa6cbd[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 17 12:43:13 2018 +0530
+
+    About Us Screen,Privacy Policy Screen,Add to Contact Screen Managed
+
+[33mcommit 097a72284754ad402b44989aa16c2d9897697b5a[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Dec 15 18:23:41 2018 +0530
+
+    Managed All Notification Screen,Me Notification Screen,New Group Done Screen
+
+[33mcommit d500fa97a575735e5e04c556ba7a80f746ef2f20[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Dec 15 16:33:09 2018 +0530
+
+    Managed Follower Scree,Following Screen,Settings Screen,Change Password Screen
+
+[33mcommit 471fc01d2a09adb954a66df46ca2f6a13a7fe46c[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Dec 15 13:34:46 2018 +0530
+
+    Mamaged Contact Screen,Group Screen,Broadcast Screen
+
+[33mcommit 2319e22360fc82af43ae61d769725b628adeb966[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Dec 13 18:40:44 2018 +0530
+
+    Swipe to delete on Missed call and Call history Screen
+
+[33mcommit 8174fb572582985797a567980124cbf5f6f8729b[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Dec 13 16:21:17 2018 +0530
+
+    Edit option will on long press on cell in the Missed call Screen
+
+[33mcommit 78f9c9ef05703d8f375472f7ceb1eb528f308e77[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Dec 13 12:22:42 2018 +0530
+
+    Edit option will on long press on cell in the Call History Screen
+
+[33mcommit a367b8db01db077f20d68d9d8d6772a82f9c8e89[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Dec 12 18:55:57 2018 +0530
+
+    Missed call Screen,Call details Screen managed
+
+[33mcommit 6ab84ba70ce608ff8a2a417e233e5ca1144448ee[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Dec 12 16:28:07 2018 +0530
+
+    Managed followerProfile Screen,New Group Next Screen managed
+
+[33mcommit 96cec26ae931325cc560489bec4a5a01236fb7ea[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Dec 12 12:28:52 2018 +0530
+
+    Managed Forward To Screen,Managed NewGroup Screen
+
+[33mcommit 1342891a9244f46ee21ff85602d1f701ed0373d0[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Dec 11 18:48:25 2018 +0530
+
+    Set user first name if profile pic is not set in Voice call ,Video call Screen,Chat Screen,Suggestion Screen,Block Contact Screen,Search Follower ,Search Following Screen
+
+[33mcommit 0207e3a2e3cfa319497bd899fef492250b91774e[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Dec 11 16:17:11 2018 +0530
+
+    Set user first name if profile pic is not set in FollowerScreen,Notification Screen,Group Info Screen
+
+[33mcommit c05e35fda6b08205462a86be501e81411b340fd4[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Dec 11 12:26:30 2018 +0530
+
+    Set user first name if profile pic is not set in Suggestion Screen,Profile Screen,Home Stories Screen,Explore Screen
+
+[33mcommit 80fd2d06ef54a463d2670b70166e9daa76317fba[m
+Merge: bda77c6 776a558
+Author: Vikas Saini <vikas.saini@mobiloitte.in>
+Date:   Mon Dec 10 19:13:03 2018 +0530
+
+    Merge branch 'Dev_vikas' into 'functionality_theme'
+    
+    Dev vikas
+    
+    merge code
+    
+    See merge request !27
+
+[33mcommit 776a558225728b8a798ec57c2d05a38019850ebe[m
+Merge: 98732fc bda77c6
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Mon Dec 10 19:10:53 2018 +0530
+
+    updated code
+
+[33mcommit 98732fce50ca632e88d8f0e6a4228dfc7a6574c1[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Mon Dec 10 18:55:57 2018 +0530
+
+        remove pin option from post,resolve go live user issue
+
+[33mcommit bda77c6d985942172baeb193f25939b65d47e19a[m
+Merge: 3452aa0 2caac98
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Mon Dec 10 18:49:21 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged code
+    
+    See merge request !25
+
+[33mcommit 2caac9847d493ff16a77b2c4775084d3f3e6f776[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 10 18:48:54 2018 +0530
+
+    Managed Chat screen,Links adpater theme managed,Documents Screen theme change
+
+[33mcommit 5df492f69b9afe2bb62e9751d56e7e69f05ed17e[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Mon Dec 10 16:21:33 2018 +0530
+
+    design screen to show poll result ,resolve crash issues
+
+[33mcommit 0ac8221f5885d21acb858d5cfc72f0d9cf2b1090[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 10 16:19:59 2018 +0530
+
+    Managed media Click Screen,Managed document Screen,Managed links screen
+
+[33mcommit ddb67c034a77535243f26b5729c2ba170de56a23[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 10 16:19:46 2018 +0530
+
+    Managed media Click Screen,Managed document Screen,Managed links screen
+
+[33mcommit 0a31817e81782d2894f204606da28a0efbbf7592[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Mon Dec 10 12:25:16 2018 +0530
+
+    design screen to show call history
+
+[33mcommit 6fce0a26f9c755ca1ad2786f651c7dcd5b33c056[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 10 12:21:40 2018 +0530
+
+    Set user first name if profile pic is not set in Home Screen,Explore Screen,Notification Screen,Anonymous Screen
+
+[33mcommit 0879404e286fc518dc40175cedfda8e8654dbe00[m
+Merge: b5932f5 3452aa0
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Sat Dec 8 18:25:32 2018 +0530
+
+    Merge branch 'functionality_theme' of http://git.mobiloitte.com/root/yellowseed-18043193-android into Dev_vikas
+
+[33mcommit b5932f5f7ca96a10e6d90722926e1d8e09cef6fd[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Sat Dec 8 18:23:37 2018 +0530
+
+    design ui to show live users
+
+[33mcommit 3452aa059a3458afea61205a459c7cf1c0eec410[m
+Merge: 9b50ac5 c7d15c3
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Sat Dec 8 18:22:17 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged code
+    
+    See merge request !24
+
+[33mcommit c7d15c30aed6004bf650d88558ce25c8784a1158[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Dec 8 18:22:08 2018 +0530
+
+    Set user first name if profile pic is not set in Drawer
+
+[33mcommit b4275caeba67f1954029d22a9b4e8457023dc563[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Dec 8 16:25:39 2018 +0530
+
+    Api Integration of  delete to everyone dialog
+
+[33mcommit d663fff6d31a665f4a2a5ab59417d7125328035c[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Sat Dec 8 16:25:17 2018 +0530
+
+    resolve create post issue,update ui for chatting scrren
+
+[33mcommit 8898c1aeba84cdab8f8368faacbe5239edab9965[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Sat Dec 8 12:26:30 2018 +0530
+
+    resolve create poll issue and manage on list
+
+[33mcommit 62477f928267e3833c075d095046634c35711971[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Dec 8 12:23:05 2018 +0530
+
+    Api integration of Hide Post
+
+[33mcommit 97af139eeb7cfeeef50cf20db7430f6f57830e6d[m
+Merge: 207d2b5 9b50ac5
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Dec 8 10:37:39 2018 +0530
+
+    Merge branch 'functionality_theme' of http://git.mobiloitte.com/root/yellowseed-18043193-android into PREETINEGI_ANDROID_YELLOWSEED
+
+[33mcommit 207d2b51672fe7b44adfc860c598d37ef71a232f[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Dec 8 10:36:49 2018 +0530
+
+    taking pull
+
+[33mcommit 9b50ac57e70a947133dba8e8c6598c619591c6fd[m
+Merge: 39262df fb6b580
+Author: Vikas Saini <vikas.saini@mobiloitte.in>
+Date:   Sat Dec 8 10:35:16 2018 +0530
+
+    Merge branch 'Dev_vikas' into 'functionality_theme'
+    
+    Dev vikas
+    
+    merge code
+    
+    See merge request !23
+
+[33mcommit fb6b5803d058366f24a12c6a9c4e6835feb55a27[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Sat Dec 8 10:34:39 2018 +0530
+
+    updatd code
+
+[33mcommit 1e4e081594efee29a7f383d87aa533e4a188f9a1[m
+Merge: e606430 39262df
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Fri Dec 7 19:35:42 2018 +0530
+
+    Merge branch 'functionality_theme' of http://git.mobiloitte.com/root/yellowseed-18043193-android into Dev_vikas
+
+[33mcommit e6064307ce9aa4d008a4a86bf5ecb8fbc6dbf424[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Fri Dec 7 19:32:32 2018 +0530
+
+    resolve poll isuue,manage poll voting result
+
+[33mcommit 39262df7071c466853be1bdeccfb2d3c81eb957d[m
+Merge: 9321214 725b243
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Fri Dec 7 19:25:56 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged code
+    
+    See merge request !22
+
+[33mcommit 725b243ee95c0ed6ac02a6f406c2967c2fe8f71b[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Dec 7 19:25:18 2018 +0530
+
+    Managed Comment Screen,Managed Chat Screen
+
+[33mcommit 8a482973aafb337d6c38cda3cfea0c35a49c4f15[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Fri Dec 7 16:27:31 2018 +0530
+
+    manage poll result percentace data,manage poll end time
+
+[33mcommit 3e78440aaf8d8a56e9f81206dd8bf36744741c18[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Dec 7 16:27:19 2018 +0530
+
+    Theme change of Votes Screen
+
+[33mcommit 03cf159ec3a4102f96440f4051cd4dab2d372891[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Dec 7 12:31:37 2018 +0530
+
+    Designed Votes Screen
+
+[33mcommit e4bab4b9f543aeff3c71347bfff791375c5e2488[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Fri Dec 7 12:26:44 2018 +0530
+
+    design ui to show poll result on home screen
+
+[33mcommit 4a819af803b12b15c1758eb21e10fff321641433[m
+Merge: 211057e 9321214
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Dec 7 10:11:48 2018 +0530
+
+    Merge branch 'functionality_theme' of http://git.mobiloitte.com/root/yellowseed-18043193-android into PREETINEGI_ANDROID_YELLOWSEED
+
+[33mcommit 211057e268661de03d2ade9cf0b53e192cc0993f[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Dec 7 10:11:09 2018 +0530
+
+    taking pull
+
+[33mcommit 9321214a915f5b3c885f4943c02ce7f2552f902c[m
+Merge: 89c3153 cb6e1f2
+Author: Vikas Saini <vikas.saini@mobiloitte.in>
+Date:   Fri Dec 7 10:09:13 2018 +0530
+
+    Merge branch 'Dev_vikas' into 'functionality_theme'
+    
+    Dev vikas
+    
+    merge code
+    
+    See merge request !21
+
+[33mcommit cb6e1f2bb0a6f3d4dccace4f3a135bedb53bc419[m
+Merge: d0103fe 89c3153
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Thu Dec 6 20:44:29 2018 +0530
+
+    updated code
+
+[33mcommit d0103fedfc1760e748a7bbe5de6695351d419c1d[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Thu Dec 6 20:19:08 2018 +0530
+
+    taking pull
+
+[33mcommit 89c315376ae36e730df7f2c02aecb06ff3018aef[m
+Merge: c0db440 5da8da3
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Thu Dec 6 20:17:15 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged code
+    
+    See merge request !20
+
+[33mcommit 775d277149897ab362cea89fc023d3d2b8e9bd02[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Thu Dec 6 20:12:34 2018 +0530
+
+    manage created poll and votes
+
+[33mcommit 5da8da38b37ad4bfa3aa80e516d4560ad08d81ad[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Dec 6 20:01:04 2018 +0530
+
+    Updated Comment Screen
+
+[33mcommit 8a250b4b45f36cee66c386b22144c49b79653a0c[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Dec 6 18:50:14 2018 +0530
+
+    comment screen - like , dislike manage
+
+[33mcommit 0a48a5f6fcf423c3ddf08937f6fd7c7f8fbbae5f[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Thu Dec 6 16:24:24 2018 +0530
+
+    add validation for poll option,integrate api to create poll
+
+[33mcommit 101ed4651ccf4183899c2139b7e7e59d3d034273[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Dec 6 16:20:33 2018 +0530
+
+    Desined Anonymous Chat Screen
+
+[33mcommit 97bf21ab3c7b9243bbedf81b07cf532dcc5fabef[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Dec 6 12:24:27 2018 +0530
+
+    Design Media Image Screen
+
+[33mcommit 370f7162a5de397cdd3e7a2eef20b7f4100c77b2[m
+Author: vikas.saini <vikas.saini@mobiloitte.in>
+Date:   Thu Dec 6 12:22:56 2018 +0530
+
+    design create poll screen
+
+[33mcommit 39a9b5b7f96958385999d38dee7a081ee8c2107e[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Dec 5 18:42:56 2018 +0530
+
+    Design Delete Dialog,Managed Pop up Menu
+
+[33mcommit fd7cf012591fcafc8d94572a56f6ac8834fe1156[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Dec 5 16:18:34 2018 +0530
+
+    Call History screen managed
+
+[33mcommit 517fcdfaefb8e24acfa698a4a2ea9d3158fc5c64[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Dec 5 12:30:46 2018 +0530
+
+    Managed suggestions screen
+
+[33mcommit e9b2b0c4d5c84b99e9e49b011ed233a79ddab393[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Dec 4 18:40:24 2018 +0530
+
+    Designed Delete dialog,Call History Screen managed
+
+[33mcommit 00a38f44d2303ddbfe4490d095c8decc8a6270ee[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Dec 4 16:23:32 2018 +0530
+
+    Post Screen managed
+
+[33mcommit 363282b11a539d0f2a29a26f895a92a7e98ec748[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Dec 4 12:25:08 2018 +0530
+
+    Managed suggestion Screen
+
+[33mcommit 5eea1aaf60f17e888f6064f48a2081b2fed19a3d[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 3 18:31:34 2018 +0530
+
+    Managed theme change of Group Info Screen,otp screen,photo gallery screen
+
+[33mcommit c0db440861a44db48e1aa20c252493232d9dfc78[m
+Merge: 616aa9c 249feda
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Mon Dec 3 16:34:57 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged request
+    
+    See merge request !19
+
+[33mcommit 249fedafdb2dcd52b6678726ec8aaba5e4d073aa[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Dec 3 16:26:24 2018 +0530
+
+    Managed Report Problem Activity,Contact Chat Activity
+
+[33mcommit 70464e596cb447b6d9400fe639019cd89c086f98[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Dec 1 12:22:51 2018 +0530
+
+    Managed LiveUserActivity,SocialPost Screen managed theme change
+
+[33mcommit 37f72f0ce1afc4cb310f2c6b381d632e203b5a67[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 30 19:16:55 2018 +0530
+
+    AnonymousConnecting Activity managed,Anonymous Searching Screen theme managed,Anonymous User Screen theme manage
+
+[33mcommit ab67dcfa5d1c10545279827daa71df07363631ad[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 30 16:40:57 2018 +0530
+
+    Managed AutomacticMediaDownload Screen and theem change
+
+[33mcommit 5c3511f36cda758bd88bf16af2143d01200e78c1[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 30 12:21:35 2018 +0530
+
+    Managed hom screen dialog,My profile Screen dialog
+
+[33mcommit 7966e284fee0e738347af7f390212b5a4a0d3135[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Nov 29 18:58:34 2018 +0530
+
+    designed direct share dialog,new group creen managed
+
+[33mcommit 616aa9c39ed846465b752c4d987e27d19e2464df[m
+Merge: 1f319c2 329cc1b
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Thu Nov 29 16:28:50 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged code
+    
+    See merge request !18
+
+[33mcommit 329cc1bd2337534101f705e46c480dbda7a825fb[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Nov 29 16:25:16 2018 +0530
+
+    Profile Screen managed,Change number screen managed
+
+[33mcommit 6d9577ebc53fe14933a98997524fe21cbfe04568[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Nov 29 12:24:16 2018 +0530
+
+    managed story screen,About us screen managed
+
+[33mcommit 2f7b5db5e91e5d6c80dd044d6672be3c51a34fc4[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Nov 28 19:54:34 2018 +0530
+
+    managed explore screen,notification screen managed
+
+[33mcommit 62f189d90abe50ed657319f0e77f774fb8222634[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Nov 28 16:26:37 2018 +0530
+
+    Managed home screen bottom navigation,Call history Screen managed
+
+[33mcommit 070d64b8458aeabf528dfc28359f3d750baecd59[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Nov 28 12:24:05 2018 +0530
+
+    managed home screen icons and dialog theme changed,poll screen bug resolved
+
+[33mcommit a915372b1140d7d1bedd499aabd736aed7b7dc24[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 27 19:52:11 2018 +0530
+
+    managed notification screen,managed missed call screen,managed home screen
+
+[33mcommit 0714939ed03949facfae5dd5b9870c72262db171[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 27 16:40:10 2018 +0530
+
+    Managed contatct info screen,manged poll screen,managed post screen
+
+[33mcommit 16c39273f0aef6b561c40c90fece2d4ab0335171[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 27 12:19:30 2018 +0530
+
+    Bug fixing
+
+[33mcommit 2ea6fa414d5dfe578a6c48d12dcf34ad833d39ce[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 24 18:01:12 2018 +0530
+
+    Bug fixing and manged theme change
+
+[33mcommit 9eb3f9970559940673fa7a58076a47aa6f26518b[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 24 16:31:14 2018 +0530
+
+    Automatic Media Download Screen and theme change,Managedged Setting Screen
+
+[33mcommit 9ff50f1b1c10d02954017fc5855361bf4998a632[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 24 12:30:12 2018 +0530
+
+    Anonymous Chat Screen dilaog and theme change
+
+[33mcommit 1f319c2fdda2b86f01951a817e58c945dda8b2b9[m
+Merge: 4e70e6e 42fe1ce
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Fri Nov 23 18:59:39 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged Request
+    
+    See merge request !17
+
+[33mcommit 42fe1ceca6f08b3aaeff9b6494a880f02c00b1d8[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 23 18:54:16 2018 +0530
+
+    Bug fixing
+
+[33mcommit 02463f33df403bdd4de96e127895c4df69d1676f[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 23 16:26:08 2018 +0530
+
+    Bug fixing
+
+[33mcommit 1496d312f43fa25bef8439188c2f98b1870c7110[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Nov 22 12:20:16 2018 +0530
+
+    Bux fixing of Yellow Seed
+
+[33mcommit 4e70e6ef33344cfa8ab7462b093bdbc0b448a0ed[m
+Merge: 3b2ddcb 84a2ac2
+Author: Atal Tripathi <an-atal@mobiloitte.com>
+Date:   Thu Nov 22 10:07:52 2018 +0530
+
+    Merge branch 'ATALTRIPATHI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Ataltripathi android yellowseed
+    
+    Merged code
+    
+    See merge request !16
+
+[33mcommit 84a2ac20c8a34a81a35147a243332d78391a2613[m
+Merge: 921e3a1 3b2ddcb
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Wed Nov 21 20:56:01 2018 +0530
+
+    managed theme with less time
+
+[33mcommit 921e3a164810b555b0a9e8cec1bf53775f98408a[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Wed Nov 21 20:32:30 2018 +0530
+
+    Taking pull
+
+[33mcommit 3b2ddcbb7c6d033b3ff8579e6939bd04ed863265[m
+Merge: 354da36 373219f
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Wed Nov 21 20:03:46 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged Request
+    
+    See merge request !15
+
+[33mcommit 373219fd73b6c49eecfa42d951ae68eccbf411f7[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Nov 21 19:28:53 2018 +0530
+
+    Anonymous Screen dialog create,Managed Call Details screen,My Profile activity dialog created
+
+[33mcommit de54dbef4ee1ba84f725e2b901e9953068839f98[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Wed Nov 21 16:22:15 2018 +0530
+
+    Added carousel in my profile screen
+
+[33mcommit 2f915760cab5e0ace1224dacabda817a6e868d02[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Nov 21 16:19:54 2018 +0530
+
+    Managed My Profile menu dialog,Home screen menu dialog and theme change
+
+[33mcommit 6683d6ad65a3e845004e35e31508b950930466ce[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Nov 21 12:22:19 2018 +0530
+
+    Managed anonymous Screen and theme change,Managed Group Info Screen
+
+[33mcommit b0cf5e6369dfa582a091b94a88b7ad0254be2a6a[m
+Merge: 3ea6bda 354da36
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Wed Nov 21 12:18:53 2018 +0530
+
+    Managed and tested whole app for release
+
+[33mcommit 3ea6bdade6db0e9a54ec7c27080af533456384e5[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Wed Nov 21 11:11:30 2018 +0530
+
+    Taking pull
+
+[33mcommit 354da36f9abcc68da4ce2d07accbe1be00e676f1[m
+Merge: 0273f03 bb84845
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Wed Nov 21 09:38:21 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged Request
+    
+    See merge request !14
+
+[33mcommit bb848452daae2b092b0ec13f567ccdfe00465d51[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 20 20:56:03 2018 +0530
+
+    tagged user screen theme change,Anonymous Screen icon managed,Home Screen Theme managed
+
+[33mcommit 3f1d0914ce7e56ec0600bdf18fe9ef5dfb247f8f[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 20 16:18:25 2018 +0530
+
+    Managed poll Screen and theme change,Dialog of Direct share
+
+[33mcommit b1b530140a4365a353577125f2c20a7eb4ee2e62[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 20 12:18:21 2018 +0530
+
+    Managed home screen bottom navigation Icon and theme change,post screen theme manange
+
+[33mcommit a0085b390eeb390f7e7f725b153881f34b1fd840[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Nov 19 21:01:20 2018 +0530
+
+    Designed Add new Call Screen
+
+[33mcommit d99449d7cd760ce66c3cb63fa43ae3ee438d3282[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Nov 19 21:00:40 2018 +0530
+
+    Designed Add new Call Screen
+    Call history Theme change
+    Missed call Theme change
+
+[33mcommit 0273f0306d0ae64a70f60c34f979686de5438d9d[m
+Merge: 48d1640 a0085b3
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Mon Nov 19 20:58:00 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged Code
+    
+    See merge request !13
+
+[33mcommit 8403a450aab28e566cabb4ad0f52dd0854159672[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Nov 19 16:20:27 2018 +0530
+
+    Pop up of clear log,setting spinner theme change
+
+[33mcommit 914ab896228edb6552f1e35e6d0f2f505c1c0031[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Mon Nov 19 12:17:51 2018 +0530
+
+    Missed call Screen
+
+[33mcommit 24099248ccd18c09f78bcc9cc0bd0df5ec2e7ed9[m
+Merge: 649317c 48d1640
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 17 19:09:21 2018 +0530
+
+    managed edit profile avtar dilog,managed edit profile spinner,swipping of all images with option of like,comment option
+
+[33mcommit 649317cfac14b8a9b10c34ff86ecd8dd3ead2eb5[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 17 18:35:45 2018 +0530
+
+    taking pull
+
+[33mcommit 4566ed2a50b42334b3ffaef4f02d3d4fb1dd77f6[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Sat Nov 17 18:33:49 2018 +0530
+
+    Changed theme of story view screen and managed theme change in a single click
+
+[33mcommit 48d1640fdcafd0998347dd408de50dc3fab72488[m
+Merge: c9f33c2 4566ed2
+Author: Atal Tripathi <an-atal@mobiloitte.com>
+Date:   Sat Nov 17 18:27:28 2018 +0530
+
+    Merge branch 'ATALTRIPATHI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Ataltripathi android yellowseed
+    
+    Merge Request
+    
+    See merge request !12
+
+[33mcommit 83cda9d6f52f383988449955b23a14298547f7a0[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 17 16:20:30 2018 +0530
+
+    Added Like, comment, share or save option below the images,managed tab layout,managed edit avtar screen theme
+
+[33mcommit 7129d3551eadf07a751d59599483f524c8194733[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Sat Nov 17 16:16:12 2018 +0530
+
+    managed suggestions in home screen and fixed some crash issues
+
+[33mcommit bd878749feaa5ba23af5cfe01e0ac73a3de7a5f2[m
+Merge: 117fdce c9f33c2
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Sat Nov 17 13:52:24 2018 +0530
+
+    Merge branch 'functionality_theme' of http://git.mobiloitte.com/root/yellowseed-18043193-android into ATALTRIPATHI_ANDROID_YELLOWSEED
+
+[33mcommit 117fdce7499ac64743587cf0d3a8dc09cb141161[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Sat Nov 17 13:51:53 2018 +0530
+
+    talikng pull
+
+[33mcommit c9f33c24e9e10f0561c44bf51875629f19c814d6[m
+Merge: dd4c754 3a807ad
+Author: Manoj <manoj@mobiloitte.in>
+Date:   Sat Nov 17 13:38:22 2018 +0530
+
+    Merge branch 'MANOJ_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Manoj android yellowseed
+    
+    Merge Request For setting Screen
+    
+    See merge request !11
+
+[33mcommit 3a807ad370051bbd34e0acfcebee801503f58db3[m
+Merge: 7db514a dd4c754
+Author: manoj <an-manoj@mobiloitte.com>
+Date:   Sat Nov 17 13:43:59 2018 +0530
+
+    adding for merge code
+
+[33mcommit 7db514a25f90bc94e9963cdd85f83b165e7d1092[m
+Author: manoj <an-manoj@mobiloitte.com>
+Date:   Sat Nov 17 13:01:50 2018 +0530
+
+    taking pull
+
+[33mcommit 75ecb5f83dc6fc4bb2b7d8e47eb3080dbf33040c[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 17 12:57:37 2018 +0530
+
+    merged code
+
+[33mcommit cf40420b720a7102adb00609405738979bb99671[m
+Merge: 2123509 39ccae3
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 17 12:53:34 2018 +0530
+
+    Merge branch 'functionality_theme' of http://git.mobiloitte.com/root/yellowseed-18043193-android into PREETINEGI_ANDROID_YELLOWSEED
+
+[33mcommit 21235099e9e4a7f62338e6d7ecaba4a3118919ab[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 17 12:52:32 2018 +0530
+
+    Taking pull
+
+[33mcommit dd4c754c99b19d6bbcb19c349645603bc2c7af61[m
+Merge: 39ccae3 75ecb5f
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Sat Nov 17 12:51:40 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merged code
+    
+    See merge request !10
+
+[33mcommit 39ccae3f2fe13a4554f209f48a66734292f72057[m
+Merge: 2160159 fd1a189
+Author: Atal Tripathi <an-atal@mobiloitte.com>
+Date:   Sat Nov 17 12:24:55 2018 +0530
+
+    Merge branch 'ATALTRIPATHI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Added Repost Screen,Changed theme for repost screen, fixed crash on tagging scre…
+    
+    Merge Request
+    
+    See merge request !9
+
+[33mcommit da7ad846ca1ab6e153c873c8d6bcd9efaa6f050a[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Sat Nov 17 12:16:42 2018 +0530
+
+    Option of selecting multiple photo via share option
+
+[33mcommit fd1a18903fb4be0f3c20f7a859816cab73d98bbd[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Sat Nov 17 12:14:37 2018 +0530
+
+    Added Repost Screen,Changed theme for repost screen, fixed crash on tagging screen,changed theme for dialog in post screen
+
+[33mcommit 8d4644f5acd58027342d037567f9a3c6f28ece2a[m
+Merge: e4fe820 71de388
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 16 19:29:25 2018 +0530
+
+    taking pull
+
+[33mcommit 2160159385f7ca7dd302cd9a309212df155d1d6a[m
+Merge: 71de388 8d4644f
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Fri Nov 16 19:23:44 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    Merge Request
+    
+    See merge request !8
+
+[33mcommit 71de3884c079f7ddc3365f4c3fe1085e38f5ecab[m
+Merge: 48db7a7 743323d
+Author: Atal Tripathi <an-atal@mobiloitte.com>
+Date:   Fri Nov 16 19:13:22 2018 +0530
+
+    Merge branch 'ATALTRIPATHI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Ataltripathi android yellowseed
+    
+    Merge Request
+    
+    See merge request !7
+
+[33mcommit 743323d4a9548f68ab0fafca6066738a4628d424[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Fri Nov 16 19:19:47 2018 +0530
+
+    Integrated and managed suggestion api,Changed theme of suggestion in home screen,Changed theme of suggestion screen
+
+[33mcommit e4fe8204c8991673f541a2378f7f0dc5dbcf3370[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 16 19:10:22 2018 +0530
+
+    sharing of multiple photos in post
+
+[33mcommit 87a393c19db7595449f8c7b1d46ba3cabb57dd49[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 16 16:17:30 2018 +0530
+
+    Option of selecting multiple photos + videos while sharing via post or chat.
+
+[33mcommit 34138247cdc1d0b74a4f39b42b472d67283452ce[m
+Merge: f45e72e 48db7a7
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Fri Nov 16 16:16:48 2018 +0530
+
+    integrated suggestion list api to fetch suggested users
+
+[33mcommit 227786f909ba188760909de05b414e6a826ac14f[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 16 16:16:01 2018 +0530
+
+    Option of selecting multiple pOption of selecting multiple photos + videos while sharing via post or chat.
+
+[33mcommit f45e72ead1e964b2a45f6993aecb44affcd08be6[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Fri Nov 16 15:08:47 2018 +0530
+
+    Taking pull
+
+[33mcommit a9732099262b0e7eccbbf3abd61a6498eb214fc5[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Fri Nov 16 12:15:50 2018 +0530
+
+    Added new field to add multiple photos
+
+[33mcommit c3a7daef087f954826d7642f976e0b1b2c0d84c4[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Fri Nov 16 12:14:10 2018 +0530
+
+    Fetch contact list from phone to get suggestions
+
+[33mcommit 88c338870db58eeb30b9d8ef2211e41075c31c8f[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Thu Nov 15 20:14:25 2018 +0530
+
+    Change theme of story setting screen,report problem screen,blocked user profile screen, blocked contact list screen
+
+[33mcommit 48db7a7637b94c8e90a264c44577863e100c14c5[m
+Merge: cbbe54d 8fcb556
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Thu Nov 15 19:33:47 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    See merge request !5
+
+[33mcommit 8fcb55685081aa413cb9de9ea4fd07b322860387[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Nov 15 19:34:34 2018 +0530
+
+    All profile dialog screen
+
+[33mcommit 38b2825329f1bce0e185f0ba0b1aa00901e186e0[m
+Author: manoj <an-manoj@mobiloitte.com>
+Date:   Thu Nov 15 19:02:01 2018 +0530
+
+    Design screen for call history screen , call detail screen edit log screen and api integrati on(desiging the call history fragment)
+
+[33mcommit 6af12ab0f2cd4b2ad3911619810016d4d7f3119f[m
+Author: manoj <an-manoj@mobiloitte.com>
+Date:   Thu Nov 15 16:21:46 2018 +0530
+
+    Design screen for call history screen , call detail screen edit log screen and api integrati on(desiging the call history detail)
+
+[33mcommit 9721ffa1739f3b2915e17d2e07f5a8b0eb8fbce3[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Nov 15 16:21:19 2018 +0530
+
+    Change the theme add contact to block screen,change theme screen
+
+[33mcommit c5e853e639901162b661abbc67f386c840798b22[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Thu Nov 15 16:19:21 2018 +0530
+
+    Changed theme of otp screen,tagging dialog screen and made UI of suggestions in home screen
+
+[33mcommit cbbe54d5b7569ad4215dbe2c935bea007c73400b[m
+Merge: 34e32a3 4fed958
+Author: Preeti Negi <an-preeti@mobiloitte.com>
+Date:   Thu Nov 15 14:45:48 2018 +0530
+
+    Merge branch 'PREETINEGI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Preetinegi android yellowseed
+    
+    See merge request !4
+
+[33mcommit f083e28a575fa996e9c91e9163c050dba66689e4[m
+Author: manoj <an-manoj@mobiloitte.com>
+Date:   Thu Nov 15 12:23:39 2018 +0530
+
+    Change the theme for side menu screen, switch account dialog, votes screen, poll setting screen created and created new creation of poll Screen
+
+[33mcommit 4fed958747b746db12988283993ebcca0af26fb4[m
+Merge: 7442d75 34e32a3
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Nov 15 12:20:53 2018 +0530
+
+    Add Poll option in home screen,change setting screen
+
+[33mcommit 95ab07692402b1d3e95572d6471430e9bf33b771[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Thu Nov 15 12:09:18 2018 +0530
+
+    Changed direct share contact list dialog into Bottomsheet
+
+[33mcommit 7442d7524ac5a0b4b15090663ba1b0ceb6addcdf[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Thu Nov 15 10:01:14 2018 +0530
+
+    Taking pull
+
+[33mcommit bb4ca415a211c6c3844ccb9023f41a8b21e61e8c[m
+Author: manoj <an-manoj@mobiloitte.com>
+Date:   Wed Nov 14 21:15:51 2018 +0530
+
+    Created Poll Screen Activity with Chnaged Theme
+
+[33mcommit 34e32a3b474a35d1cbe0ddae6d287b86a099b5ed[m
+Merge: 12e2fb3 fefa9dc
+Author: Atal Tripathi <an-atal@mobiloitte.com>
+Date:   Wed Nov 14 20:13:58 2018 +0530
+
+    Merge branch 'ATALTRIPATHI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Ataltripathi android yellowseed
+    
+    Merge Request
+    
+    See merge request !2
+
+[33mcommit fefa9dc7086ef93a2b6248ab423ebdc8898c4c2c[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Wed Nov 14 19:52:20 2018 +0530
+
+    Changed theme for home screen bottom navigation view and found changes which should be done according to new designs
+
+[33mcommit 7dfe14644ba2cebba781914235e93d8ab56b0d6e[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Nov 14 18:29:45 2018 +0530
+
+    Home Screen Drawer,Follower theme,Folllowing Theme
+
+[33mcommit 7565eafb6a19e6bce6cfa31cf74191dea1bd6892[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Wed Nov 14 16:39:12 2018 +0530
+
+    Changed theme ofdialogs on:Chat screen,Direct Share,Crete new Story,Edit profile,Group Info,Group Edit,MyProfile
+
+[33mcommit 55cdb1233153a2482a6aacbf121db567facc715c[m
+Author: manoj <an-manoj@mobiloitte.com>
+Date:   Wed Nov 14 16:33:02 2018 +0530
+
+    Change the theme for side menu screen, switch account dialog, poll setting screen
+
+[33mcommit fe7085f4a1811f61e5f91bd83656d4ec45548620[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Nov 14 16:32:59 2018 +0530
+
+    edit profile spinner theme,change number spinner theme
+
+[33mcommit 55897ebb9c69f491bad2ea1f6b86e0286e3b03ae[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Wed Nov 14 12:34:07 2018 +0530
+
+    Report a problem,Blocked,Delete all chats dialog
+
+[33mcommit 17c8d72091111836fae78b08101c1bacb01e1f1e[m
+Author: manoj <an-manoj@mobiloitte.com>
+Date:   Wed Nov 14 12:32:12 2018 +0530
+
+    Change the theme for Setting Screen, t & c screen,privacy policy screen,about us screen
+
+[33mcommit c86af1b5d02af9749b0b98f455912d1b880ca305[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Wed Nov 14 12:32:11 2018 +0530
+
+    Changed theme for change password,change number,tagging dialog,last seen Activity
+
+[33mcommit 12e2fb30d684defe4d1f4b2e62e29d26344c7afb[m
+Merge: cc5c936 fd95d16
+Author: Ashutosh Kumar <ashutosh.kumar@mobiloittegroup.com>
+Date:   Tue Nov 13 20:30:19 2018 +0530
+
+    Merge branch 'ATALTRIPATHI_ANDROID_YELLOWSEED' into 'functionality_theme'
+    
+    Ataltripathi android yellowseed
+    
+    Merge Request
+    
+    See merge request !1
+
+[33mcommit fd95d16252dee45a1cb2391aa76d7034f4f59eca[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 20:18:39 2018 +0530
+
+    Theme change of: Mute Dialog and add mute dialog in direct chat screen,Switch account dialog,profile photo privacy dialog,delete message dialog,selected message layout
+
+[33mcommit 518adeafa6dd7db6c0ada4d3afda778dc5706d87[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 20:18:21 2018 +0530
+
+    Made mute notification dialog
+
+[33mcommit e2c998c25ac8cdc1879b0515d338bcaf1ac3f229[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 20:16:51 2018 +0530
+
+    Made mute notification dialog
+
+[33mcommit b7b306135f96a68e03d76b8724f81ec466bd00c3[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 20:16:38 2018 +0530
+
+    Made mute notification dialog
+
+[33mcommit ee17dcad302e256bf57bd1a282c6b57ef37534c4[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 20:01:52 2018 +0530
+
+    Taking pull
+
+[33mcommit 74274d00344f3b26e93a0f5dac4b132a6f7c1f80[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 13 19:49:31 2018 +0530
+
+     group chat screen , group video call screen
+
+[33mcommit 16bda29dc93b4ce22600e21ce92acbb8659db940[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 13 17:51:19 2018 +0530
+
+    attachmnet dialog screen
+
+[33mcommit cc5c936799538a41a53013f567b326e73e8c1334[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 16:38:09 2018 +0530
+
+    Made mute notification dialog
+
+[33mcommit 44b12e79804996c7ebe02a80cd0f6996d937b2fc[m
+Merge: 8abf23e b92241e
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 16:29:47 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality_theme' into functionality_theme
+    
+    Conflicts:
+    	.idea/caches/build_file_checksums.ser
+    	app/src/main/java/com/yellowseed/activity/BottomNavigationViewHelper.java
+    	sample-core/build.gradle
+    	sample-core/build/intermediates/incremental/debug-mergeJniLibs/merge-state
+    	sample-core/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+    	sample-core/build/intermediates/incremental/mergeDebugShaders/merger.xml
+    	sample-core/build/intermediates/incremental/packageDebugAssets/merger.xml
+    	sample-core/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+    	sample-core/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml
+    	sample-core/build/intermediates/incremental/packageDebugResources/merger.xml
+    	sample-core/build/intermediates/packagedAssets/debug/crashlytics-build.properties
+    	sample-core/build/intermediates/packaged_res/debug/values/values.xml
+    	sample-core/build/outputs/logs/manifest-merger-debug-report.txt
+    	sample-core/src/main/assets/crashlytics-build.properties
+    	sample-core/src/main/res/values/com_crashlytics_export_strings.xml
+
+[33mcommit b92241e02decbc36090fa5b93b9ad23e03562792[m
+Author: Ashutosh Kumar <an-ashutosh@mobiloitte.com>
+Date:   Tue Nov 13 16:27:58 2018 +0530
+
+    fixed issues and manage dependency as per latest sdk
+
+[33mcommit 8abf23e13b79893fe5a55358f2751405e260ccea[m
+Merge: 3ea0b87 34f879e
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 15:48:57 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality_theme' into functionality_theme
+    
+    Conflicts:
+    	.idea/caches/build_file_checksums.ser
+    	.idea/misc.xml
+    	sample-core/build/intermediates/incremental/mergeDebugShaders/merger.xml
+    	sample-core/build/intermediates/incremental/packageDebugAssets/merger.xml
+    	sample-core/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+    	sample-core/build/intermediates/incremental/packageDebugResources/merger.xml
+    	sample-core/build/outputs/logs/manifest-merger-debug-report.txt
+
+[33mcommit 3ea0b87dc59c332ef17ca385a9b2251570e26857[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 15:47:23 2018 +0530
+
+    Change theme for choose wallpaper screen
+
+[33mcommit 34f879e45b95d2562ec848b4707e359bf061a020[m
+Merge: 6d003be bf516c2
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 13 13:30:40 2018 +0530
+
+    Avtar dialog theme
+
+[33mcommit 6d003be6f35789c481b865a39c49a36c2a118b7d[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 13 13:29:05 2018 +0530
+
+    taking pull
+
+[33mcommit bf516c24c22d0d12e8b1474fd76fa9db33248f2f[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 13:28:32 2018 +0530
+
+    Add screen to display all users doing live streaming
+
+[33mcommit 2791a6bbbd53f741fdf95b10262079c1f8d0b2de[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 13 13:19:38 2018 +0530
+
+    taking pull
+
+[33mcommit bc1ed862d2f60cf1a943488af5fd14a369f6cb9b[m
+Merge: 4becf74 d240183
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 13:13:13 2018 +0530
+
+    Merge branch 'functionality_theme' of http://git.mobiloitte.com/root/yellowseed-18043193-android into functionality_theme
+
+[33mcommit 4becf7456e10ac21289adc57645fb2ec20822f1a[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Tue Nov 13 13:11:43 2018 +0530
+
+    Taking pull
+
+[33mcommit abaee046a5cba4f0f9009291a63d535d6748c782[m
+Author: Preeti <an-preeti@mobiloitte.com>
+Date:   Tue Nov 13 13:05:09 2018 +0530
+
+    taking pull
+
+[33mcommit d240183de0976ceb289fd2c8c99a627917808bc3[m
+Author: Ashutosh Kumar <an-ashutosh@mobiloitte.com>
+Date:   Tue Nov 13 12:13:17 2018 +0530
+
+    upgrade QuickBlox sdk
+
+[33mcommit 74004ea8817d54ca6539fa0bc7e7976552405a99[m
+Merge: db83841 d17f219
+Author: Ashutosh Kumar <an-ashutosh@mobiloitte.com>
+Date:   Tue Nov 13 12:12:20 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality_theme' into functionality_theme
+    
+    Conflicts:
+    	.idea/caches/build_file_checksums.ser
+    	sample-core/build/intermediates/classes/debug/com/quickblox/sample/core/utils/ImageUtils.class
+    	sample-core/build/intermediates/classes/debug/com/quickblox/sample/core/utils/StorageUtils.class
+    	sample-core/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+    	sample-core/build/intermediates/incremental/packageDebugResources/merger.xml
+    	sample-core/build/intermediates/intermediate-jars/debug/classes.jar
+    	sample-core/build/outputs/logs/manifest-merger-debug-report.txt
+
+[33mcommit db8384106cc5301a56b942859b8d136b66bb887c[m
+Author: Ashutosh Kumar <an-ashutosh@mobiloitte.com>
+Date:   Tue Nov 13 12:08:28 2018 +0530
+
+    upgrade QuickBlox sdk
+
+[33mcommit 0117d3d60d6aaa53eed4d7a9c35f6241e408d91d[m
+Merge: bdae6e2 5fca2cb
+Author: Ashutosh Kumar <an-ashutosh@mobiloitte.com>
+Date:   Tue Nov 13 12:01:59 2018 +0530
+
+    pull
+
+[33mcommit d17f219d7b89b35d0c315c6391d23b211ab5039a[m
+Merge: 9690234 5fca2cb
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Mon Nov 12 20:03:31 2018 +0530
+
+    all dialogs on home screen and managed theme
+
+[33mcommit 969023413c9fc0499a17496f903d630d34e0ca6c[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Mon Nov 12 19:58:06 2018 +0530
+
+    changed theme for all dialogs and managed all screens
+
+[33mcommit bdae6e2cfa61ce3c7b64a725e97c289fd58679be[m
+Author: Ashutosh Kumar <an-ashutosh@mobiloitte.com>
+Date:   Mon Nov 12 19:50:11 2018 +0530
+
+    pull
+
+[33mcommit 5fca2cb225393c3c8b33326660713d2d99619467[m
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Mon Nov 12 19:11:35 2018 +0530
+
+    passcode pin
+
+[33mcommit 37d30bc9dd53386c90de15161f559f39dcc18971[m
+Merge: 04663f7 94d1280
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Mon Nov 12 18:55:36 2018 +0530
+
+    taking pull
+
+[33mcommit 04663f79076fc694b1cf9ea0ae7e9ea26b5c4e70[m
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Mon Nov 12 17:53:37 2018 +0530
+
+    taking pull
+
+[33mcommit 94d12802330443b348d7b892d6eab58bb9638517[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Nov 12 17:50:05 2018 +0530
+
+    Change theme for post detail screen.
+
+[33mcommit bade1551b774d368ec0f381c474a45c35c534d73[m
+Merge: 99df403 0641114
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Mon Nov 12 16:47:51 2018 +0530
+
+    managed themes
+
+[33mcommit 99df40338d0e7a815dfedc0c590990a606e73b60[m
+Merge: 0f8becc 2d3b58d
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Mon Nov 12 16:44:31 2018 +0530
+
+    managed both theme
+
+[33mcommit 0641114e580281ca802b42af54c591ff9514fb94[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Nov 12 16:40:53 2018 +0530
+
+    Change in settings
+
+[33mcommit 0f8becc12770b0b44e655dc1c1aeefed9afd0a1c[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Mon Nov 12 16:40:28 2018 +0530
+
+    Taking pull
+
+[33mcommit 2d3b58d351c6bf609edd8eb772744d52fa5ebe4c[m
+Merge: bb6f7cc f3e7c8f
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Nov 12 15:00:32 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality_theme' into functionality_theme
+    
+    Conflicts:
+    	.idea/misc.xml
+
+[33mcommit bb6f7ccecc6406716b3431ceb5647076ba4dbb18[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Nov 12 15:00:08 2018 +0530
+
+    Change the theme for custom dialogs.
+
+[33mcommit f3e7c8fcc30e87c705bc5d1de76348b2f2370772[m
+Merge: cdfe31e 6850789
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Mon Nov 12 14:46:09 2018 +0530
+
+    changed theme of anonymous and connecting screen
+
+[33mcommit cdfe31e79f27a34b0bc4fdbb7c557e467f789bb9[m
+Author: atal tripathi <an-rahul@mobiloitte.com>
+Date:   Mon Nov 12 14:32:36 2018 +0530
+
+    Anonymous & connecting screen theme change
+
+[33mcommit 6850789a06f331f77cc653d1557b1097bfca69c4[m
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Mon Nov 12 13:19:34 2018 +0530
+
+    Hide chat dialog
+
+[33mcommit 377144a71dc164518f511d96597473f0aa31e3ab[m
+Author: rahul rawat <an-rahul@mobiloitte.com>
+Date:   Mon Nov 12 12:23:24 2018 +0530
+
+    removed errors
+
+[33mcommit 39b6ce2461f9274016fb78d8ed21d9af2fe23d3f[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Nov 8 20:50:31 2018 +0530
+
+    Change theme for chat list screen.
+
+[33mcommit a16f0ea28e04d52676da73cbdaecef49bf45111a[m
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Tue Nov 6 13:03:56 2018 +0530
+
+    Changed theme of tnc pp about us direct share
+
+[33mcommit 1ce01359ca29982aa1f999a496f121ab0c98e3cd[m
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Mon Nov 5 19:22:28 2018 +0530
+
+    theme change in media,links and docs
+
+[33mcommit 1f6538d40c35fe41b1eaeabfedcace5fcfec52c3[m
+Merge: fc47824 3c4292f
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Mon Nov 5 17:06:54 2018 +0530
+
+    Merge branch 'functionality_theme' of http://git.mobiloitte.com/root/yellowseed-18043193-android into functionality_theme
+
+[33mcommit fc478246342adfadfcff0a98808f1294457c8025[m
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Mon Nov 5 17:06:30 2018 +0530
+
+    Taking pull
+
+[33mcommit 3c4292f29ffdafb08c66cf0942ee35b25c8eb510[m
+Merge: 871a2aa fd8fde7
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Nov 5 17:01:53 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality_theme' into functionality_theme
+    
+    Conflicts:
+    	app/src/main/java/com/yellowseed/activity/HomeActivity.java
+
+[33mcommit 871a2aa9eb69a34b2e33a0bdcf2e70925ef3aad7[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Nov 5 16:59:42 2018 +0530
+
+    Change theme for chat list screen.
+
+[33mcommit fd8fde7c8c0f7e2d350faec8b47701d6cb6b8f1b[m
+Merge: 99aefc8 a33ea80
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Mon Nov 5 15:08:31 2018 +0530
+
+    Merge branch 'functionality_theme' of http://git.mobiloitte.com/root/yellowseed-18043193-android into functionality_theme
+
+[33mcommit 99aefc89d0129ae909b1cace172203867d89cb2a[m
+Merge: 4696485 6ba0610
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Mon Nov 5 15:07:30 2018 +0530
+
+    Taking pull
+
+[33mcommit a33ea800e3fad14d8fb65f411e4ca36b64c0cd9f[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Nov 5 15:01:50 2018 +0530
+
+    Change theme for chat list screen.
+
+[33mcommit 46964859664dc69b56abeacb554e53bee9510e65[m
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Mon Nov 5 15:00:15 2018 +0530
+
+    Taking pull
+
+[33mcommit 6ba061011f29d5f60e6fccb77c4b427da77098e6[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Nov 5 13:39:10 2018 +0530
+
+    Change theme for chat list screen.
+
+[33mcommit 2658d9e85d57e3214724ac683eeb2fb5634cfa0e[m
+Merge: d1da5cb 85476cd
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Sat Nov 3 18:51:36 2018 +0530
+
+    Change theme of profile & home screen
+
+[33mcommit d1da5cb271e2e910e536e9b5ab497ff66b038181[m
+Merge: c428037 73bc683
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Sat Nov 3 18:47:24 2018 +0530
+
+    Taking pull
+
+[33mcommit 85476cd38e9196852aaa9060be174f3ea3b88881[m
+Merge: 80e5bdc 73bc683
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Sat Nov 3 18:35:23 2018 +0530
+
+    avtat style, avtar edit, follower,following list screen
+
+[33mcommit c42803721cdf4272dda1cfd21b6e1fad8036ed91[m
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Sat Nov 3 18:34:08 2018 +0530
+
+    Taking pull
+
+[33mcommit 80e5bdce3ccbdb936f34de9c26b430e7df08dc7c[m
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Sat Nov 3 18:32:03 2018 +0530
+
+    taking pull
+
+[33mcommit 73bc68360a90ad2893f8106b8ac3ae81bf5f0c84[m
+Author: animeshtiwari_mobiloitte <an-animesh@mobiloitte.in>
+Date:   Sat Nov 3 18:30:34 2018 +0530
+
+    spam, chats, chat details,send post
+
+[33mcommit c6ad9a1775fef6f9222ff7b81e6d1f9e30451d9f[m
+Author: animeshtiwari_mobiloitte <an-animesh@mobiloitte.in>
+Date:   Sat Nov 3 17:02:44 2018 +0530
+
+    comments
+
+[33mcommit 99e7ae3e8653a2975f4469c6879ce267180d2d7b[m
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Sat Nov 3 12:23:10 2018 +0530
+
+    post and edit profile screen
+
+[33mcommit 2ab280d8d68c4efebe1e892ef829c8b09e96ad19[m
+Merge: 2a60974 10b538c
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Fri Nov 2 20:09:44 2018 +0530
+
+    Post Screen,Edit Peofile
+
+[33mcommit 2a609743c30b4441e22f5339e800778cd3c7ec60[m
+Merge: 156c489 59fbab5
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Fri Nov 2 20:04:53 2018 +0530
+
+    Edit Profile,Post Screen
+
+[33mcommit 10b538c744889511fb726b1f4b1fc63548a88338[m
+Merge: 398b7e8 343228b
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Fri Nov 2 20:01:14 2018 +0530
+
+    Home screen theme change
+
+[33mcommit 398b7e8eb981edb44f0395ea140783afcb8adf94[m
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Fri Nov 2 19:58:30 2018 +0530
+
+    Home activity theme
+
+[33mcommit 343228b16b0623529e7c8e201e1be4c62c1741a8[m
+Author: animeshtiwari_mobiloitte <an-animesh@mobiloitte.in>
+Date:   Fri Nov 2 19:35:34 2018 +0530
+
+    unfollow dialog,list theme
+
+[33mcommit 731eeec1880d582a9fc8823fcf8ee27f73e9e1d9[m
+Author: animeshtiwari_mobiloitte <an-animesh@mobiloitte.in>
+Date:   Fri Nov 2 16:57:32 2018 +0530
+
+    pull
+
+[33mcommit 59fbab5244e277668fb76dd6a6a412da7e13cab0[m
+Author: admin <govindagarwal@mobiloitte.in>
+Date:   Fri Nov 2 16:50:54 2018 +0530
+
+    Classes for changing theme
+
+[33mcommit 156c489e82c4008fc6d9aba8757f70da47283ed5[m
+Author: preetinegi_mobiloitte <an-preeti@mobiloitte.com>
+Date:   Fri Nov 2 16:50:12 2018 +0530
+
+    taking pull
+
+[33mcommit 5dc5b2ee7c3e01cf597cbcd744d6605ee174e54b[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Oct 17 19:15:28 2018 +0530
+
+    Commit :-with presentation logic integration for gif w.r.t. to user and oppenent face ids-Part-3
+
+[33mcommit dc121aa64589cfcaf30ad513bda636f1bee0cca4[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Tue Oct 16 19:32:37 2018 +0530
+
+    Commit :-with presentation logic integration for gif w.r.t. to user and oppenent face ids-Part-2
+
+[33mcommit 4aa4d1587e2a74865087d6ea42f181d40e8187aa[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Oct 15 19:11:41 2018 +0530
+
+    Commit :-Api webservices integration and manage modal class
+
+[33mcommit 9622a9c9d13e4c87dac06bbc0449cbc784ede47e[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Oct 15 17:28:38 2018 +0530
+
+    Commit :-api call for add GIF image in chat.
+
+[33mcommit 8ab334525e1e2b6504f756f6558fdf9e52dbde4f[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Fri Oct 12 19:08:18 2018 +0530
+
+    code push
+
+[33mcommit 01ebf6f254830640d897597634bd0a88a4408598[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Fri Oct 12 13:14:36 2018 +0530
+
+    home screen crash issues resolve
+
+[33mcommit 8ad264748b987f31aeb2e96d110e62835fbab3d0[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Thu Oct 11 20:16:26 2018 +0530
+
+    code push , user taging fetures
+
+[33mcommit c09387a532e74035686397eb43ea8bcb278bf861[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Thu Oct 11 15:22:31 2018 +0530
+
+    code push
+
+[33mcommit 8abc5ad6148bf10f3911c92b225551d484300fd1[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Thu Oct 11 13:13:35 2018 +0530
+
+    calling parameter chnage and testing
+
+[33mcommit 1b4a29ac2514a28a1b4478c9bdd60a54109462af[m
+Merge: 5a049d4 5d1d501
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Wed Oct 10 21:00:55 2018 +0530
+
+    group calling implement and story section
+
+[33mcommit 5a049d4bfd2b748cf2fe84c29efd8a7c08026af1[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Wed Oct 10 20:48:25 2018 +0530
+
+    video calling implement
+
+[33mcommit df209af9e897c313fbcf90185b76c48d9e1f044c[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Wed Oct 10 18:06:48 2018 +0530
+
+    code pull
+
+[33mcommit 5d1d5011546930665ccf0dc2055f3d16f573feaf[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Oct 10 17:35:12 2018 +0530
+
+    Commit :-Group call from group.
+
+[33mcommit 3febb2cc682d7f90309e7380b27bef052baecf7e[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Wed Oct 10 13:38:38 2018 +0530
+
+    code push
+
+[33mcommit 299593ef1e28bf5cb0b0ba9ab05a09a25fe0e939[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Tue Oct 9 19:17:30 2018 +0530
+
+    code push
+
+[33mcommit 3b721ac0eeb60bdd69306dc267e5c82e48a973d3[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Tue Oct 9 18:17:49 2018 +0530
+
+    Commit :-api integration for showing lastseen status.
+
+[33mcommit 12f2351542f0611e4d74254d10f348a5b4a1c3b1[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Tue Oct 9 17:43:30 2018 +0530
+
+    local serching and user online status
+
+[33mcommit e38f592c8c74ccebbac342cb5df668652f80c110[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Tue Oct 9 11:22:39 2018 +0530
+
+    image swip list implement
+
+[33mcommit b89f7a683ca636233eca308f2e0a9f2552d70192[m
+Merge: a368821 47f1f76
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Mon Oct 8 19:23:38 2018 +0530
+
+    image list viewpager implement
+
+[33mcommit a3688218e32bb29ae125f649b9774507893ecf71[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Mon Oct 8 19:20:33 2018 +0530
+
+    image list show in viewpager
+
+[33mcommit 47f1f76e7458753ae5c7aa69f247137d0bce8e3c[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Oct 8 18:36:25 2018 +0530
+
+    Commit :-Open camera on click.
+
+[33mcommit 9abadcedb1215afbb904883afda6295214805e9e[m
+Merge: 6ed5d64 c50a27f
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Oct 8 16:00:12 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality' into functionality
+
+[33mcommit 6ed5d64848449c36a48735101bda0c1f3ba2067b[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Oct 8 15:59:45 2018 +0530
+
+    Commit :-Resolving issues with adapter.
+
+[33mcommit c50a27f27bc3ae1a1d26599fa03df27c2ea753d1[m
+Merge: 10bb3a8 e2fb229
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Mon Oct 8 14:32:14 2018 +0530
+
+    gradle issues resolved
+
+[33mcommit 10bb3a8946092bfc7c947c9d3c84d2f692a4f48d[m
+Author: vinay.tripathi <vinay.tripathi@mobiloittegroup.com>
+Date:   Mon Oct 8 14:19:00 2018 +0530
+
+    code update
+
+[33mcommit e2fb2291012320401dfc9b6ed19eaac8923e1595[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Oct 8 12:45:15 2018 +0530
+
+    Commit :-Resolving issues with adapter.
+
+[33mcommit 87b7e1d094696edda89da46a50ec583d6080fca8[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Fri Aug 24 20:22:31 2018 +0530
+
+    Commit :-Release build with client.
+
+[33mcommit 666de8226ffe43a5859629fc90369f4a46dc5e7b[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 23 20:35:58 2018 +0530
+
+    Commit :-Remove unnessary toast message on like post.
+
+[33mcommit 90d6f532729ba23b0fb8a425d88bc6469cb37cba[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 23 20:14:55 2018 +0530
+
+    Commit :-Media detail for video and audio in chat screen.
+
+[33mcommit 743f98841ccc4de65f56e4fa1ab38e5cfd6d2672[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 23 17:44:37 2018 +0530
+
+    Commit :-Showing post in the chat.
+
+[33mcommit 59ad2be88887b790f1583c5a5ef0cded05598121[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 23 14:21:44 2018 +0530
+
+    Commit :-Direct post share api integration on my profile , home and post detail.
+
+[33mcommit 7095e847dd42c37ee68ccc6d9621dd2e5d9dd61e[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Aug 22 21:11:45 2018 +0530
+
+    Commit :-Add new view for story screen , share avatar , male /female avatar.
+
+[33mcommit 1820c6faf796e63a11f2481e444a9374362a11aa[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Aug 22 20:35:08 2018 +0530
+
+    Commit :-Add new view for story screen , share avatar , male /female avatar.
+
+[33mcommit a7593963a062159281e9ecef575b3d57dc8e68b0[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Aug 22 17:14:46 2018 +0530
+
+    Commit :-Share build for internal QA.
+
+[33mcommit 7db574be724162f8d9f83671237b56560e2f2cf0[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Tue Aug 21 20:58:07 2018 +0530
+
+    Commit :-Share build for internal QA.
+
+[33mcommit 8f89c3cfc2292a1fd0dba1e602583a6c29426fd5[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Aug 20 11:08:31 2018 +0530
+
+    Commit :-Share build for internal QA.
+
+[33mcommit 72c8f50b5312539e9b51595694bb669dd10f4dc3[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Fri Aug 17 20:02:39 2018 +0530
+
+    Commit :-Direct chat module.
+
+[33mcommit fa18df7b9b7f4442be3bee8cf4cdb44fcf77d8bf[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Fri Aug 17 16:17:03 2018 +0530
+
+    Commit :-Wauza live streaming chatting.
+
+[33mcommit e240c40b1d2052610e7444513083c2252a55b194[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 16 19:14:50 2018 +0530
+
+    Commit :-Wallpapaer module
+
+[33mcommit d4b749232be92e362fd5f4e34984fe6954fe6776[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Tue Aug 14 19:57:16 2018 +0530
+
+    Commit :-Wallpapaer module
+
+[33mcommit 58d2bb7042682c28c58206b29adb0fae34f2981c[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Aug 13 21:06:17 2018 +0530
+
+    Commit :-Anonymous chat
+
+[33mcommit 394bc5a2385512f316586a799c5702873406ef54[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Aug 13 17:14:39 2018 +0530
+
+    Commit :-Anonymous chat
+
+[33mcommit 10b993d7005c1be0b1b868753f4b343e56f86341[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Aug 13 12:37:39 2018 +0530
+
+    Commit :-Add uncommitted file.
+
+[33mcommit 403dfe8a2a554046d57c2f8e7e6b4b6f25c029f3[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Aug 13 12:30:51 2018 +0530
+
+    Commit :-Share chat via video call.
+
+[33mcommit ec4f27f00dc163cff4be6f108193fb5c91e45fa3[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Fri Aug 10 21:22:15 2018 +0530
+
+    Commit :-Share chat via video call.
+
+[33mcommit 9b5ae3e7d7999381320d202f79804807eafe9ab6[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Fri Aug 10 18:47:11 2018 +0530
+
+    Commit :-Share chat via video call.
+
+[33mcommit 14b5a91c6f20b3af08872bb1c8b684a0939d3154[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 9 20:57:54 2018 +0530
+
+    Commit :-Share chat via video call.
+
+[33mcommit 6416c1f2322e8e6c9f6bc0b2826921cb6d6378bc[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 9 13:20:42 2018 +0530
+
+    Commit :-Share chat via video call.
+
+[33mcommit e4a3df26fd68afea738fdba9ec04abac1992c202[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 9 13:01:28 2018 +0530
+
+    Commit :-Share chat via video call.
+
+[33mcommit 032d792e7732fe6d3fe81c344c06c0e49dbff4d6[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Aug 8 19:26:13 2018 +0530
+
+    Commit :-Share chat via video call.
+
+[33mcommit bc970b9eba011e8773b754417e2682d6f9d158a5[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Aug 8 14:45:46 2018 +0530
+
+    Commit :-Section header for chat screen.
+
+[33mcommit e0afdf0cfb90dfd626ec48433749dad072708a3e[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Tue Aug 7 18:49:38 2018 +0530
+
+    Commit :-Hashtag for
+
+[33mcommit 5a2050e5cd9147fa98b48065ee29ddcfb076a7d7[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Tue Aug 7 13:50:15 2018 +0530
+
+    Commit :-Video calling
+
+[33mcommit e4efcf79604d8e81449be332eea9b3d60c77d8d2[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Aug 6 20:03:15 2018 +0530
+
+    Commit :-Import SDK for audio video call
+
+[33mcommit 9e6aafc18808c14653d53b6166e48c9e7160d0b5[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Aug 6 14:56:42 2018 +0530
+
+    Commit :-Import SDK for audio video call
+
+[33mcommit 4b9c3f2c61816c01160eafa46c8fd2ea977c15ab[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Sat Aug 4 18:58:28 2018 +0530
+
+    Commit :-Add module for audio / video call
+
+[33mcommit 20aea75b53a4c71b7686f817ce866486b948d2d2[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Sat Aug 4 13:54:54 2018 +0530
+
+    Commit :-Dynamic view pager for homebase fragnmnet
+
+[33mcommit 99d73d553941a8931f8be6fc1ea960eb05d2a7a6[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Fri Aug 3 20:07:25 2018 +0530
+
+    Commit :-Custom video player.
+
+[33mcommit 47e96d46eb9f71f405264474a231f875421c787f[m
+Merge: 6395488 4f652b1
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Fri Aug 3 13:19:10 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality' into functionality
+
+[33mcommit 6395488dd67d91451aade030e5e259e9180cf5aa[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Fri Aug 3 13:17:19 2018 +0530
+
+    Commit :-Design screen for live users.
+
+[33mcommit 4f652b13cbb90cc47e1effc7a1a9eec7767cb150[m
+Merge: a8067d7 188d11c
+Author: Jayant Minz <jayant.minz@mobiloitte.com>
+Date:   Thu Aug 2 23:34:23 2018 +0530
+
+    Merge branch 'functionality' of http://git.mobiloitte.com/root/yellowseed-18043193-android into functionality
+
+[33mcommit a8067d7a44fbf617feb2eb08cf8bdbf2fb3147ab[m
+Author: Jayant Minz <jayant.minz@mobiloitte.com>
+Date:   Thu Aug 2 23:32:48 2018 +0530
+
+    Integrated Female Avatar
+
+[33mcommit fa2e6d364a4db20a44438eda0df1f639d9e6e68e[m
+Author: Jayant Minz <jayant.minz@mobiloitte.com>
+Date:   Thu Aug 2 23:14:36 2018 +0530
+
+    Integration of female Avatar
+
+[33mcommit 188d11c080371ac892c2bf267634b50d62e6909b[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 2 20:05:57 2018 +0530
+
+    Commit :-Design database for chat screen
+
+[33mcommit df5bc90336175bdc3214996982e6fab81316a813[m
+Merge: 167977f 54cf12f
+Author: Jayant Minz <jayant.minz@mobiloitte.com>
+Date:   Thu Aug 2 15:44:58 2018 +0530
+
+    Integration of Avatar for male with hairstyle, body , dress
+
+[33mcommit 365ffc2aab74347bb16ff710217fba15410cdc08[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Aug 2 14:57:59 2018 +0530
+
+    Commit :-Design database for chat screen
+
+[33mcommit 167977fb4a734b610e7a8a581e50f6463855f7c7[m
+Merge: 0f70e69 fd25733
+Author: Jayant Minz <jayant.minz@mobiloitte.com>
+Date:   Wed Aug 1 14:59:57 2018 +0530
+
+    taking pull
+
+[33mcommit 54cf12f0d4187893a772638cceff16f0400499aa[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Aug 1 13:12:10 2018 +0530
+
+    Commit :-Design screen for broadcast.
+
+[33mcommit 783d75214ce5ccdd9a616ea6a47c71950230c927[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Tue Jul 31 20:30:55 2018 +0530
+
+    Commit :- Custom audio player.
+
+[33mcommit af6632530f7e2aa67de498e9645839ed72d69668[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Tue Jul 31 12:19:57 2018 +0530
+
+    Commit :- add video chat.
+
+[33mcommit e29980615c102ad23dcfb4e7b56201aab42b8cb0[m
+Merge: a9379ab 6bc5d34
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Jul 30 20:23:50 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality' into functionality
+    
+    Conflicts:
+    	app/src/main/java/com/yellowseed/activity/BroadcastActivity.java
+
+[33mcommit a9379ab91b1be4d27df6231d0344bcf82c618011[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Jul 30 20:23:21 2018 +0530
+
+    Commit :- add video chat.
+
+[33mcommit 6bc5d3423bc3b0b8760944a4456fcbc3e0fc74c1[m
+Merge: 924edd4 b829aba
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Mon Jul 30 13:17:57 2018 +0530
+
+    Daily commit 2 time
+
+[33mcommit 924edd40c03ce1cefa2ef974b470229b1959d3dd[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Mon Jul 30 13:15:22 2018 +0530
+
+    Daily commit 1 time
+
+[33mcommit b829aba4be64ca0133b5a99c73d52dd62415d5e2[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Jul 30 12:42:27 2018 +0530
+
+    Commit :- play pause for audio.
+
+[33mcommit 92f253fcc071c3cc0cee90bf9e9fd02d92aea88a[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Fri Jul 27 21:18:29 2018 +0530
+
+    Daily commit 2 time
+
+[33mcommit cba4961034320fec2582975a4c2ab126e162ca90[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Fri Jul 27 15:27:53 2018 +0530
+
+    update code
+
+[33mcommit 2de3796e218a9a73847772f469f348d0a3735620[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Thu Jul 26 21:54:21 2018 +0530
+
+    Notification
+
+[33mcommit 057540201762a33ad1a47ca378ebd9eb3f85ff24[m
+Merge: 3b8c222 0774921
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Thu Jul 26 21:41:21 2018 +0530
+
+    Merge branch 'functionality' of http://git.mobiloitte.com/root/yellowseed-18043193-android into functionality
+
+[33mcommit 3b8c2223f4dc84c68c7fff4fdf53c5909b727b92[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Thu Jul 26 21:40:50 2018 +0530
+
+    Taking Pull
+
+[33mcommit 0774921159b6df992aee1e5ab6c4c72bfec0e5bd[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Jul 26 20:48:04 2018 +0530
+
+    Commit :- play pause for audio.
+
+[33mcommit 774456ed571419915dba7f17870175b2fe8958ef[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Thu Jul 26 16:46:02 2018 +0530
+
+    Commit :- star /unstar api integration.
+
+[33mcommit eed9f3926088157ea38c61ea56c3b6e655bcea7b[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Thu Jul 26 11:02:49 2018 +0530
+
+    Taking Pull
+
+[33mcommit 01dbda11c87e3813e1d268fa227f6fa932119762[m
+Merge: c7b231a 2ba25c0
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Jul 25 19:51:26 2018 +0530
+
+    Merge branch 'functionality' of http://git.mobiloitte.com/root/yellowseed-18043193-android into functionality
+
+[33mcommit c7b231a3aaab2512d9d449475c43b0bdbbb3f9e1[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Jul 25 19:49:38 2018 +0530
+
+    Taking Pull
+
+[33mcommit 2ba25c0009ef605324f01bce0c5e14358b9f3d2d[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Wed Jul 25 19:47:29 2018 +0530
+
+    Daily Commit
+
+[33mcommit 60c3f1746dc769b50e18ee728eb716f520bcf82f[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Wed Jul 25 19:07:28 2018 +0530
+
+    Daily Commit
+
+[33mcommit c0e11757ffe1b3f693bf20b7b3ec6aed218fe644[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Wed Jul 25 18:08:32 2018 +0530
+
+    Daily Commit
+
+[33mcommit 873b5e02ef5e85bb7fb34a20e1e16bfcbae7c495[m
+Merge: 69d3be3 debb697
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Wed Jul 25 17:00:22 2018 +0530
+
+    Daily Commit
+
+[33mcommit 69d3be3a73fd990f565b27fe86db47783e69c405[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Wed Jul 25 16:56:15 2018 +0530
+
+    Taking Pull
+
+[33mcommit debb6975bd4b234db04961592f0fcdb9ad2981b4[m
+Merge: b43f032 7e5f093
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Jul 25 16:40:58 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality' into functionality
+    
+    Conflicts:
+    	app/src/main/java/com/yellowseed/webservices/ApiService.java
+
+[33mcommit b43f03275712fca3702f6459d754c3e6d44f6f93[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Wed Jul 25 16:40:35 2018 +0530
+
+    Commit :- star /unstar api integration.
+
+[33mcommit 7e5f093054ddf3d27f33cde1487391cef978e3d9[m
+Merge: 7eb16b4 53e9db9
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Tue Jul 24 22:17:09 2018 +0530
+
+    Taking Pull
+
+[33mcommit 7eb16b44fc22f8dfeef16723b27b679b2d9dc793[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Tue Jul 24 20:06:18 2018 +0530
+
+    Taking Pull
+
+[33mcommit 53e9db90276a800e33cfe637d7ced18f69bf11d0[m
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Tue Jul 24 17:47:21 2018 +0530
+
+    Commit :- Send location and send contact.
+
+[33mcommit fc7c5c3ef42efdb75379c14c286d7dd6eb9d9df9[m
+Merge: b69c2c9 337fa26
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Tue Jul 24 09:51:21 2018 +0530
+
+    Merge branch 'functionality' of http://git.mobiloitte.com/root/yellowseed-18043193-android into functionality
+
+[33mcommit b69c2c97f30c42c0bcd11fa79887e99cf63f9613[m
+Author: hemant.singh <hemant.singh@mobiloitte.in>
+Date:   Tue Jul 24 09:51:00 2018 +0530
+
+    Taking Pull
+
+[33mcommit 337fa264bc7936caa57ddd20ba4b704a297cff66[m
+Merge: f330896 ffefee4
+Author: pushpender singh <pushpender.singh@mobiloitte.com>
+Date:   Mon Jul 23 21:24:05 2018 +0530
+
+    Merge remote-tracking branch 'origin/functionality' into functionality
+    
+    Conflicts:
+    	app/src/main/java/com/yellowseed/activity/ChatsScreenFrgActivity.java
+    	app/src/main/java/com/yellowseed/webservices/ServiceConstant.java
+    	app/src/main/res/layout/chat_receiver.xml

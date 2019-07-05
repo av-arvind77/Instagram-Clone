@@ -1,0 +1,13 @@
+{
+    "users_tag": "drjohnson@theleadinstitute.com",
+    "users_password": "!CTOD_2016",
+    "port": 5223,
+    "socket_timeout": 5000,
+    "keep_alive": true,
+    "use_tls": true,
+    "auto_join": false,
+    "auto_mark_delivered": true,
+    "reconnection_allowed": true,
+    "allow_listen_network": true
+}
+

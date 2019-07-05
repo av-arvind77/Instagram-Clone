@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionInfo"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        android:title="Info"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/actionVoiceCall"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        android:title="@string/voice_call"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/actionVideoCall"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        android:title="@string/video_call"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/actionMessage"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        android:title="Message"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/actionRemove"
+        android:enabled="true"
+        android:iconTint="@color/black"
+        android:title="Remove"
+        app:showAsAction="ifRoom">
+
+    </item>
+</menu>

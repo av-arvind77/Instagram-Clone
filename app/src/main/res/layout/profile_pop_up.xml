@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.daasuu.bl.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        app:bl_arrowDirection="top"
+        app:bl_arrowHeight="10dp"
+        app:bl_arrowPosition="170dp"
+        app:bl_arrowWidth="8dp"
+        app:bl_cornersRadius="@dimen/_5sdp"
+        app:bl_strokeWidth="0.5dp">
+
+        <LinearLayout
+            android:id="@+id/llProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_3sdp">
+
+
+                    <ImageView
+                        android:id="@+id/ivShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:src="@mipmap/share_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvShareProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_4sdp"
+                        android:text="Share Profile"
+                        android:textColor="@color/black"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/viewLineColor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_3sdp">
+
+
+                    <ImageView
+                        android:id="@+id/ivNotifiaction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:src="@mipmap/notification_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvTurnOnNotifcation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="center_vertical"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_4sdp"
+                        android:text="Turn on Post Notification"
+                        android:textColor="@color/black"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+
+
+
+                <View
+                    android:id="@+id/viewReportUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/viewLineColor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_3sdp">
+
+
+                    <ImageView
+                        android:id="@+id/ivStory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:src="@mipmap/timeline_icon" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvStoryNotification"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="center_vertical"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_4sdp"
+                        android:text="Turn on Story Notification"
+                        android:textColor="@color/black"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <View
+                    android:id="@+id/viewLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/viewLineColor" />
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:paddingBottom="@dimen/_3sdp">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:src="@mipmap/remove_ico" />
+
+                        <com.yellowseed.customView.CustomRobotoRegularTextView
+                            android:id="@+id/tvBlock"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_4sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:text="Block"
+                            android:textColor="@color/red" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/viewLineColor" />
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_3sdp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:src="@mipmap/flag_line" />
+
+                    <com.yellowseed.customView.CustomRobotoRegularTextView
+                        android:id="@+id/tvReport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="center_vertical"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_4sdp"
+                        android:text="Report User"
+                        android:textColor="@color/red" />
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </com.daasuu.bl.BubbleLayout>
+
+</layout>
